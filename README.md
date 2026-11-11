@@ -16,8 +16,8 @@ audit's terms.
 - [What is in this repository](#what-is-in-this-repository)
 - [How the configs were scored](#how-the-configs-were-scored)
 - [Shortlists](#shortlists)
-- [Find your config](#find-your-config)
 - [Top 15](#top-15)
+- [Find your config](#find-your-config)
 - [Starter picks](#starter-picks)
 - [Showcase picks](#showcase-picks)
 - [Libraries](#libraries)
@@ -82,6 +82,33 @@ shortlist with a modest total.
 | showcase | the config demonstrates a mechanism that is worth showing to the den community |
 | starter | the config is a good config to learn from |
 | library units | the config has self-contained aspects that are nominated for a shared library |
+
+## Top 15
+
+This table gives the 15 highest totals. Ties at the cutoff are included.
+
+| rank | config | author | total | shortlists |
+|---:|---|---|---:|---|
+| 1 | [sini/nix-config](configs/sini/nix-config.md) | sini | 71.5 | showcase, library units (9) |
+| 2 | [Occhima/nix-conf](configs/Occhima/nix-conf.md) | Occhima | 69.0 | starter, library units (1) |
+| 3 | [auscyber/dotfiles](configs/auscyber/dotfiles.md) | auscyber | 68.5 | showcase, library units (3) |
+| 4 | [tomwrw/megadots](configs/tomwrw/megadots.md) | tomwrw | 67.5 | showcase, library units (4) |
+| 5 | [Aor-Li/Infra](configs/Aor-Li/Infra.md) | Aor-Li | 66.5 | showcase, library units (2) |
+| 6 | [closure-labs/foundation](configs/closure-labs/foundation.md) | closure-labs | 65.5 | library units (1) |
+| 7 | [amatos/magnanix](configs/amatos/magnanix.md) | amatos | 64.0 | starter, library units (1) |
+| 8 | [icebluerabbit/nixos](configs/icebluerabbit/nixos.md) | icebluerabbit | 63.0 | library units (1) |
+| 8 | [repparw/nix](configs/repparw/nix.md) | repparw | 63.0 | showcase, library units (1) |
+| 10 | [r17x/universe](configs/r17x/universe.md) | r17x | 62.5 | showcase, library units (1) |
+| 11 | [closure-labs/mish](configs/closure-labs/mish.md) | closure-labs | 61.5 | library units (1) |
+| 12 | [soriPhoono/homelab](configs/soriPhoono/homelab.md) | soriPhoono | 61.0 | showcase, library units (2) |
+| 13 | [Kykero/Nazunix](configs/Kykero/Nazunix.md) | Kykero | 60.5 | showcase, starter, library units (1) |
+| 14 | [nazarewk-iac/nix-configs](configs/nazarewk-iac/nix-configs.md) | nazarewk-iac | 60.0 | showcase, library units (2) |
+| 15 | [Adda/nixos-config](configs/Adda/nixos-config.md) | Adda | 59.5 | library units (4) |
+| 15 | [closure-labs/maestro](configs/closure-labs/maestro.md) | closure-labs | 59.5 | library units (2) |
+| 15 | [mrbandler/nix](configs/mrbandler/nix.md) | mrbandler | 59.5 | showcase |
+
+`sini/nix-config` is the audit maintainer's own configuration and the rubric's reference anchor. It was scored
+under the same rubric as every other config.
 
 ## Find your config
 
@@ -197,33 +224,6 @@ means that a category did not apply, so that config is not ranked against the ot
 
 5 more configs were scored and are counted in the totals. They are not listed, because their source is
 no longer public.
-
-## Top 15
-
-This table gives the 15 highest totals. Ties at the cutoff are included.
-
-| rank | config | author | total | shortlists |
-|---:|---|---|---:|---|
-| 1 | [sini/nix-config](configs/sini/nix-config.md) | sini | 71.5 | showcase, library units (9) |
-| 2 | [Occhima/nix-conf](configs/Occhima/nix-conf.md) | Occhima | 69.0 | starter, library units (1) |
-| 3 | [auscyber/dotfiles](configs/auscyber/dotfiles.md) | auscyber | 68.5 | showcase, library units (3) |
-| 4 | [tomwrw/megadots](configs/tomwrw/megadots.md) | tomwrw | 67.5 | showcase, library units (4) |
-| 5 | [Aor-Li/Infra](configs/Aor-Li/Infra.md) | Aor-Li | 66.5 | showcase, library units (2) |
-| 6 | [closure-labs/foundation](configs/closure-labs/foundation.md) | closure-labs | 65.5 | library units (1) |
-| 7 | [amatos/magnanix](configs/amatos/magnanix.md) | amatos | 64.0 | starter, library units (1) |
-| 8 | [icebluerabbit/nixos](configs/icebluerabbit/nixos.md) | icebluerabbit | 63.0 | library units (1) |
-| 8 | [repparw/nix](configs/repparw/nix.md) | repparw | 63.0 | showcase, library units (1) |
-| 10 | [r17x/universe](configs/r17x/universe.md) | r17x | 62.5 | showcase, library units (1) |
-| 11 | [closure-labs/mish](configs/closure-labs/mish.md) | closure-labs | 61.5 | library units (1) |
-| 12 | [soriPhoono/homelab](configs/soriPhoono/homelab.md) | soriPhoono | 61.0 | showcase, library units (2) |
-| 13 | [Kykero/Nazunix](configs/Kykero/Nazunix.md) | Kykero | 60.5 | showcase, starter, library units (1) |
-| 14 | [nazarewk-iac/nix-configs](configs/nazarewk-iac/nix-configs.md) | nazarewk-iac | 60.0 | showcase, library units (2) |
-| 15 | [Adda/nixos-config](configs/Adda/nixos-config.md) | Adda | 59.5 | library units (4) |
-| 15 | [closure-labs/maestro](configs/closure-labs/maestro.md) | closure-labs | 59.5 | library units (2) |
-| 15 | [mrbandler/nix](configs/mrbandler/nix.md) | mrbandler | 59.5 | showcase |
-
-`sini/nix-config` is the audit maintainer's own configuration and the rubric's reference anchor. It was scored
-under the same rubric as every other config.
 
 ## Starter picks
 
