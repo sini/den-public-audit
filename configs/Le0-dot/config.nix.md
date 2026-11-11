@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Le0-dot/config.nix](https://github.com/Le0-dot/config.nix)
 - Reviewed revision: [`4171c4b9f1f2`](https://github.com/Le0-dot/config.nix/commit/4171c4b9f1f2ad0dbcab61f829cea31135064057)
 - Author: Le0-dot
-- Score: **57.5 / 100**, rank 20 of 103 ranked configs. D 6 · I 7 · S 6 · R 5 · P 7 · L 5 · V 6 · O 7 · B 3 · X 5. Shortlists: showcase.
+- Score: **57.5 / 100**, rank 20 of 101 ranked configs. D 6 · I 7 · S 6 · R 5 · P 7 · L 5 · V 6 · O 7 · B 3 · X 5. Shortlists: showcase.
 - Summary: D routed Quadlet limited by selected OCI adapter error; I repeated host notifications; S five adaptation groups; P explicit SystemManager bridge checks; O host-derived tools; X custom container family; B two independent presets.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

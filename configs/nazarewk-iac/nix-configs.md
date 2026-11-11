@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [nazarewk-iac/nix-configs](https://github.com/nazarewk-iac/nix-configs)
 - Reviewed revision: [`a1a10f5c8272`](https://github.com/nazarewk-iac/nix-configs/commit/a1a10f5c82721c402c8df10edd58145c8fc6f106)
 - Author: nazarewk-iac
-- Score: **60.0 / 100**, rank 14 of 103 ranked configs. D 2 · I 9 · S 6 · R 8 · P 9 · L 8 · V 9 · O 2 · B 7 · X 5. Shortlists: showcase, library units (2).
+- Score: **60.0 / 100**, rank 14 of 101 ranked configs. D 2 · I 9 · S 6 · R 8 · P 9 · L 8 · V 9 · O 2 · B 7 · X 5. Shortlists: showcase, library units (2).
 - Summary: Strong public composition/export, native portability and negative-consumer tests; custom Devenv integration and confirmed reference breadth. Den routed facts and production operational adoption remain baseline; mixed legacy identity and one credential prerequisite limit portability.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

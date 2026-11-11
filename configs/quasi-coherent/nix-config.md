@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [quasi-coherent/nix-config](https://github.com/quasi-coherent/nix-config)
 - Reviewed revision: [`52971feef21f`](https://github.com/quasi-coherent/nix-config/commit/52971feef21f5769354ae2359dbc598d2623aab4)
 - Author: quasi-coherent
-- Score: **43.5 / 100**, rank 76 of 103 ranked configs. D 2 · I 9 · S 6 · R 5 · P 5 · L 1 · V 5 · O 5 · B 5 · X 2. Shortlists: —.
+- Score: **43.5 / 100**, rank 76 of 101 ranked configs. D 2 · I 9 · S 6 · R 5 · P 5 · L 1 · V 5 · O 5 · B 5 · X 2. Shortlists: —.
 - Summary: D no selected routed facts; I clear namespace ownership; S typed instances with dropped field/three adaptations; R twelve independent files; P Darwin/home scope; L title only; V imported CI/lint; O NH wrappers; X no new class; B counted app owners.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

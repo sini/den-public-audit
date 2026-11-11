@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Draculestein/nixos-config](https://github.com/Draculestein/nixos-config)
 - Reviewed revision: [`3514a1d2e512`](https://github.com/Draculestein/nixos-config/commit/3514a1d2e512358af6d8357d389cfa9e11d49c2b)
 - Author: Draculestein
-- Score: **47.0 / 100**, rank 64 of 103 ranked configs. D 5 · I 7 · S 4 · R 5 · P 5 · L 2 · V 4 · O 5 · B 6 · X 2. Shortlists: library units (2).
+- Score: **47.0 / 100**, rank 64 of 101 ranked configs. D 5 · I 7 · S 4 · R 5 · P 5 · L 2 · V 4 · O 5 · B 6 · X 2. Shortlists: library units (2).
 - Summary: Direct entity-driven Incus setup, stable/headless boundaries and complete app integrations; source-patched operator values, stale docs and uninvoked deploy checks constrain broader reuse.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

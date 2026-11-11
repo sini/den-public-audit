@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Shawn8901/nixos-configuration](https://github.com/Shawn8901/nixos-configuration)
 - Reviewed revision: [`890a465d7eb3`](https://github.com/Shawn8901/nixos-configuration/commit/890a465d7eb34855c4f34a0f82191fdab41041b6)
 - Author: Shawn8901
-- Score: **44.5 / 100**, rank 72 of 103 ranked configs. D 5 · I 7 · S 5 · R 5 · P 4 · L 1 · V 5 · O 5 · B 4 · X 2. Shortlists: library units (1).
+- Score: **44.5 / 100**, rank 72 of 101 ranked configs. D 5 · I 7 · S 5 · R 5 · P 4 · L 1 · V 5 · O 5 · B 4 · X 2. Shortlists: library units (1).
 - Summary: Useful private provider tree, deterministic identity derivation and generated Hydra builds; author settings and an architecture-mislabeled dev shell limit portability and onboarding.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

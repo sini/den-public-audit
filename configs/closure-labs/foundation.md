@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [closure-labs/foundation](https://github.com/closure-labs/foundation)
 - Reviewed revision: [`0715d5823b45`](https://github.com/closure-labs/foundation/commit/0715d5823b453f4b8d5a2fa4aaa368ef669a2796)
 - Author: closure-labs
-- Score: **65.5 / 100**, rank 6 of 103 ranked configs. D 5 · I 9 · S 7 · R 9 · P 9 · L 9 · V 9 · O 5 · B 2 · X 2. Shortlists: library units (1).
+- Score: **65.5 / 100**, rank 6 of 101 ranked configs. D 5 · I 9 · S 7 · R 9 · P 9 · L 9 · V 9 · O 5 · B 2 · X 2. Shortlists: library units (1).
 - Summary: Strong exported and checked profile constructor; direct context-derived facts capped5, narrow platform boundaries explicit, app descriptor count not mistaken for complete presets.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

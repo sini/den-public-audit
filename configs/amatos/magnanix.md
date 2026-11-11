@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [amatos/magnanix](https://github.com/amatos/magnanix)
 - Reviewed revision: [`7675475f0509`](https://github.com/amatos/magnanix/commit/7675475f050939b2606e5c4d0d0205c25ac18cfd)
 - Author: amatos
-- Score: **64.0 / 100**, rank 7 of 103 ranked configs. D 5 · I 8 · S 6 · R 5 · P 9 · L 9 · V 6 · O 6 · B 7 · X 2. Shortlists: starter, library units (1).
+- Score: **64.0 / 100**, rank 7 of 101 ranked configs. D 5 · I 8 · S 6 · R 5 · P 9 · L 9 · V 6 · O 6 · B 7 · X 2. Shortlists: starter, library units (1).
 - Summary: Strong composition teaching, explicit OS boundaries and concrete failure tests; ordinary entity-derived settings constrain D, while author service defaults constrain S and project schemas constrain independent reuse.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

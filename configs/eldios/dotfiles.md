@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [eldios/dotfiles](https://github.com/eldios/dotfiles)
 - Reviewed revision: [`ce9d9573891e`](https://github.com/eldios/dotfiles/commit/ce9d9573891ec0460a23da535166ab6455c0586e)
 - Author: eldios
-- Score: **51.5 / 100**, rank 43 of 103 ranked configs. D 5 · I 6 · S 4 · R 5 · P 5 · L 7 · V 5 · O 6 · B 5 · X 2. Shortlists: library units (1).
+- Score: **51.5 / 100**, rank 43 of 101 ranked configs. D 5 · I 6 · S 4 · R 5 · P 5 · L 7 · V 5 · O 6 · B 5 · X 2. Shortlists: library units (1).
 - Summary: D5 context-only cap; S4 visible shared variation contract and sixteen grouped changes; R5 small closed presets; L7 explicit composition guides; B5 both census/reference grades5.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

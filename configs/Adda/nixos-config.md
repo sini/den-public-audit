@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Adda/nixos-config](https://codeberg.org/Adda/nixos-config)
 - Reviewed revision: [`31f3e4b1489f`](https://codeberg.org/Adda/nixos-config/commit/31f3e4b1489fcd0a6d66c4d612a2294225c8299a)
 - Author: Adda
-- Score: **59.5 / 100**, rank 15 of 103 ranked configs. D 7 · I 7 · S 6 · R 6 · P 5 · L 8 · V 3 · O 3 · B 8 · X 2. Shortlists: library units (4).
+- Score: **59.5 / 100**, rank 15 of 101 ranked configs. D 7 · I 7 · S 6 · R 6 · P 5 · L 8 · V 3 · O 3 · B 8 · X 2. Shortlists: library units (4).
 - Summary: D 7 live editor/service quirks with default collection, fixed-name `host.users.adda` lookups, aspect-settings has no consumer; I 7 namespace tree; S 6 documented per-user `opt` contracts but fixed user key + personal defaults; L 8 generated README + AGENTS.md; V 3, O 3, X 2; B 8 (B_div 12 -> 9, B_ref 19 -> 7)
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

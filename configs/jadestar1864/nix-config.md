@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [jadestar1864/nix-config](https://github.com/jadestar1864/nix-config)
 - Reviewed revision: [`1e0fcc909f4f`](https://github.com/jadestar1864/nix-config/commit/1e0fcc909f4f8ac2e762111b7c413ec201c8dd70)
 - Author: jadestar1864
-- Score: **54.5 / 100**, rank 31 of 103 ranked configs. D 7 · I 5 · S 5 · R 5 · P 6 · L 5 · V 5 · O 5 · B 6 · X 2. Shortlists: library units (1).
+- Score: **54.5 / 100**, rank 31 of 101 ranked configs. D 7 · I 5 · S 5 · R 5 · P 6 · L 5 · V 5 · O 5 · B 6 · X 2. Shortlists: library units (1).
 - Summary: D two live mutual-provider directions; I app-file ownership within broad roles; S typed disk/path contracts with inconsistent disk units/default and three grouped shared facts; R Firefox B closure; P two Linux architectures with explicit Pi boundary; L actual host adaptation guide; V host build CI; O per-host secret selection; B24 complete visible units and census5; X ordinary OS/HM.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

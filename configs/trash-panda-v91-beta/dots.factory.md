@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [trash-panda-v91-beta/dots.factory](https://github.com/trash-panda-v91-beta/dots.factory)
 - Reviewed revision: [`04ed87289164`](https://github.com/trash-panda-v91-beta/dots.factory/commit/04ed8728916414ec0bbcfa4b35e3b14c91db8816)
 - Author: trash-panda-v91-beta
-- Score: **45.0 / 100**, rank 70 of 103 ranked configs. D 3 · I 7 · S 6 · R 4 · P 5 · L 6 · V 4 · O 4 · B 4 · X 2. Shortlists: —.
+- Score: **45.0 / 100**, rank 70 of 101 ranked configs. D 3 · I 7 · S 6 · R 4 · P 5 · L 6 · V 4 · O 4 · B 4 · X 2. Shortlists: —.
 - Summary: Simple context forwarding D3; category/host ownership I7; typed contracts7 capped by seven adaptations S6; missing selected keyboard asset R4; honest Darwin P5; worked source authoring guide L6; actual fixtures unwired V4; generated native lifecycle with incomplete bootstrap O4; ordinary HM editor/k8s client X2.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

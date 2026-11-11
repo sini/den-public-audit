@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [ivokun/kebun](https://github.com/ivokun/kebun)
 - Reviewed revision: [`1038ddc22989`](https://github.com/ivokun/kebun/commit/1038ddc22989c43931a147959c64395efb6b661f)
 - Author: ivokun
-- Score: **54.0 / 100**, rank 33 of 103 ranked configs. D 5 · I 7 · S 6 · R 5 · P 5 · L 9 · V 6 · O 3 · B 5 · X 2. Shortlists: showcase.
+- Score: **54.0 / 100**, rank 33 of 101 ranked configs. D 5 · I 7 · S 6 · R 5 · P 5 · L 9 · V 6 · O 3 · B 5 · X 2. Shortlists: showcase.
 - Summary: D useful direct capability contract capped5; I migration boundary remains; S guarded interface limited by six groups; R useful presets; P narrow honest; L worked ADRs; V regression+assertions; O snapshot facts/manual operations; X ordinary exports; B seven units.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

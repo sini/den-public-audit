@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [EzT32/nixos](https://github.com/EzT32/nixos)
 - Reviewed revision: [`aa287213a56e`](https://github.com/EzT32/nixos/commit/aa287213a56e8bf8b4229f233ad8d7e240449319)
 - Author: EzT32
-- Score: **42.0 / 100**, rank 82 of 103 ranked configs. D 3 · I 9 · S 5 · R 5 · P 4 · L 4 · V 2 · O 2 · B 5 · X 2. Shortlists: —.
+- Score: **42.0 / 100**, rank 82 of 101 ranked configs. D 3 · I 9 · S 5 · R 5 · P 4 · L 4 · V 2 · O 2 · B 5 · X 2. Shortlists: —.
 - Summary: D simple host-system selector; I clear ownership; S typed app options limited by six grouped assumptions/helper shape; R usable leaves; P HM-context error; L partially accurate guide; V no checks; O manual; X baseline; B census+eleven complete units.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

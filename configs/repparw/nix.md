@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [repparw/nix](https://github.com/repparw/nix)
 - Reviewed revision: [`b2a680435a4e`](https://github.com/repparw/nix/commit/b2a680435a4e1c3451e76b73ed361f064029ab88)
 - Author: repparw
-- Score: **63.0 / 100**, rank 8 of 103 ranked configs. D 8 · I 7 · S 5 · R 5 · P 5 · L 8 · V 8 · O 8 · B 4 · X 2. Shortlists: showcase, library units (1).
+- Score: **63.0 / 100**, rank 8 of 101 ranked configs. D 8 · I 7 · S 5 · R 5 · P 5 · L 8 · V 8 · O 8 · B 4 · X 2. Shortlists: showcase, library units (1).
 - Summary: Provenance registry and explicit missing/duplicate semantics D8; mixed CLI ownership I7; typed contracts7 capped by sixteen adaptation groups to S5; extraction R5; honest Linux P5; extensive architecture/runbooks L8; generated/VM behavioral fixtures V8; derived deployment/backup O8; standard target X2.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

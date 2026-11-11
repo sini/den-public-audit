@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [sini/nix-config](https://github.com/sini/nix-config)
 - Reviewed revision: [`7e267a559e4a`](https://github.com/sini/nix-config/commit/7e267a559e4a93f6f83d2f9e96f47b75b227a88c)
 - Author: sini
-- Score: **71.5 / 100**, rank 1 of 103 ranked configs. D 7 · I 9 · S 5 · R 6 · P 7 · L 6 · V 6 · O 9 · B 8 · X 9. Shortlists: showcase, library units (9).
+- Score: **71.5 / 100**, rank 1 of 101 ranked configs. D 7 · I 9 · S 5 · R 6 · P 7 · L 6 · V 6 · O 9 · B 8 · X 9. Shortlists: showcase, library units (9).
 - Summary: D 7 capped (silent head of ninfer-endpoints at [opencode.nix:24](https://github.com/sini/nix-config/blob/7e267a559e4a93f6f83d2f9e96f47b75b227a88c/modules/den/aspects/applications/dev/ai/agents/opencode.nix#L24) and [pi.nix:45](https://github.com/sini/nix-config/blob/7e267a559e4a93f6f83d2f9e96f47b75b227a88c/modules/den/aspects/applications/dev/ai/agents/pi/pi.nix#L45); live scoped pipes, dead quirk with 49 emitters, fixed-name peer lookup, silent last-wins on builders); I 9 (role-only includes, one aspect per file); S 5 (contract grade 9, leak grade 5:~30 distinct fleet constants); P 7 (nvf HM never imported on slab); V capped 6 (checks not run by CI); O/X 9.
 - Note: this is the audit maintainer's own configuration and the rubric's reference anchor.
 

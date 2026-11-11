@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [SyahrulBhudiF/dotfiles](https://github.com/SyahrulBhudiF/dotfiles)
 - Reviewed revision: [`ba537827987e`](https://github.com/SyahrulBhudiF/dotfiles/commit/ba537827987edc4e00a574d1748d37a34a3b69ff)
 - Author: SyahrulBhudiF
-- Score: **30.0 / 100**, rank 102 of 103 ranked configs. D 2 · I 5 · S 2 · R 5 · P 5 · L 2 · V 2 · O 2 · B 3 · X 2. Shortlists: library units (1).
+- Score: **30.0 / 100**, rank 100 of 101 ranked configs. D 2 · I 5 · S 2 · R 5 · P 5 · L 2 · V 2 · O 2 · B 3 · X 2. Shortlists: library units (1).
 - Summary: Useful grade-B graphics wrapper merits library discovery; direct personalized home settings and absent setup guide do not merit showcase or starter.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

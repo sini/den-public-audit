@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [thomasgoulet/nixnites](https://github.com/thomasgoulet/nixnites)
 - Reviewed revision: [`54d53d7979ed`](https://github.com/thomasgoulet/nixnites/commit/54d53d7979ed9e712aa725c5ca06dfce98398691)
 - Author: thomasgoulet
-- Score: **40.0 / 100**, rank 90 of 103 ranked configs. D 3 · I 7 · S 5 · R 5 · P 5 · L 3 · V 2 · O 3 · B 4 · X 2. Shortlists: —.
+- Score: **40.0 / 100**, rank 88 of 101 ranked configs. D 3 · I 7 · S 5 · R 5 · P 5 · L 3 · V 2 · O 3 · B 4 · X 2. Shortlists: —.
 - Summary: Direct context D3; feature boundary I7; ordinary validated settings S5/four adaptations; useful four references R5; WSL boundary P5; usage docs L3; assertions V2; bootstrap O3; package plumbing X2.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

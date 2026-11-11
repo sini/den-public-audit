@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [lucasshiva/nixconfig](https://github.com/lucasshiva/nixconfig)
 - Reviewed revision: [`9e8aa1ba03ce`](https://github.com/lucasshiva/nixconfig/commit/9e8aa1ba03ce981aba3f8cbb430546ca2018b1f6)
 - Author: lucasshiva
-- Score: **48.0 / 100**, rank 57 of 103 ranked configs. D 4 · I 7 · S 6 · R 6 · P 6 · L 5 · V 2 · O 3 · B 5 · X 2. Shortlists: starter, library units (3).
+- Score: **48.0 / 100**, rank 57 of 101 ranked configs. D 4 · I 7 · S 6 · R 6 · P 6 · L 5 · V 2 · O 3 · B 5 · X 2. Shortlists: starter, library units (3).
 - Summary: a documented `my.*` option contract on ~10 features and one policy.resolve guard lift S/R/P; one single-consumer channel plus a host-name-keyed provides tree hold D to 4; inline /home/lucas, /mnt/data and syncthing constants cap S at 6; no checks, bootstrap script outside den.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

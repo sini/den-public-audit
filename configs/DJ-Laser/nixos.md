@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [DJ-Laser/nixos](https://github.com/DJ-Laser/nixos)
 - Reviewed revision: [`27e216e2f9d3`](https://github.com/DJ-Laser/nixos/commit/27e216e2f9d3dfdba89177a82535975eb8a89899)
 - Author: DJ-Laser
-- Score: **34.0 / 100**, rank 97 of 103 ranked configs. D 2 · I 8 · S 3 · R 5 · P 5 · L 2 · V 2 · O 2 · B 3 · X 2. Shortlists: library units (1).
+- Score: **34.0 / 100**, rank 95 of 101 ranked configs. D 2 · I 8 · S 3 · R 5 · P 5 · L 2 · V 2 · O 2 · B 3 · X 2. Shortlists: library units (1).
 - Summary: Direct class settings and package plumbing; focused features with a personal user bundle; fixed sync peers/checkout; useful filechooser integration needing explicit terminal/package inputs; honest Linux scope, operation-only typo-prone docs, no relevant checks or derived operational pipeline.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

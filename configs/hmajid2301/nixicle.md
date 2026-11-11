@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [hmajid2301/nixicle](https://github.com/hmajid2301/nixicle)
 - Reviewed revision: [`ca0d927add73`](https://github.com/hmajid2301/nixicle/commit/ca0d927add737601fcc3c1a6a1cf84a497b0b9c0)
 - Author: hmajid2301
-- Score: **57.0 / 100**, rank 24 of 103 ranked configs. D 6 · I 6 · S 4 · R 9 · P 6 · L 2 · V 6 · O 7 · B 7 · X 2. Shortlists: library units (2).
+- Score: **57.0 / 100**, rank 24 of 101 ranked configs. D 6 · I 6 · S 4 · R 9 · P 6 · L 2 · V 6 · O 7 · B 7 · X 2. Shortlists: library units (2).
 - Summary: Live persistence forward and host facts, derived deploy/secrets/backups, independent TUIOS HM module and broad native references; identity gaps, global side effects, operation-only docs and uninvoked focused tests constrain the vector.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

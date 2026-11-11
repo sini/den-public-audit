@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [quasigod.xyz/nixconfig](https://tangled.org/quasigod.xyz/nixconfig)
 - Reviewed revision: `570018d633c7`
 - Author: quasigod.xyz
-- Score: **43.0 / 100**, rank 77 of 103 ranked configs. D 5 · I 7 · S 4 · R 6 · P 5 · L 2 · V 2 · O 2 · B 5 · X 2. Shortlists: library units (3).
+- Score: **43.0 / 100**, rank 77 of 101 ranked configs. D 5 · I 7 · S 4 · R 6 · P 5 · L 2 · V 2 · O 2 · B 5 · X 2. Shortlists: library units (3).
 - Summary: typed displays schema with explicit primary semantics (D 5 capped); more than eleven personal constants in shared aspects and no settings contract (S 4); README is a screenshot (L 2); no checks or ops (V 2, O 2); broad editor/shell/WM coverage (B 5).
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

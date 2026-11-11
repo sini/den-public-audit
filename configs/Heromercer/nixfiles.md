@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Heromercer/nixfiles](https://github.com/Heromercer/nixfiles)
 - Reviewed revision: [`72d86dd2774f`](https://github.com/Heromercer/nixfiles/commit/72d86dd2774f83fbaf0708cd0f4e4e78e0cc5ade)
 - Author: Heromercer
-- Score: **33.0 / 100**, rank 100 of 103 ranked configs. D 2 · I 5 · S 2 · R 5 · P 4 · L 1 · V 2 · O 5 · B 5 · X 2. Shortlists: library units (3).
+- Score: **33.0 / 100**, rank 98 of 101 ranked configs. D 2 · I 5 · S 2 · R 5 · P 4 · L 1 · V 2 · O 5 · B 5 · X 2. Shortlists: library units (3).
 - Summary: Direct fixed provider selection, app-specific presets and aspect-owned secrets; personal constants, incomplete definitions, declared-host type mismatch and no guide/checks limit overall quality.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

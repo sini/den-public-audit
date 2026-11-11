@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [cfrenette/nixos-config](https://github.com/cfrenette/nixos-config)
 - Reviewed revision: [`af711691cde3`](https://github.com/cfrenette/nixos-config/commit/af711691cde33c23754da2d6dc81a7ae52bc5e7c)
 - Author: cfrenette
-- Score: **42.5 / 100**, rank 79 of 103 ranked configs. D 5 · I 6 · S 4 · R 5 · P 5 · L 1 · V 3 · O 5 · B 4 · X 2. Shortlists: —.
+- Score: **42.5 / 100**, rank 79 of 101 ranked configs. D 5 · I 6 · S 4 · R 5 · P 5 · L 1 · V 3 · O 5 · B 4 · X 2. Shortlists: —.
 - Summary: D entity-derived backups; I Git/mail coupling; S personal constants despite host/user arguments; R independent HM leaves; P honest NixOS scope; L no guide; V one local invariant; O aspect-owned secrets; B eight complete leaves; X standard targets.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

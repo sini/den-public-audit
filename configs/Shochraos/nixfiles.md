@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Shochraos/nixfiles](https://github.com/Shochraos/nixfiles)
 - Reviewed revision: [`4d7c55187377`](https://github.com/Shochraos/nixfiles/commit/4d7c551873771cfd65ed440b8f97f3401f504551)
 - Author: Shochraos
-- Score: **50.5 / 100**, rank 48 of 103 ranked configs. D 5 · I 7 · S 5 · R 5 · P 5 · L 5 · V 5 · O 5 · B 5 · X 2. Shortlists: library units (1).
+- Score: **50.5 / 100**, rank 48 of 101 ranked configs. D 5 · I 7 · S 5 · R 5 · P 5 · L 5 · V 5 · O 5 · B 5 · X 2. Shortlists: library units (1).
 - Summary: Typed host settings and well-documented adaptation, with direct context-driven consumers; personal network/default values and custom schema prerequisites limit reuse.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

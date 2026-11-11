@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [closure-labs/maestro](https://github.com/closure-labs/maestro)
 - Reviewed revision: [`6d707f35e29b`](https://github.com/closure-labs/maestro/commit/6d707f35e29bb135030b4273e741f966b941d75c)
 - Author: closure-labs
-- Score: **59.5 / 100**, rank 15 of 103 ranked configs. D 4 · I 6 · S 7 · R 9 · P 7 · L 9 · V 9 · O 6 · B 2 · X 2. Shortlists: library units (2).
+- Score: **59.5 / 100**, rank 15 of 101 ranked configs. D 4 · I 6 · S 7 · R 9 · P 7 · L 9 · V 9 · O 6 · B 2 · X 2. Shortlists: library units (2).
 - Summary: Complete independently consumed XO module contract and focused checks; fixed output lookup caps D, operator side effects cap I, ordinary host/operation outputs give X baseline.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

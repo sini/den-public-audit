@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [talarys/den](https://github.com/talarys/den)
 - Reviewed revision: [`469df2c2de88`](https://github.com/talarys/den/commit/469df2c2de88614d17a0f557cb19eaaa18ed0415)
 - Author: talarys
-- Score: **34.0 / 100**, rank 97 of 103 ranked configs. D 2 · I 8 · S 4 · R 5 · P 3 · L 1 · V 2 · O 2 · B 5 · X 2. Shortlists: library units (1).
+- Score: **34.0 / 100**, rank 95 of 101 ranked configs. D 2 · I 8 · S 4 · R 5 · P 3 · L 1 · V 2 · O 2 · B 5 · X 2. Shortlists: library units (1).
 - Summary: D direct settings; I distinct feature branches; S three grouped adaptations/partial path contract; R Ghostty B; P class-envelope defects; L no project guide; V no semantic checks; O manual helpers; X standard targets; B census+seven complete units.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

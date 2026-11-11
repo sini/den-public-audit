@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [RafaelMuijsert/nixos-config](https://github.com/RafaelMuijsert/nixos-config)
 - Reviewed revision: [`c2466a023f20`](https://github.com/RafaelMuijsert/nixos-config/commit/c2466a023f2071b774238829a853df5a1a943093)
 - Author: RafaelMuijsert
-- Score: **50.5 / 100**, rank 48 of 103 ranked configs. D 6 · I 8 · S 5 · R 5 · P 4 · L 4 · V 3 · O 5 · B 5 · X 2. Shortlists: showcase, library units (1).
+- Score: **50.5 / 100**, rank 48 of 101 ranked configs. D 6 · I 8 · S 5 · R 5 · P 4 · L 4 · V 3 · O 5 · B 5 · X 2. Shortlists: showcase, library units (1).
 - Summary: One well-traced service-quark consumer makes this a useful composition showcase; author contracts, a recovery-mode mismatch and limited configuration tests constrain adoption as a starter.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

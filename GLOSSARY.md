@@ -202,7 +202,7 @@ ranked.
 
 ### published config
 
-A published config is a config with a page in this audit. There are 105 published configs. See the
+A published config is a config with a page in this audit. There are 103 published configs. See the
 [list of config pages](configs/README.md).
 
 ### reference unit
@@ -241,4 +241,4 @@ The total is the weighted sum of the category scores, out of 100: 2D + I + S + R
 ### withheld config
 
 A withheld config is scored and counted, but has no page, because its source is no longer public. There are
-3 withheld configs.
+5 withheld configs.

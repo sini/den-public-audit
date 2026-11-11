@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [auscyber/dotfiles](https://github.com/auscyber/dotfiles)
 - Reviewed revision: [`96be028eaba6`](https://github.com/auscyber/dotfiles/commit/96be028eaba642d74c7e1ed19db00fe4b41356ca)
 - Author: auscyber
-- Score: **68.5 / 100**, rank 3 of 103 ranked configs. D 7 · I 8 · S 6 · R 7 · P 7 · L 6 · V 7 · O 8 · B 5 · X 8. Shortlists: showcase, library units (3).
+- Score: **68.5 / 100**, rank 3 of 101 ranked configs. D 7 · I 8 · S 6 · R 7 · P 7 · L 6 · V 7 · O 8 · B 5 · X 8. Shortlists: showcase, library units (3).
 - Summary: Traced cross-scope cache facts, generated builders/deploy/rekey and real iOS/ESPHome module contracts; silent transport precedence and fleet-bound app owners limit extraction.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

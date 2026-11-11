@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [aullisia/nixos-config](https://github.com/aullisia/nixos-config)
 - Reviewed revision: [`233eb5e4cfaf`](https://github.com/aullisia/nixos-config/commit/233eb5e4cfaf27a454f3b27b5a496c7f7eb2f1e8)
 - Author: aullisia
-- Score: **46.0 / 100**, rank 67 of 103 ranked configs. D 5 · I 6 · S 5 · R 7 · P 3 · L 2 · V 4 · O 5 · B 5 · X 2. Shortlists: library units (3).
+- Score: **46.0 / 100**, rank 67 of 101 ranked configs. D 5 · I 6 · S 5 · R 7 · P 3 · L 2 · V 4 · O 5 · B 5 · X 2. Shortlists: library units (3).
 - Summary: Direct schema facts and inventory-derived NH helpers are useful, with closed terminal/editor/integration presets. Missing test-host prerequisites, personal shared settings and local bundle input limit portability; manual persistence tests and operation-only guidance give partial maintenance support.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

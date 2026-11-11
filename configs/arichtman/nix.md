@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [arichtman/nix](https://github.com/arichtman/nix)
 - Reviewed revision: [`a33136e4580d`](https://github.com/arichtman/nix/commit/a33136e4580dd700bdf822e7a7314b475fbd0f11)
 - Author: arichtman
-- Score: **41.5 / 100**, rank 85 of 103 ranked configs. D 5 · I 6 · S 4 · R 6 · P 4 · L 3 · V 5 · O 2 · B 3 · X 2. Shortlists: library units (2).
+- Score: **41.5 / 100**, rank 83 of 101 ranked configs. D 5 · I 6 · S 4 · R 6 · P 4 · L 3 · V 5 · O 2 · B 3 · X 2. Shortlists: library units (2).
 - Summary: Direct schema facts, legacy adapters, useful Nix maintenance and Loki presets; identity remains embedded in shared services, deployment is hand-listed, and Darwin inherits a Linux home-path assumption.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

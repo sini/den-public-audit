@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [byte-sized-emi/nix-config](https://github.com/byte-sized-emi/nix-config)
 - Reviewed revision: [`8df6aa42d1bb`](https://github.com/byte-sized-emi/nix-config/commit/8df6aa42d1bbcc42b6a2b82447a26a340ce62655)
 - Author: byte-sized-emi
-- Score: **54.0 / 100**, rank 33 of 103 ranked configs. D 7 · I 8 · S 4 · R 7 · P 5 · L 3 · V 2 · O 7 · B 4 · X 2. Shortlists: showcase, library units (1).
+- Score: **54.0 / 100**, rank 33 of 101 ranked configs. D 7 · I 8 · S 4 · R 7 · P 5 · L 3 · V 2 · O 7 · B 4 · X 2. Shortlists: showcase, library units (1).
 - Summary: A compact real cross-host service-discovery showcase, with explicit normalization and two operational consumers; cardinality, backup status and personal application contracts need repair before fleet reuse.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

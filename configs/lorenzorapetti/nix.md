@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [lorenzorapetti/nix](https://github.com/lorenzorapetti/nix)
 - Reviewed revision: [`e6b3e716d30a`](https://github.com/lorenzorapetti/nix/commit/e6b3e716d30a98a32ee8e76bfafbee6828d40357)
 - Author: lorenzorapetti
-- Score: **59.0 / 100**, rank 18 of 103 ranked configs. D 7 · I 6 · S 4 · R 7 · P 5 · L 7 · V 6 · O 7 · B 5 · X 2. Shortlists: showcase, library units (1).
+- Score: **59.0 / 100**, rank 18 of 101 ranked configs. D 7 · I 6 · S 4 · R 7 · P 5 · L 7 · V 6 · O 7 · B 5 · X 2. Shortlists: showcase, library units (1).
 - Summary: Four traced quirk channels and an output-inventory-derived cache pipeline distinguish the design; personal global assumptions and custom desktop schema constrain whole-repo adoption despite strong explanatory docs.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

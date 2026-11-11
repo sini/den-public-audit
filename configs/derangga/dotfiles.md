@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [derangga/dotfiles](https://github.com/derangga/dotfiles)
 - Reviewed revision: [`c43c24f8b7f7`](https://github.com/derangga/dotfiles/commit/c43c24f8b7f7af0f0b754efa05bdfa3d7331072f)
 - Author: derangga
-- Score: **46.5 / 100**, rank 65 of 103 ranked configs. D 5 · I 5 · S 4 · R 5 · P 5 · L 7 · V 5 · O 2 · B 5 · X 2. Shortlists: library units (1).
+- Score: **46.5 / 100**, rank 65 of 101 ranked configs. D 5 · I 5 · S 4 · R 5 · P 5 · L 7 · V 5 · O 2 · B 5 · X 2. Shortlists: library units (1).
 - Summary: D shared host terminal/context reaches native consumers without routing; I native per-app files inside common user baseline; S small constructor contract but closed Git host map and fixed checkout/Chrome installation; R OmniWM B closure; P honest one-user aarch64-Darwin scope; L detailed real wiring guide; V both-host evaluation CI plus native watcher selfcheck; O manual activation; B4 complete app-file units/census7; X ordinary Darwin/HM.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

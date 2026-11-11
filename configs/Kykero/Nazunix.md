@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Kykero/Nazunix](https://github.com/Kykero/Nazunix)
 - Reviewed revision: [`469bacd7b841`](https://github.com/Kykero/Nazunix/commit/469bacd7b841df5aaea43ad6027049cb152f394b)
 - Author: Kykero
-- Score: **60.5 / 100**, rank 13 of 103 ranked configs. D 6 · I 8 · S 7 · R 5 · P 5 · L 9 · V 7 · O 5 · B 5 · X 2. Shortlists: showcase, starter, library units (1).
+- Score: **60.5 / 100**, rank 13 of 101 ranked configs. D 6 · I 8 · S 7 · R 5 · P 5 · L 9 · V 7 · O 5 · B 5 · X 2. Shortlists: showcase, starter, library units (1).
 - Summary: Strong documented profile/class composition and native format validation; local operations and reusable app units are real, while author constants and limited routed-channel breadth constrain S/D.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

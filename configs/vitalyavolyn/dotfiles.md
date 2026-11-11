@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [vitalyavolyn/dotfiles](https://github.com/vitalyavolyn/dotfiles)
 - Reviewed revision: [`4fbe31ccb7bb`](https://github.com/vitalyavolyn/dotfiles/commit/4fbe31ccb7bb6f48ddef19b90b4069cab3fb3567)
 - Author: vitalyavolyn
-- Score: **48.0 / 100**, rank 57 of 103 ranked configs. D 5 · I 8 · S 5 · R 7 · P 8 · L 1 · V 2 · O 2 · B 5 · X 2. Shortlists: library units (1).
+- Score: **48.0 / 100**, rank 57 of 101 ranked configs. D 5 · I 8 · S 5 · R 7 · P 8 · L 1 · V 2 · O 2 · B 5 · X 2. Shortlists: library units (1).
 - Summary: Strong platform/application boundaries and real service parameterization; personal fleet dependencies and sparse teaching limit transfer. Inventory derivation is useful but not routed Den policy composition.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

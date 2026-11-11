@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [hoanhxlyn/andrewix](https://github.com/hoanhxlyn/andrewix)
 - Reviewed revision: [`bd9927ece041`](https://github.com/hoanhxlyn/andrewix/commit/bd9927ece041a42e81cd3aa5d22cf6e513b17206)
 - Author: hoanhxlyn
-- Score: **54.0 / 100**, rank 33 of 103 ranked configs. D 5 · I 8 · S 6 · R 5 · P 6 · L 7 · V 2 · O 5 · B 5 · X 2. Shortlists: library units (2).
+- Score: **54.0 / 100**, rank 33 of 101 ranked configs. D 5 · I 8 · S 6 · R 5 · P 6 · L 7 · V 2 · O 5 · B 5 · X 2. Shortlists: library units (2).
 - Summary: D 5 typed host/user facts read by consumers via schema (capped), no quirks/pipes; I 8 core namespace + variant aspects chosen from facts; S 6 strong typed contract, capped by ~6 distinct leaks; O 5 installer + disko derived from host facts; B 5 (B_div 4 -> 3, B_ref 15 -> 7)
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

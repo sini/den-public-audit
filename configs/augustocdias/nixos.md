@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [augustocdias/nixos](https://github.com/augustocdias/nixos)
 - Reviewed revision: [`494e352fa63d`](https://github.com/augustocdias/nixos/commit/494e352fa63d971d36e54641c6d8293ebed1dd92)
 - Author: augustocdias
-- Score: **41.0 / 100**, rank 86 of 103 ranked configs. D 2 · I 6 · S 2 · R 5 · P 7 · L 4 · V 2 · O 5 · B 6 · X 2. Shortlists: library units (1).
+- Score: **41.0 / 100**, rank 84 of 101 ranked configs. D 2 · I 6 · S 2 · R 5 · P 7 · L 4 · V 2 · O 5 · B 6 · X 2. Shortlists: library units (1).
 - Summary: Actual Linux/Darwin/ARM class separation and substantial native app presets, but direct personal configuration rather than Den fact channels; identity leaks and incomplete native preset boundaries constrain reuse.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [zakuciael/nixpedition](https://github.com/zakuciael/nixpedition)
 - Reviewed revision: [`b45ae683a1b2`](https://github.com/zakuciael/nixpedition/commit/b45ae683a1b29f465bb683d6b73974e167c2080f)
 - Author: zakuciael
-- Score: **57.5 / 100**, rank 20 of 103 ranked configs. D 7 · I 8 · S 6 · R 5 · P 5 · L 2 · V 6 · O 8 · B 3 · X 7. Shortlists: showcase, library units (4).
+- Score: **57.5 / 100**, rank 20 of 101 ranked configs. D 7 · I 8 · S 6 · R 5 · P 5 · L 2 · V 6 · O 8 · B 3 · X 7. Shortlists: showcase, library units (4).
 - Summary: host constants feed nixos, a traefik quirk and a routed terranix class (D 7, X 7); deploy effect, clan vars and terraform derive from host config (O 8); identity constants in service aspects cap S at 6; stale README (L 2); few applications (B 3).
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

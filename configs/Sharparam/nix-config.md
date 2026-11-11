@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Sharparam/nix-config](https://github.com/Sharparam/nix-config)
 - Reviewed revision: [`eb5fe2550c15`](https://github.com/Sharparam/nix-config/commit/eb5fe2550c153cfcff9dc78a9c9ddda1cbf428e4)
 - Author: Sharparam
-- Score: **51.0 / 100**, rank 46 of 103 ranked configs. D 6 · I 5 · S 3 · R 5 · P 7 · L 2 · V 4 · O 6 · B 8 · X 2. Shortlists: library units (1).
+- Score: **51.0 / 100**, rank 46 of 101 ranked configs. D 6 · I 5 · S 3 · R 5 · P 7 · L 2 · V 4 · O 6 · B 8 · X 2. Shortlists: library units (1).
 - Summary: One routed authorization channel and cross-platform adapters, complete native app files and inventory-derived NH wrappers; coarse base ownership, identity gaps, external dotfiles and operation-first docs constrain scores.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [greysilly7/nixos-config](https://github.com/greysilly7/nixos-config)
 - Reviewed revision: [`955ea2336310`](https://github.com/greysilly7/nixos-config/commit/955ea233631099163a21c8bd7b8290d2bf1f86f7)
 - Author: greysilly7
-- Score: **55.5 / 100**, rank 29 of 103 ranked configs. D 7 · I 5 · S 4 · R 7 · P 7 · L 2 · V 5 · O 7 · B 6 · X 2. Shortlists: showcase, library units (1).
+- Score: **55.5 / 100**, rank 29 of 101 ranked configs. D 7 · I 5 · S 4 · R 7 · P 7 · L 2 · V 5 · O 7 · B 6 · X 2. Shortlists: showcase, library units (1).
 - Summary: Several live custom class channels route scoped native configuration and operational state; substantive native app presets and real cross-platform consumers are offset by shared owner assumptions and stale onboarding.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [icebluerabbit/nixos](https://github.com/icebluerabbit/nixos)
 - Reviewed revision: [`21a704b338c3`](https://github.com/icebluerabbit/nixos/commit/21a704b338c359686fa4b1a9d45ac3cdb81ba81d)
 - Author: icebluerabbit
-- Score: **63.0 / 100**, rank 8 of 103 ranked configs. D 5 · I 8 · S 5 · R 7 · P 7 · L 7 · V 5 · O 7 · B 7 · X 5. Shortlists: library units (1).
+- Score: **63.0 / 100**, rank 8 of 101 ranked configs. D 5 · I 8 · S 5 · R 7 · P 7 · L 7 · V 5 · O 7 · B 7 · X 5. Shortlists: library units (1).
 - Summary: Typed native infrastructure flow reaches D5; isolated constructors I8, explicit but incomplete variation S5, reusable envelopes R7, scoped Linux/Darwin P7, worked composition docs L7, representative CI V5, derived installers/secrets O7, one Terranix class X5 and measured breadth B7.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

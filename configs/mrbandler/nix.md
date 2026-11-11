@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [mrbandler/nix](https://github.com/mrbandler/nix)
 - Reviewed revision: [`6869a203c3fc`](https://github.com/mrbandler/nix/commit/6869a203c3fc4e605eaebefc2c760b7096b8fc66)
 - Author: mrbandler
-- Score: **59.5 / 100**, rank 15 of 103 ranked configs. D 5 · I 7 · S 6 · R 5 · P 7 · L 7 · V 5 · O 6 · B 8 · X 2. Shortlists: showcase.
+- Score: **59.5 / 100**, rank 15 of 101 ranked configs. D 5 · I 7 · S 6 · R 5 · P 7 · L 7 · V 5 · O 6 · B 8 · X 2. Shortlists: showcase.
 - Summary: D shared typed config capped5; I coarse selectable bags; S real contracts with five adaptations; R independent app files; P explicit platform branches; L worked ownership; V closure checks; O derived installer/NH; X standard; B full file-owned unit inventory.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

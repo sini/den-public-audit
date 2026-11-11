@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [andreshungbz/nixconfig](https://github.com/andreshungbz/nixconfig)
 - Reviewed revision: [`bdee3f6ec030`](https://github.com/andreshungbz/nixconfig/commit/bdee3f6ec030ca92984814833e25c6f262c197bf)
 - Author: andreshungbz
-- Score: **54.5 / 100**, rank 31 of 103 ranked configs. D 5 · I 8 · S 5 · R 5 · P 8 · L 5 · V 3 · O 5 · B 6 · X 2. Shortlists: starter, library units (1).
+- Score: **54.5 / 100**, rank 31 of 101 ranked configs. D 5 · I 8 · S 5 · R 5 · P 8 · L 5 · V 3 · O 5 · B 6 · X 2. Shortlists: starter, library units (1).
 - Summary: Useful cross-platform namespace starter and application reference collection; entity-derived presentation is demonstrated, while the prepared firewall channel is not a live data-flow showcase.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

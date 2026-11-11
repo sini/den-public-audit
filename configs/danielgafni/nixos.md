@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [danielgafni/nixos](https://github.com/danielgafni/nixos)
 - Reviewed revision: [`26f03bc416ad`](https://github.com/danielgafni/nixos/commit/26f03bc416ad2535ff4cdf52a1d8cb9ead4b8fd6)
 - Author: danielgafni
-- Score: **50.5 / 100**, rank 48 of 103 ranked configs. D 5 · I 5 · S 4 · R 7 · P 7 · L 4 · V 5 · O 5 · B 5 · X 2. Shortlists: library units (1).
+- Score: **50.5 / 100**, rank 48 of 101 ranked configs. D 5 · I 5 · S 4 · R 7 · P 7 · L 4 · V 5 · O 5 · B 5 · X 2. Shortlists: library units (1).
 - Summary: D home-name table projection into native consumers cap5; I named features/broad base/global imports; S untyped data and actual second-user Git identity fallback plus13 grouped shared facts; R self-contained Colima A unit with real host consumer but no minimal independent example; P explicit OS-role selection plus both-platform outputs; L usage/layout docs; V representative output CI without boundary fixtures; O selected per-aspect secrets; B7 clean units/census8; X standard classes only.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

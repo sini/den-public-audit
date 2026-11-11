@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [nifoc/dotfiles](https://github.com/nifoc/dotfiles)
 - Reviewed revision: [`387a13d9abfe`](https://github.com/nifoc/dotfiles/commit/387a13d9abfe831aac5e8b27d9c567d3d4fbe337)
 - Author: nifoc
-- Score: **45.5 / 100**, rank 69 of 103 ranked configs. D 4 · I 7 · S 4 · R 4 · P 7 · L 1 · V 5 · O 7 · B 4 · X 2. Shortlists: —.
+- Score: **45.5 / 100**, rank 69 of 101 ranked configs. D 4 · I 7 · S 4 · R 4 · P 7 · L 1 · V 5 · O 7 · B 4 · X 2. Shortlists: —.
 - Summary: Visible literal meta lookup D4; meaningful owners I7; ad hoc settings S4/twelve groups; public-root blocker R4; platform branches P7; URL-only L1; host checks V5; deploy/unlock/backup O7; ordinary targets X2; eight visible independent units.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [SuNNjek/nixos-config](https://github.com/SuNNjek/nixos-config)
 - Reviewed revision: [`f40297e9d045`](https://github.com/SuNNjek/nixos-config/commit/f40297e9d045387227869245163e7e2b6c7799f9)
 - Author: SuNNjek
-- Score: **50.5 / 100**, rank 48 of 103 ranked configs. D 6 · I 9 · S 5 · R 5 · P 5 · L 2 · V 5 · O 5 · B 4 · X 2. Shortlists: library units (1).
+- Score: **50.5 / 100**, rank 48 of 101 ranked configs. D 6 · I 9 · S 5 · R 5 · P 5 · L 2 · V 5 · O 5 · B 4 · X 2. Shortlists: library units (1).
 - Summary: D real Nemo quirk with shallow merge collision; I feature ownership; S useful KDL/disk/locale interfaces; R simple battery; P honest Linux; L stale install guide; V native validator; O derived VM/NH; X standard; B nine presets.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

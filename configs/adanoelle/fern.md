@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [adanoelle/fern](https://github.com/adanoelle/fern)
 - Reviewed revision: [`060cd42a3d02`](https://github.com/adanoelle/fern/commit/060cd42a3d02a833bcd63a4148df09c18fc7810a)
 - Author: adanoelle
-- Score: **58.5 / 100**, rank 19 of 103 ranked configs. D 5 · I 8 · S 5 · R 7 · P 5 · L 8 · V 3 · O 5 · B 8 · X 2. Shortlists: library units (1).
+- Score: **58.5 / 100**, rank 19 of 101 ranked configs. D 5 · I 8 · S 5 · R 7 · P 5 · L 8 · V 3 · O 5 · B 8 · X 2. Shortlists: library units (1).
 - Summary: Strong composition teaching and useful application presets, with visible identity, verification-contract and documentation repairs before adopting the whole profile.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

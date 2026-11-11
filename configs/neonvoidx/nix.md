@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [neonvoidx/nix](https://github.com/neonvoidx/nix)
 - Reviewed revision: [`50ad179a5fb4`](https://github.com/neonvoidx/nix/commit/50ad179a5fb4dc1e5d9f8d98e9a98cb488369f2c)
 - Author: neonvoidx
-- Score: **57.5 / 100**, rank 20 of 103 ranked configs. D 5 · I 9 · S 5 · R 5 · P 5 · L 8 · V 5 · O 6 · B 6 · X 2. Shortlists: showcase.
+- Score: **57.5 / 100**, rank 20 of 101 ranked configs. D 5 · I 9 · S 5 · R 5 · P 5 · L 8 · V 5 · O 6 · B 6 · X 2. Shortlists: showcase.
 - Summary: D rich direct metadata capped5; I feature ownership; S typed checkout/untyped facts with five groups; R twenty app units; P honest Linux; L worked onboarding; V CI builds; O NH/secret activation; X standard; B full references.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

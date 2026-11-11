@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [loystonpais/lunar](https://github.com/loystonpais/lunar)
 - Reviewed revision: [`5f836c9e4a1c`](https://github.com/loystonpais/lunar/commit/5f836c9e4a1c3076e95f7df3969a77da051b6b2e)
 - Author: loystonpais
-- Score: **51.0 / 100**, rank 46 of 103 ranked configs. D 5 · I 7 · S 3 · R 5 · P 5 · L 5 · V 3 · O 6 · B 6 · X 5. Shortlists: library units (1).
+- Score: **51.0 / 100**, rank 46 of 101 ranked configs. D 5 · I 7 · S 3 · R 5 · P 5 · L 5 · V 3 · O 6 · B 6 · X 5. Shortlists: library units (1).
 - Summary: Direct context D5; namespace I7; invalid common settings S3/five groups; twelve coherent references R5; bounded architectures P5; README L5; missing workflow script V3; user-derived sync O6; Droidspaces X5.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

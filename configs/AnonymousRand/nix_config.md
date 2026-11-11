@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [AnonymousRand/nix_config](https://github.com/AnonymousRand/nix_config)
 - Reviewed revision: [`583567f25d10`](https://github.com/AnonymousRand/nix_config/commit/583567f25d101dba657fd1f72e4d10b179599dfc)
 - Author: AnonymousRand
-- Score: **52.0 / 100**, rank 41 of 103 ranked configs. D 7 · I 8 · S 6 · R 5 · P 5 · L 7 · V 2 · O 2 · B 3 · X 2. Shortlists: showcase, library units (1).
+- Score: **52.0 / 100**, rank 41 of 101 ranked configs. D 7 · I 8 · S 6 · R 5 · P 5 · L 7 · V 2 · O 2 · B 3 · X 2. Shortlists: showcase, library units (1).
 - Summary: Live user-to-host library requests and custom entity settings policies, with documented precedence; missing collision semantics and alternate empty-font behavior bound the score.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

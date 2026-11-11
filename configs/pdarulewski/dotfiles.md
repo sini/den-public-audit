@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [pdarulewski/dotfiles](https://github.com/pdarulewski/dotfiles)
 - Reviewed revision: [`97a47bb048ad`](https://github.com/pdarulewski/dotfiles/commit/97a47bb048adbc576160d1ee04de55698a0064a0)
 - Author: pdarulewski
-- Score: **31.0 / 100**, rank 101 of 103 ranked configs. D 2 · I 6 · S 3 · R 5 · P 3 · L 2 · V 2 · O 2 · B 4 · X 2. Shortlists: library units (1).
+- Score: **31.0 / 100**, rank 99 of 101 ranked configs. D 2 · I 6 · S 3 · R 5 · P 3 · L 2 · V 2 · O 2 · B 4 · X 2. Shortlists: library units (1).
 - Summary: D direct settings; I mutable CLI side effect caps6; S source-edit identity contract; R independent leaf; P incomplete Linux envelope; L placeholder; V no semantic checks; O manual switch; X standard classes; B census and seven complete application references.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

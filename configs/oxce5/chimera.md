@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [oxce5/chimera](https://github.com/oxce5/chimera)
 - Reviewed revision: [`cc96a65abd5d`](https://github.com/oxce5/chimera/commit/cc96a65abd5df81cdf2c8829ddff64111d616027)
 - Author: oxce5
-- Score: **47.5 / 100**, rank 61 of 103 ranked configs. D 5 · I 8 · S 6 · R 5 · P 5 · L 5 · V 3 · O 2 · B 4 · X 2. Shortlists: library units (1).
+- Score: **47.5 / 100**, rank 61 of 101 ranked configs. D 5 · I 8 · S 6 · R 5 · P 5 · L 5 · V 3 · O 2 · B 4 · X 2. Shortlists: library units (1).
 - Summary: Typed direct display derivation D5; central roles I8; S typed interfaces/nine adaptations; standalone NVF reference; Linux role scope; bundled docs L5; stale CI V3; O/X baseline.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

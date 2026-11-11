@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [jmartindf/dendritic](https://github.com/jmartindf/dendritic)
 - Reviewed revision: [`db88ba8d4a10`](https://github.com/jmartindf/dendritic/commit/db88ba8d4a1081f7bcd3be81037c54d007298bbf)
 - Author: jmartindf
-- Score: **40.5 / 100**, rank 88 of 103 ranked configs. D 5 · I 5 · S 4 · R 5 · P 5 · L 2 · V 3 · O 5 · B 2 · X 2. Shortlists: library units (1).
+- Score: **40.5 / 100**, rank 86 of 101 ranked configs. D 5 · I 5 · S 4 · R 5 · P 5 · L 2 · V 3 · O 5 · B 2 · X 2. Shortlists: library units (1).
 - Summary: D capability/context projection capped at5; I broad shared base; S shared installation facts remain; R light-adaptation Fish shell handoff; P actual Linux scope; L placeholder; V deploy schema/format checks; O selected per-host rekey integration but separate legacy deploy registry; B census2.5 and two complete app-file closures; X OS/HM only.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [henriquekirchheck/nixos-flake](https://github.com/henriquekirchheck/nixos-flake)
 - Reviewed revision: [`f9b5451633a4`](https://github.com/henriquekirchheck/nixos-flake/commit/f9b5451633a403b5381b7dbf7951a978f2ea7032)
 - Author: henriquekirchheck
-- Score: **57.5 / 100**, rank 20 of 103 ranked configs. D 7 · I 9 · S 7 · R 5 · P 5 · L 2 · V 5 · O 5 · B 7 · X 2. Shortlists: showcase, library units (1).
+- Score: **57.5 / 100**, rank 20 of 101 ranked configs. D 7 · I 9 · S 7 · R 5 · P 5 · L 2 · V 5 · O 5 · B 7 · X 2. Shortlists: showcase, library units (1).
 - Summary: D multiple live quirk channels capped7 without cross-scope pipe; I localized contributions; S typed tree and three groups; R useful SSH; P honest Linux; L minimal; V hooks; O derived state/secrets; X standard; B complete app census.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

@@ -1,3 +1,14 @@
+# KGB33/homelab: census notes
+
+[Config page](../../../configs/KGB33/homelab.md) · upstream [KGB33/homelab](https://github.com/KGB33/homelab) · [Census summary](../../summary.md)
+
+## Contents
+
+- [Project and inspected revision](#project-and-inspected-revision)
+- [Software selected and host/user traces](#software-selected-and-hostuser-traces)
+- [Defined, disabled and ambiguous alternatives](#defined-disabled-and-ambiguous-alternatives)
+- [Machine roles and remaining unknowns](#machine-roles-and-remaining-unknowns)
+
 ## Project and inspected revision
 
 A four-host x86 homelab; named hosts compose shared system services and server workloads ([nixos/hosts/tower/configuration.nix:6](https://github.com/KGB33/homelab/blob/6ee44f24e022c95d0f8010fa63616e5366d20dbf/nixos/hosts/tower/configuration.nix#L6)).

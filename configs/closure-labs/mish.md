@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [closure-labs/mish](https://github.com/closure-labs/mish)
 - Reviewed revision: [`6587ee6dbb2f`](https://github.com/closure-labs/mish/commit/6587ee6dbb2fa81a0075d08c8a118f3032176645)
 - Author: closure-labs
-- Score: **61.5 / 100**, rank 11 of 103 ranked configs. D 2 · I 9 · S 9 · R 9 · P 9 · L 9 · V 9 · O 5 · B 2 · X 2. Shortlists: library units (1).
+- Score: **61.5 / 100**, rank 11 of 101 ranked configs. D 2 · I 9 · S 9 · R 9 · P 9 · L 9 · V 9 · O 5 · B 2 · X 2. Shortlists: library units (1).
 - Summary: D direct appliance composition; I orthogonal feature/mode/architecture owners; S typed validated operator settings without author leaks; R exported complete mode with minimal consumer; P architecture guards; L composition guide; V positive/negative checks and CI; O Den-host-derived installer images; B one product unit and no surveyed families; X standard targets.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

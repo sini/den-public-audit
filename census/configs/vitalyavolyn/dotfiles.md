@@ -1,3 +1,14 @@
+# vitalyavolyn/dotfiles: census notes
+
+[Config page](../../../configs/vitalyavolyn/dotfiles.md) · upstream [vitalyavolyn/dotfiles](https://github.com/vitalyavolyn/dotfiles) · [Census summary](../../summary.md)
+
+## Contents
+
+- [Project and inspected revision](#project-and-inspected-revision)
+- [Software selected and host/user traces](#software-selected-and-hostuser-traces)
+- [Defined, disabled and ambiguous alternatives](#defined-disabled-and-ambiguous-alternatives)
+- [Machine roles and remaining unknowns](#machine-roles-and-remaining-unknowns)
+
 ## Project and inspected revision
 
 Six root hosts span Darwin, laptops and service machines; only configuration.nix files form the imported inventory ([flake.nix:90](https://github.com/vitalyavolyn/dotfiles/blob/4fbe31ccb7bb6f48ddef19b90b4069cab3fb3567/flake.nix#L90)).

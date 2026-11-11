@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [anders130/dotfiles](https://github.com/anders130/dotfiles)
 - Reviewed revision: [`470c551356c8`](https://github.com/anders130/dotfiles/commit/470c551356c8ccc92421f2d863cc0c15058df035)
 - Author: anders130
-- Score: **52.5 / 100**, rank 39 of 103 ranked configs. D 5 · I 6 · S 5 · R 7 · P 5 · L 4 · V 5 · O 7 · B 5 · X 2. Shortlists: showcase, library units (1).
+- Score: **52.5 / 100**, rank 39 of 101 ranked configs. D 5 · I 6 · S 5 · R 7 · P 5 · L 4 · V 5 · O 7 · B 5 · X 2. Shortlists: showcase, library units (1).
 - Summary: D5 one traced readme route; O7 host-derived install/docs plus per-aspect secrets; R7 audio/client contracts; S5 eleven grouped changes; B5 census3/reference7.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Steven-S1020/Nixos-Configuration](https://github.com/Steven-S1020/Nixos-Configuration)
 - Reviewed revision: [`89fd086f61a5`](https://github.com/Steven-S1020/Nixos-Configuration/commit/89fd086f61a5e3dec8a8b46e9a48b07f3dac5d3c)
 - Author: Steven-S1020
-- Score: **36.0 / 100**, rank 94 of 103 ranked configs. D 3 · I 7 · S 2 · R 5 · P 5 · L 3 · V 2 · O 2 · B 4 · X 2. Shortlists: library units (1).
+- Score: **36.0 / 100**, rank 92 of 101 ranked configs. D 3 · I 7 · S 2 · R 5 · P 5 · L 3 · V 2 · O 2 · B 4 · X 2. Shortlists: library units (1).
 - Summary: D literal context branch; I copied composition; S personal settings without contract; R independent audio; P honest Linux; L stale framework text; V no checks; O manual; X baseline; B nine coherent presets.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

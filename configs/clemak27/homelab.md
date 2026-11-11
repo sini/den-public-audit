@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [clemak27/homelab](https://github.com/clemak27/homelab)
 - Reviewed revision: [`a8bb1c3f0fec`](https://github.com/clemak27/homelab/commit/a8bb1c3f0fec737ab49636845df4d03374004057)
 - Author: clemak27
-- Score: **34.5 / 100**, rank 96 of 103 ranked configs. D 2 · I 5 · S 2 · R 6 · P 5 · L 2 · V 5 · O 5 · B 2 · X 2. Shortlists: library units (1).
+- Score: **34.5 / 100**, rank 94 of 101 ranked configs. D 2 · I 5 · S 2 · R 6 · P 5 · L 2 · V 5 · O 5 · B 2 · X 2. Shortlists: library units (1).
 - Summary: Clear hardware/cluster namespaces and aspect-owned secrets; direct hardcoded service configuration, manual platform assumptions, complete Starship leaf and invoked evaluation checks.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

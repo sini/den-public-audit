@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [muhammadtalha-quant/denix](https://github.com/muhammadtalha-quant/denix)
 - Reviewed revision: [`70e67b484b5e`](https://github.com/muhammadtalha-quant/denix/commit/70e67b484b5efe04a60d9982e41c3a66eeb0135c)
 - Author: muhammadtalha-quant
-- Score: **51.5 / 100**, rank 43 of 103 ranked configs. D 5 · I 8 · S 5 · R 5 · P 5 · L 6 · V 5 · O 5 · B 4 · X 2. Shortlists: library units (1).
+- Score: **51.5 / 100**, rank 43 of 101 ranked configs. D 5 · I 8 · S 5 · R 5 · P 5 · L 6 · V 5 · O 5 · B 4 · X 2. Shortlists: library units (1).
 - Summary: Typed direct host derivation D5; namespace ownership I8; invalid defaults/settings S5/two adaptations; three complete units R5; honest Linux P5; detailed map L6; CI V5; NH/storage ops O5; standard classes X2.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

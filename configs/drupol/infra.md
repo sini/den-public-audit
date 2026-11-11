@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [drupol/infra](https://github.com/drupol/infra)
 - Reviewed revision: [`b8cf59f140f5`](https://github.com/drupol/infra/commit/b8cf59f140f54f4f920d9f8070a3194eac38a8ae)
 - Author: drupol
-- Score: **39.0 / 100**, rank 92 of 103 ranked configs. D 3 · I 6 · S 3 · R 4 · P 5 · L 3 · V 2 · O 4 · B 6 · X 2. Shortlists: library units (2).
+- Score: **39.0 / 100**, rank 90 of 101 ranked configs. D 3 · I 6 · S 3 · R 4 · P 5 · L 3 · V 2 · O 4 · B 6 · X 2. Shortlists: library units (2).
 - Summary: D 3 untyped `meta` store with fixed-name lookups, no live channel; S 3 untyped meta and major/moderate leaks; R 4 unguarded private input; L 3 layout+commands README; O 4 deploy-rs nodes from nixosConfigurations; B 6 (B_div 7.5 -> 5, B_ref 13 -> 7)
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

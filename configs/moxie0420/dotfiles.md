@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [moxie0420/dotfiles](https://github.com/moxie0420/dotfiles)
 - Reviewed revision: [`42df6003db8c`](https://github.com/moxie0420/dotfiles/commit/42df6003db8cf97408656e9fef28d66459c3c8eb)
 - Author: moxie0420
-- Score: **44.5 / 100**, rank 72 of 103 ranked configs. D 6 · I 8 · S 3 · R 5 · P 4 · L 2 · V 3 · O 2 · B 6 · X 2. Shortlists: library units (1).
+- Score: **44.5 / 100**, rank 72 of 101 ranked configs. D 6 · I 8 · S 3 · R 5 · P 4 · L 2 · V 3 · O 2 · B 6 · X 2. Shortlists: library units (1).
 - Summary: D routed address chain; I feature ownership; S limited validation and 14 grouped leaks; R small B leaf; P HM typo; L stale map; V uninvo­ked topology checks; O manual deployment; X standard targets; B census plus complete app-unit inventory.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

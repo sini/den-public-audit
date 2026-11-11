@@ -1,3 +1,14 @@
+# augustocdias/nixos: census notes
+
+[Config page](../../../configs/augustocdias/nixos.md) · upstream [augustocdias/nixos](https://github.com/augustocdias/nixos) · [Census summary](../../summary.md)
+
+## Contents
+
+- [Project and inspected revision](#project-and-inspected-revision)
+- [Software selected and host/user traces](#software-selected-and-hostuser-traces)
+- [Defined, disabled and ambiguous alternatives](#defined-disabled-and-ambiguous-alternatives)
+- [Machine roles and remaining unknowns](#machine-roles-and-remaining-unknowns)
+
 ## Project and inspected revision
 
 Three Den hosts plus a separate manually constructed installer ISO ([modules/hosts.nix:2](https://github.com/augustocdias/nixos/blob/494e352fa63d971d36e54641c6d8293ebed1dd92/modules/hosts.nix#L2); [modules/installer.nix:6](https://github.com/augustocdias/nixos/blob/494e352fa63d971d36e54641c6d8293ebed1dd92/modules/installer.nix#L6)).

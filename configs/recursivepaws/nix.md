@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [recursivepaws/nix](https://github.com/recursivepaws/nix)
 - Reviewed revision: [`c4317eb95fad`](https://github.com/recursivepaws/nix/commit/c4317eb95fad0ffcb7b5ce2056e83b82f046920a)
 - Author: recursivepaws
-- Score: **46.5 / 100**, rank 65 of 103 ranked configs. D 5 · I 5 · S 3 · R 7 · P 5 · L 2 · V 5 · O 6 · B 5 · X 2. Shortlists: library units (1).
+- Score: **46.5 / 100**, rank 65 of 101 ranked configs. D 5 · I 5 · S 3 · R 7 · P 5 · L 2 · V 5 · O 6 · B 5 · X 2. Shortlists: library units (1).
 - Summary: Scoped host/context facts and independent audio presets coexist with global personal identity, app-level fleet dependencies, thin docs and a concrete sync failure-reporting flaw.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [akeuben/dotfiles](https://github.com/akeuben/dotfiles)
 - Reviewed revision: [`48183786da04`](https://github.com/akeuben/dotfiles/commit/48183786da040379d88ad2f23dbdc796de4093dc)
 - Author: akeuben
-- Score: **48.0 / 100**, rank 57 of 103 ranked configs. D 5 · I 8 · S 6 · R 5 · P 5 · L 2 · V 2 · O 5 · B 5 · X 2. Shortlists: library units (1).
+- Score: **48.0 / 100**, rank 57 of 101 ranked configs. D 5 · I 8 · S 6 · R 5 · P 5 · L 2 · V 2 · O 5 · B 5 · X 2. Shortlists: library units (1).
 - Summary: Readable feature boundaries, entity-derived settings and several complete application presets; author constants and stale onboarding limit transfer as a starter.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

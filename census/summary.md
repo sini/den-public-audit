@@ -209,7 +209,6 @@ This table gives, for each published config, the distinct required families sele
 | [jadestar1864/nix-config](configs/jadestar1864/nix-config.md) | public | 5 | 5 | 0 | 0 | — |
 | [tomwrw/megadots](configs/tomwrw/megadots.md) | local | 5 | 5 | 0 | 0 | — |
 | [espdesign/nixos.den](configs/espdesign/nixos.den.md) | local | 5 | 5 | 0 | 0 | — |
-| [OceangreenDev/nix-config](configs/OceangreenDev/nix-config.md) | archived | 5 | 3 | 2 | 0 | — |
 | [oxce5/chimera](configs/oxce5/chimera.md) | public | 5 | 5 | 0 | 0 | other_multiplexer:herdr |
 | [phucisstupid/dotfiles](configs/phucisstupid/dotfiles.md) | public | 5 | 5 | 0 | 0 | — |
 | [r17x/universe](configs/r17x/universe.md) | public | 5 | 5 | 0 | 0 | — |
@@ -226,7 +225,6 @@ This table gives, for each published config, the distinct required families sele
 | [SuNNjek/nixos-config](configs/SuNNjek/nixos-config.md) | public | 4 | 2 | 2 | 0 | other_editor:vim |
 | [SyahrulBhudiF/dotfiles](configs/SyahrulBhudiF/dotfiles.md) | public | 4 | 4 | 0 | 0 | — |
 | [aveeryy/kadachi](configs/aveeryy/kadachi.md) | public | 4 | 3 | 1 | 0 | — |
-| [cmetz/dotfiles](configs/cmetz/dotfiles.md) | local | 4 | 4 | 0 | 0 | other_wm:bspwm |
 | [moxie0420/dotfiles](configs/moxie0420/dotfiles.md) | public | 4 | 4 | 0 | 0 | — |
 | [neonvoidx/nix](configs/neonvoidx/nix.md) | public | 4 | 2 | 2 | 0 | other_wm:umbriel |
 | [nolvyn/nixos](configs/nolvyn/nixos.md) | public | 4 | 4 | 0 | 0 | other_editor:nano, other_wm:omniwm |

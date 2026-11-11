@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [fmway/infra](https://github.com/fmway/infra)
 - Reviewed revision: [`ad5b83625ade`](https://github.com/fmway/infra/commit/ad5b83625aded5e8679a87c706734edce341da7f)
 - Author: fmway
-- Score: **40.5 / 100**, rank 88 of 103 ranked configs. D 5 · I 7 · S 4 · R 3 · P 5 · L 2 · V 2 · O 4 · B 2 · X 5. Shortlists: —.
+- Score: **40.5 / 100**, rank 86 of 101 ranked configs. D 5 · I 7 · S 4 · R 3 · P 5 · L 2 · V 2 · O 4 · B 2 · X 5. Shortlists: —.
 - Summary: D visible structured peer derivation, external route unproven; I service owners; S typed contracts/helper error and three adaptation groups; R token unit; P narrow honest scope; L minimal; V internal only; O partial generator integration; X Clan class; B lower bound.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

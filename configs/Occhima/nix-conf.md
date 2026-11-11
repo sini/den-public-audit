@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Occhima/nix-conf](https://github.com/Occhima/nix-conf)
 - Reviewed revision: [`201ebbb67074`](https://github.com/Occhima/nix-conf/commit/201ebbb670748352f2ac67f0e0a4c9775c7a5099)
 - Author: Occhima
-- Score: **69.0 / 100**, rank 2 of 103 ranked configs. D 6 · I 9 · S 6 · R 7 · P 8 · L 8 · V 9 · O 5 · B 7 · X 5. Shortlists: starter, library units (1).
+- Score: **69.0 / 100**, rank 2 of 101 ranked configs. D 6 · I 9 · S 6 · R 7 · P 8 · L 8 · V 9 · O 5 · B 7 · X 5. Shortlists: starter, library units (1).
 - Summary: Strongly documented feature/composition boundaries, focused regression contracts and a real Droid target; useful as a composition starter and source of independently exported application presets, rather than a multi-channel fact-flow showcase.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

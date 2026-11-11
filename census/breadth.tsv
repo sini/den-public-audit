@@ -47,7 +47,6 @@ closure-labs/maestro	public	6d707f35e29b	config	True	1	19	1	0	1	0	0	"[""bash""]"
 closure-labs/mish	public	6587ee6dbb2f	config	True	0	19	0	0	0	0	0	[]	[]
 danielgafni/nixos	public	26f03bc416ad	config	True	8	19	8	0	7	1	1	"[""aerospace"", ""helix"", ""hyprland"", ""neovim"", ""starship"", ""zed"", ""zellij"", ""zsh""]"	"[""other_editor:cursor""]"
 derangga/dotfiles	public	c43c24f8b7f7	config	True	7	19	6	1	5	1	1	"[""aerospace"", ""fish"", ""neovim"", ""starship"", ""tmux"", ""vscode"", ""zed""]"	"[""other_wm:omniwm""]"
-cmetz/dotfiles	local	0c38be9224d7	config	True	4	19	4	0	4	0	1	"[""bash"", ""helix"", ""tmux"", ""vscode""]"	"[""other_wm:bspwm""]"
 drupol/infra	local	b8cf59f140f5	config	True	6	19	6	0	6	0	2	"[""fish"", ""kde"", ""starship"", ""vscode"", ""zed"", ""zellij""]"	"[""other_editor:gram (Zed fork), antigravity"", ""other_editor:micro""]"
 eldios/dotfiles	public	ce9d9573891e	config	True	9	19	7	2	6	1	0	"[""bash"", ""hyprland"", ""neovim"", ""nushell"", ""starship"", ""tmux"", ""vscode"", ""zed"", ""zsh""]"	[]
 elianiva/dotfiles	public	44d6d212ab1d	config	True	9	19	7	2	7	0	0	"[""bash"", ""fish"", ""helix"", ""neovim"", ""nushell"", ""starship"", ""tmux"", ""zed"", ""zellij""]"	[]
@@ -79,7 +78,6 @@ nifoc/dotfiles	public	387a13d9abfe	config	True	0	19	0	0	0	0	0	[]	[]
 espdesign/nixos.den	local	f52aed42f511	config	True	5	19	5	0	5	0	0	"[""gnome"", ""neovim"", ""starship"", ""vscode"", ""zsh""]"	[]
 zakuciael/nixpedition	local	b45ae683a1b2	config	True	3	19	2	1	0	2	0	"[""bash"", ""fish"", ""neovim""]"	[]
 nolvyn/nixos	public	e0fd0f9f0537	config	True	4	19	4	0	4	0	2	"[""fish"", ""hyprland"", ""vscode"", ""zed""]"	"[""other_editor:nano"", ""other_wm:omniwm""]"
-OceangreenDev/nix-config	archived	5103cc02832d	config	True	5	19	5	0	3	2	0	"[""kde"", ""neovim"", ""starship"", ""vscode"", ""zsh""]"	[]
 oxce5/chimera	public	cc96a65abd5d	config	True	5	19	5	0	5	0	1	"[""bash"", ""fish"", ""neovim"", ""niri"", ""starship""]"	"[""other_multiplexer:herdr""]"
 pdarulewski/dotfiles	public	97a47bb048ad	config	True	3	19	3	0	3	0	1	"[""neovim"", ""tmux"", ""zsh""]"	"[""other_prompt:oh-my-posh""]"
 phucisstupid/dotfiles	public	0e80243bb07b	config	True	5	19	5	0	5	0	0	"[""aerospace"", ""fish"", ""neovim"", ""starship"", ""tmux""]"	[]

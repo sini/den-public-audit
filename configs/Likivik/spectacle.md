@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Likivik/spectacle](https://github.com/Likivik/spectacle)
 - Reviewed revision: [`ce6d767b84e9`](https://github.com/Likivik/spectacle/commit/ce6d767b84e901fd044ac0693c21646cb739120c)
 - Author: Likivik
-- Score: **43.0 / 100**, rank 77 of 103 ranked configs. D 2 · I 6 · S 3 · R 5 · P 5 · L 5 · V 8 · O 6 · B 4 · X 2. Shortlists: library units (1).
+- Score: **43.0 / 100**, rank 77 of 101 ranked configs. D 2 · I 6 · S 3 · R 5 · P 5 · L 5 · V 8 · O 6 · B 4 · X 2. Shortlists: library units (1).
 - Summary: Feature-oriented Linux fleet with substantial native presets and behavioral fixtures; little Den fact routing, many author constants, and manual operational boundaries.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

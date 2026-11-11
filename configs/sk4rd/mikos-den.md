@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [sk4rd/mikos-den](https://github.com/sk4rd/mikos-den)
 - Reviewed revision: [`de31f342886a`](https://github.com/sk4rd/mikos-den/commit/de31f342886ae653aa46264d60587661476ea9b9)
 - Author: sk4rd
-- Score: **57.0 / 100**, rank 24 of 103 ranked configs. D 7 · I 9 · S 6 · R 5 · P 5 · L 7 · V 4 · O 5 · B 3 · X 2. Shortlists: showcase, library units (1).
+- Score: **57.0 / 100**, rank 24 of 101 ranked configs. D 7 · I 9 · S 6 · R 5 · P 5 · L 7 · V 4 · O 5 · B 3 · X 2. Shortlists: showcase, library units (1).
 - Summary: D several built-in quirk channels capped7; I feature ownership; S typed contracts/leakcoverage6; R opt-in SSH extraction; P Linux/Hjem; L architecture/install guides; V assertions/manual VM recipe; O service provisioning; X baseline; B three census families and four references.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

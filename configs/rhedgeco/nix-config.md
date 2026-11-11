@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [rhedgeco/nix-config](https://github.com/rhedgeco/nix-config)
 - Reviewed revision: [`fd875038e37f`](https://github.com/rhedgeco/nix-config/commit/fd875038e37fd1ab893ae25695fde8a9992cea47)
 - Author: rhedgeco
-- Score: **50.5 / 100**, rank 48 of 103 ranked configs. D 6 · I 8 · S 6 · R 5 · P 5 · L 2 · V 5 · O 4 · B 5 · X 2. Shortlists: library units (1).
+- Score: **50.5 / 100**, rank 48 of 101 ranked configs. D 6 · I 8 · S 6 · R 5 · P 5 · L 2 · V 5 · O 4 · B 5 · X 2. Shortlists: library units (1).
 - Summary: Live configuration forwarding D6; feature/entity ownership I8; typed utility S6; twelve complete app units; honest Linux P5; minimal docs L2; structural V5; writable activation issue O4; no new family X2.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

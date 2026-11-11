@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [espdesign/nixos.den](https://github.com/espdesign/nixos.den)
 - Reviewed revision: [`f52aed42f511`](https://github.com/espdesign/nixos.den/commit/f52aed42f511eef8b036676309c42c32bd657175)
 - Author: espdesign
-- Score: **38.5 / 100**, rank 93 of 103 ranked configs. D 3 · I 6 · S 3 · R 5 · P 5 · L 4 · V 5 · O 3 · B 3 · X 2. Shortlists: starter, library units (3).
+- Score: **38.5 / 100**, rank 91 of 101 ranked configs. D 3 · I 6 · S 3 · R 5 · P 5 · L 4 · V 5 · O 3 · B 3 · X 2. Shortlists: starter, library units (3).
 - Summary: no quirks or policies and host variation by literal names (D 3); more than ten leaked LAN/host/device constants and no settings contract (S 3); CI flake check plus per-host builds on lock update (V 5); short readable tree with README and AGENTS rules (L 4, starter).
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

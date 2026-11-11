@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [mio-19/config-public](https://github.com/mio-19/config-public)
 - Reviewed revision: [`a269164a1be6`](https://github.com/mio-19/config-public/commit/a269164a1be6a90eecb533f54d362e2d2bdef629)
 - Author: mio-19
-- Score: **48.5 / 100**, rank 54 of 103 ranked configs. D 5 · I 5 · S 6 · R 5 · P 7 · L 3 · V 4 · O 2 · B 6 · X 5. Shortlists: —.
+- Score: **48.5 / 100**, rank 54 of 101 ranked configs. D 5 · I 5 · S 6 · R 5 · P 7 · L 3 · V 4 · O 2 · B 6 · X 5. Shortlists: —.
 - Summary: Direct schema guard D5; mixed migration I5; validated visible options S6/four adaptations; five complete units; explicit platform branches P7; debug docs L3; nonblocking builds V4; no derived ops O2; BSD instantiation X5.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

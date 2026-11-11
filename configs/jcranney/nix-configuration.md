@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [jcranney/nix-configuration](https://github.com/jcranney/nix-configuration)
 - Reviewed revision: [`12376d630e3e`](https://github.com/jcranney/nix-configuration/commit/12376d630e3e344d6b57cbb9eca31bb83a175a7e)
 - Author: jcranney
-- Score: **25.0 / 100**, rank 103 of 103 ranked configs. D 2 · I 4 · S 2 · R 2 · P 5 · L 2 · V 2 · O 2 · B 2 · X 2. Shortlists: —.
+- Score: **25.0 / 100**, rank 101 of 101 ranked configs. D 2 · I 4 · S 2 · R 2 · P 5 · L 2 · V 2 · O 2 · B 2 · X 2. Shortlists: —.
 - Summary: Compact direct provider selection, but broad personal bundles and source-patched shared values; honest narrow Linux scope, manual operations and no authored checks.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

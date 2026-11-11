@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [aeshakhzod/blazingly-fast](https://github.com/aeshakhzod/blazingly-fast)
 - Reviewed revision: [`2c2fb84d6b39`](https://github.com/aeshakhzod/blazingly-fast/commit/2c2fb84d6b397a4d35c7af318d1a672294ab398a)
 - Author: aeshakhzod
-- Score: **41.0 / 100**, rank 86 of 103 ranked configs. D 2 · I 8 · S 5 · R 5 · P 5 · L 1 · V 2 · O 5 · B 6 · X 2. Shortlists: library units (1).
+- Score: **41.0 / 100**, rank 84 of 101 ranked configs. D 2 · I 8 · S 5 · R 5 · P 5 · L 1 · V 2 · O 5 · B 6 · X 2. Shortlists: library units (1).
 - Summary: Clear application/profile organization and one derived operational export; ordinary package-class plumbing receives no D/X credit, and author paths/unavailable secret assets limit transfer.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

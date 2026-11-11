@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [redxtech/nixfiles](https://github.com/redxtech/nixfiles)
 - Reviewed revision: [`f0611199ba42`](https://github.com/redxtech/nixfiles/commit/f0611199ba4295b2e7cdb9a9b1adad9fbfd0fca9)
 - Author: redxtech
-- Score: **51.5 / 100**, rank 43 of 103 ranked configs. D 5 · I 7 · S 5 · R 5 · P 5 · L 5 · V 5 · O 6 · B 5 · X 2. Shortlists: library units (1).
+- Score: **51.5 / 100**, rank 43 of 101 ranked configs. D 5 · I 7 · S 5 · R 5 · P 5 · L 5 · V 5 · O 6 · B 5 · X 2. Shortlists: library units (1).
 - Summary: D schema/context derivation capped5; I feature ownership with broad CLI; S min(contract7,15-group coverage5); R context bridge B; P honest Linux; L current wiring map; V CI/invariants; O generated deploy/key identities; X standard targets; B strict census/reference inventory.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

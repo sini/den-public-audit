@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [tomwrw/megadots](https://github.com/tomwrw/megadots)
 - Reviewed revision: [`09aae5c6af50`](https://github.com/tomwrw/megadots/commit/09aae5c6af50ecb9a2e8d0abccfac614ff712f93)
 - Author: tomwrw
-- Score: **67.5 / 100**, rank 4 of 103 ranked configs. D 8 · I 9 · S 6 · R 7 · P 6 · L 9 · V 5 · O 6 · B 5 · X 2. Shortlists: showcase, library units (4).
+- Score: **67.5 / 100**, rank 4 of 101 ranked configs. D 8 · I 9 · S 6 · R 7 · P 6 · L 9 · V 5 · O 6 · B 5 · X 2. Shortlists: showcase, library units (4).
 - Summary: cross-scope persist/firewall/syncthing quirk channels with documented semantics lift D; typed host schema and a 376-line README lift S contract and L; leaked tasks/locale/network constants cap S at 6; CI instantiates every host but there are no invariants (V 5); NixOS only (X 2).
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

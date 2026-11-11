@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [raphaelladinig/dotfiles](https://github.com/raphaelladinig/dotfiles)
 - Reviewed revision: [`f29658d31d04`](https://github.com/raphaelladinig/dotfiles/commit/f29658d31d046b1dc155bb57d00f8d7155a59a2d)
 - Author: raphaelladinig
-- Score: **53.0 / 100**, rank 37 of 103 ranked configs. D 5 · I 8 · S 8 · R 6 · P 5 · L 2 · V 8 · O 6 · B 3 · X 2. Shortlists: showcase, library units (1).
+- Score: **53.0 / 100**, rank 37 of 101 ranked configs. D 5 · I 8 · S 8 · R 6 · P 5 · L 2 · V 8 · O 6 · B 3 · X 2. Shortlists: showcase, library units (1).
 - Summary: Direct membership/config projection D5; ownership I8; typed guarded preferences S8/two adaptations; generic extraction R6; honest Darwin P5; brief docs L2; generated behavioral fixture suite V8; native lifecycle O6; ordinary target family X2.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

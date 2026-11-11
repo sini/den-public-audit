@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Gwenodai/nixos](https://github.com/Gwenodai/nixos)
 - Reviewed revision: [`ab05d3c6e156`](https://github.com/Gwenodai/nixos/commit/ab05d3c6e156b7651a1ec6ee874c553f71979734)
 - Author: Gwenodai
-- Score: **56.0 / 100**, rank 28 of 103 ranked configs. D 7 · I 7 · S 6 · R 7 · P 5 · L 2 · V 2 · O 7 · B 6 · X 2. Shortlists: showcase, library units (1).
+- Score: **56.0 / 100**, rank 28 of 101 ranked configs. D 7 · I 7 · S 6 · R 7 · P 5 · L 2 · V 2 · O 7 · B 6 · X 2. Shortlists: showcase, library units (1).
 - Summary: D7 live cross-host provenance routing capped by head semantics; S6 five grouped changes; R7 real helpers; B6 census3/reference9; L2 and V2 limit onboarding confidence.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

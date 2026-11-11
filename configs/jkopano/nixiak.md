@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [jkopano/nixiak](https://github.com/jkopano/nixiak)
 - Reviewed revision: [`97bf0689bb4d`](https://github.com/jkopano/nixiak/commit/97bf0689bb4d587a51199058a7ee2c89f5d4c204)
 - Author: jkopano
-- Score: **47.5 / 100**, rank 61 of 103 ranked configs. D 5 · I 6 · S 4 · R 7 · P 5 · L 5 · V 5 · O 2 · B 5 · X 2. Shortlists: library units (1).
+- Score: **47.5 / 100**, rank 61 of 101 ranked configs. D 5 · I 6 · S 4 · R 7 · P 5 · L 5 · V 5 · O 2 · B 5 · X 2. Shortlists: library units (1).
 - Summary: Context-derived outputs and useful closed application presets coexist with shared owner assumptions and a real declared CI workflow. Repeated remap literal sets have disjoint children and merge legally.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [aveeryy/kadachi](https://github.com/aveeryy/kadachi)
 - Reviewed revision: [`ba03c6ede780`](https://github.com/aveeryy/kadachi/commit/ba03c6ede7801b46182399a78bbec1f041920e95)
 - Author: aveeryy
-- Score: **54.0 / 100**, rank 33 of 103 ranked configs. D 8 · I 8 · S 5 · R 5 · P 4 · L 2 · V 2 · O 7 · B 5 · X 2. Shortlists: showcase, library units (3).
+- Score: **54.0 / 100**, rank 33 of 101 ranked configs. D 8 · I 8 · S 5 · R 5 · P 4 · L 2 · V 2 · O 7 · B 5 · X 2. Shortlists: showcase, library units (3).
 - Summary: Showcase for the scoped cross-host Syncthing pipeline and explicit merge semantics. Library shortlist names closed namespace-rebindable units; starter withheld for sparse docs, private credentials and concrete settings/boundary defects.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

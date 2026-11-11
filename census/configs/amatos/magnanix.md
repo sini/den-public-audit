@@ -1,3 +1,14 @@
+# amatos/magnanix: census notes
+
+[Config page](../../../configs/amatos/magnanix.md) · upstream [amatos/magnanix](https://github.com/amatos/magnanix) · [Census summary](../../summary.md)
+
+## Contents
+
+- [Project and inspected revision](#project-and-inspected-revision)
+- [Software selected and host/user traces](#software-selected-and-hostuser-traces)
+- [Defined, disabled and ambiguous alternatives](#defined-disabled-and-ambiguous-alternatives)
+- [Machine roles and remaining unknowns](#machine-roles-and-remaining-unknowns)
+
 ## Project and inspected revision
 
 Six declared Linux/Darwin targets share global base; finite genAttrs creates two nixostron VM variants ([modules/hosts/nixostron.nix:40](https://github.com/amatos/magnanix/blob/7675475f050939b2606e5c4d0d0205c25ac18cfd/modules/hosts/nixostron.nix#L40)).

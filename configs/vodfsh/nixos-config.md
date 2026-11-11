@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [vodfsh/nixos-config](https://github.com/vodfsh/nixos-config)
 - Reviewed revision: [`a0ff916b0b31`](https://github.com/vodfsh/nixos-config/commit/a0ff916b0b31a66554323355f9557b7e4c223eff)
 - Author: vodfsh
-- Score: **36.0 / 100**, rank 94 of 103 ranked configs. D 3 · I 5 · S 3 · R 5 · P 5 · L 2 · V 2 · O 4 · B 4 · X 2. Shortlists: —.
+- Score: **36.0 / 100**, rank 92 of 101 ranked configs. D 3 · I 5 · S 3 · R 5 · P 5 · L 2 · V 2 · O 4 · B 4 · X 2. Shortlists: —.
 - Summary: D OS stateVersion projection only; I broad profiles; S fixed checkout/account paths; R reusable Zsh/Kitty presets; P honest Linux scope; L operations-only guide; V manual VM recipe; O Den-derived nh targets; B three complete presets; X standard hosts/packages.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

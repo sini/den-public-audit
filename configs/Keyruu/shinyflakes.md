@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Keyruu/shinyflakes](https://github.com/Keyruu/shinyflakes)
 - Reviewed revision: [`021ee48343db`](https://github.com/Keyruu/shinyflakes/commit/021ee48343db2893c2a041a49690e92896352e82)
 - Author: Keyruu
-- Score: **55.5 / 100**, rank 29 of 103 ranked configs. D 7 · I 8 · S 4 · R 5 · P 5 · L 3 · V 5 · O 5 · B 8 · X 2. Shortlists: showcase, library units (1).
+- Score: **55.5 / 100**, rank 29 of 101 ranked configs. D 7 · I 8 · S 4 · R 5 · P 5 · L 3 · V 5 · O 5 · B 8 · X 2. Shortlists: showcase, library units (1).
 - Summary: Live cross-host service-fact channels and typed contracts; silent first-value selection, shared operator constants and stale entry documentation constrain the result.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

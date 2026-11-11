@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [phucisstupid/dotfiles](https://github.com/phucisstupid/dotfiles)
 - Reviewed revision: [`0e80243bb07b`](https://github.com/phucisstupid/dotfiles/commit/0e80243bb07bb53e2cb1d118d8dfc7f127ea0b6c)
 - Author: phucisstupid
-- Score: **42.5 / 100**, rank 79 of 103 ranked configs. D 3 · I 8 · S 4 · R 5 · P 5 · L 3 · V 5 · O 2 · B 6 · X 2. Shortlists: library units (1).
+- Score: **42.5 / 100**, rank 79 of 101 ranked configs. D 3 · I 8 · S 4 · R 5 · P 5 · L 3 · V 5 · O 2 · B 6 · X 2. Shortlists: library units (1).
 - Summary: Small direct context D3; app-family ownership I8; untyped identity S4/one root adaptation; useful references R5; intended OS branches P5; usage docs L3; formatter V5; generic NH wrapper O2; normal module families X2.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

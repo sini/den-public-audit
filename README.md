@@ -5,7 +5,7 @@ out aspects, route data between hosts, handle platforms and operations, and docu
 users who want to find good configs to learn from, and for config authors who want a reading of their own config.
 For each config, you get a review page with a score, a scorecard and the cited evidence.
 
-The survey covers 105 published configs and 3 aspect namespace libraries, by 103 authors.
+The survey covers 103 published configs and 3 aspect namespace libraries, by 101 authors.
 
 The audit uses each term with one meaning. The [glossary](GLOSSARY.md) defines every term, both den's terms and the
 audit's terms.
@@ -112,7 +112,6 @@ means that a category did not apply, so that config is not ranked against the ot
 | closure-labs | [closure-labs/foundation](configs/closure-labs/foundation.md) | [closure-labs/foundation](https://github.com/closure-labs/foundation) | 65.5 | library units (1) |
 | closure-labs | [closure-labs/maestro](configs/closure-labs/maestro.md) | [closure-labs/maestro](https://github.com/closure-labs/maestro) | 59.5 | library units (2) |
 | closure-labs | [closure-labs/mish](configs/closure-labs/mish.md) | [closure-labs/mish](https://github.com/closure-labs/mish) | 61.5 | library units (1) |
-| cmetz | [cmetz/dotfiles](configs/cmetz/dotfiles.md) | [cmetz/dotfiles](https://github.com/cmetz/dotfiles) | 42.0 | library units (3) |
 | danielgafni | [danielgafni/nixos](configs/danielgafni/nixos.md) | [danielgafni/nixos](https://github.com/danielgafni/nixos) | 50.5 | library units (1) |
 | derangga | [derangga/dotfiles](configs/derangga/dotfiles.md) | [derangga/dotfiles](https://github.com/derangga/dotfiles) | 46.5 | library units (1) |
 | DJ-Laser | [DJ-Laser/nixos](configs/DJ-Laser/nixos.md) | [DJ-Laser/nixos](https://github.com/DJ-Laser/nixos) | 34.0 | library units (1) |
@@ -161,7 +160,6 @@ means that a category did not apply, so that config is not ranked against the ot
 | nifoc | [nifoc/dotfiles](configs/nifoc/dotfiles.md) | [nifoc/dotfiles](https://github.com/nifoc/dotfiles) | 45.5 | — |
 | nolvyn | [nolvyn/nixos](configs/nolvyn/nixos.md) | [nolvyn/nixos](https://github.com/nolvyn/nixos) | 52.0 | — |
 | Occhima | [Occhima/nix-conf](configs/Occhima/nix-conf.md) | [Occhima/nix-conf](https://github.com/Occhima/nix-conf) | 69.0 | starter, library units (1) |
-| OceangreenDev | [OceangreenDev/nix-config](configs/OceangreenDev/nix-config.md) | [OceangreenDev/nix-config](https://github.com/OceangreenDev/nix-config) | 42.0 | library units (5) |
 | oxce5 | [oxce5/chimera](configs/oxce5/chimera.md) | [oxce5/chimera](https://github.com/oxce5/chimera) | 47.5 | library units (1) |
 | pdarulewski | [pdarulewski/dotfiles](configs/pdarulewski/dotfiles.md) | [pdarulewski/dotfiles](https://github.com/pdarulewski/dotfiles) | 31.0 | library units (1) |
 | phucisstupid | [phucisstupid/dotfiles](configs/phucisstupid/dotfiles.md) | [phucisstupid/dotfiles](https://github.com/phucisstupid/dotfiles) | 42.5 | library units (1) |
@@ -197,7 +195,7 @@ means that a category did not apply, so that config is not ranked against the ot
 | voidlily | [voidlily/dotfiles](configs/voidlily/dotfiles.md) | [voidlily/dotfiles](https://github.com/voidlily/dotfiles) | 47.5 | library units (1) |
 | zakuciael | [zakuciael/nixpedition](configs/zakuciael/nixpedition.md) | [zakuciael/nixpedition](https://github.com/zakuciael/nixpedition) | 57.5 | showcase, library units (4) |
 
-3 more configs were scored and are counted in the totals. They are not listed, because their source is
+5 more configs were scored and are counted in the totals. They are not listed, because their source is
 no longer public.
 
 ## Top 15
@@ -334,7 +332,7 @@ medium or low. It tells how sure the reviewer was, for example when part of a co
 
 This walkthrough uses one config from the Top 15 and the starter picks:
 
-[Occhima/nix-conf](configs/Occhima/nix-conf.md) by Occhima has rank 2 of 103 ranked configs. Its shortlists are: starter, library units (1).
+[Occhima/nix-conf](configs/Occhima/nix-conf.md) by Occhima has rank 2 of 101 ranked configs. Its shortlists are: starter, library units (1).
 
 | category | score | weight | points |
 |---|---:|---:|---:|
@@ -392,7 +390,6 @@ learn den, and this survey only exists because you chose to share yours.
 - [cfrenette](https://github.com/cfrenette): [cfrenette/nixos-config](configs/cfrenette/nixos-config.md)
 - [clemak27](https://github.com/clemak27): [clemak27/homelab](configs/clemak27/homelab.md)
 - [closure-labs](https://github.com/closure-labs): [closure-labs/foundation](configs/closure-labs/foundation.md), [closure-labs/maestro](configs/closure-labs/maestro.md), [closure-labs/mish](configs/closure-labs/mish.md)
-- [cmetz](https://github.com/cmetz): [cmetz/dotfiles](configs/cmetz/dotfiles.md)
 - [crocuda](https://github.com/crocuda): [crocuda/crocuda.nixos](libraries/crocuda/crocuda.nixos.md), [crocuda/normal.nixos](libraries/crocuda/normal.nixos.md)
 - [danielgafni](https://github.com/danielgafni): [danielgafni/nixos](configs/danielgafni/nixos.md)
 - [derangga](https://github.com/derangga): [derangga/dotfiles](configs/derangga/dotfiles.md)
@@ -441,7 +438,6 @@ learn den, and this survey only exists because you chose to share yours.
 - [nifoc](https://github.com/nifoc): [nifoc/dotfiles](configs/nifoc/dotfiles.md)
 - [nolvyn](https://github.com/nolvyn): [nolvyn/nixos](configs/nolvyn/nixos.md)
 - [Occhima](https://github.com/Occhima): [Occhima/nix-conf](configs/Occhima/nix-conf.md)
-- [OceangreenDev](https://github.com/OceangreenDev): [OceangreenDev/nix-config](configs/OceangreenDev/nix-config.md)
 - [oxce5](https://github.com/oxce5): [oxce5/chimera](configs/oxce5/chimera.md)
 - [pdarulewski](https://github.com/pdarulewski): [pdarulewski/dotfiles](configs/pdarulewski/dotfiles.md)
 - [phucisstupid](https://github.com/phucisstupid): [phucisstupid/dotfiles](configs/phucisstupid/dotfiles.md)

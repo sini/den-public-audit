@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [klchen0112/dotfiles](https://github.com/klchen0112/dotfiles)
 - Reviewed revision: [`d47908159f3e`](https://github.com/klchen0112/dotfiles/commit/d47908159f3eb13c9056ce5a0620b875f67f4579)
 - Author: klchen0112
-- Score: **39.5 / 100**, rank 91 of 103 ranked configs. D 2 · I 7 · S 2 · R 5 · P 5 · L 2 · V 3 · O 5 · B 7 · X 2. Shortlists: library units (2).
+- Score: **39.5 / 100**, rank 89 of 101 ranked configs. D 2 · I 7 · S 2 · R 5 · P 5 · L 2 · V 3 · O 5 · B 7 · X 2. Shortlists: library units (2).
 - Summary: Library shortlist for the complete Fish preset and small scrub policy; role projection is an I/P example, with no structured-fact or integration bonus. Starter/showcase withheld because native scoping faults, shared constants and installation drift remain.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

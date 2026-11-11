@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [voidlily/dotfiles](https://github.com/voidlily/dotfiles)
 - Reviewed revision: [`ef20abb997bd`](https://github.com/voidlily/dotfiles/commit/ef20abb997bd0c7cd5b127834dfcd18f959fc4dc)
 - Author: voidlily
-- Score: **47.5 / 100**, rank 61 of 103 ranked configs. D 4 · I 8 · S 5 · R 5 · P 6 · L 2 · V 5 · O 5 · B 5 · X 2. Shortlists: library units (1).
+- Score: **47.5 / 100**, rank 61 of 101 ranked configs. D 4 · I 8 · S 5 · R 5 · P 6 · L 2 · V 5 · O 5 · B 5 · X 2. Shortlists: library units (1).
 - Summary: Direct context D4; app ownership I8; ordinary settings S5/six adaptations; eleven complete references; null OS boundary P6; stale bootstrap L2; treefmt V5; derived rekey ops O5; ordinary targets X2.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

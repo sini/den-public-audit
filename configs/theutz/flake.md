@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [~theutz/flake](https://git.sr.ht/~theutz/flake)
 - Reviewed revision: [`3ede31e7a4e9`](https://git.sr.ht/~theutz/flake/commit/3ede31e7a4e906e7bded05e46b209caaa12af3c5)
 - Author: theutz
-- Score: **53.0 / 100**, rank 37 of 103 ranked configs. D 7 · I 7 · S 4 · R 5 · P 6 · L 1 · V 2 · O 7 · B 7 · X 2. Shortlists: library units (2).
+- Score: **53.0 / 100**, rank 37 of 101 ranked configs. D 7 · I 7 · S 4 · R 5 · P 6 · L 1 · V 2 · O 7 · B 7 · X 2. Shortlists: library units (2).
 - Summary: D 7 four live routed channels (deploy, casks/brews/taps, treefmt, devshell) but single-consumer and ~20 aspects bypass the casks quirk; I 7 thin hosts + per-feature files; S 4 no settings contract, 3 distinct leaks; L 1 no docs; O 7 deploy class + host.pubkey rekey; B 7 (B_div 9.5 -> 7, B_ref 14 -> 7)
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

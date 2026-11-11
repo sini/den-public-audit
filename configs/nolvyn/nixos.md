@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [nolvyn/nixos](https://github.com/nolvyn/nixos)
 - Reviewed revision: [`e0fd0f9f0537`](https://github.com/nolvyn/nixos/commit/e0fd0f9f0537a28b68ee802a75051f719a2af203)
 - Author: nolvyn
-- Score: **52.0 / 100**, rank 41 of 103 ranked configs. D 5 · I 8 · S 6 · R 5 · P 7 · L 2 · V 6 · O 5 · B 5 · X 2. Shortlists: —.
+- Score: **52.0 / 100**, rank 41 of 101 ranked configs. D 5 · I 8 · S 6 · R 5 · P 7 · L 2 · V 6 · O 5 · B 5 · X 2. Shortlists: —.
 - Summary: D useful direct schema/report derivation; I app owners with host patch localization; S typed confinement limited by four groups; R few independent presets; P guarded platform paths; L minimal; V negative compatibility fixtures; O state reports; X standard; B strict schema exclusions.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

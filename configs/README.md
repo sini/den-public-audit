@@ -111,10 +111,6 @@ This page lists every published config page by its upstream `owner/repo`. The co
 - [closure-labs/maestro](closure-labs/maestro.md): 59.5, library units (2)
 - [closure-labs/mish](closure-labs/mish.md): 61.5, library units (1)
 
-### cmetz
-
-- [cmetz/dotfiles](cmetz/dotfiles.md): 42.0, library units (3)
-
 ## D
 
 ### danielgafni
@@ -327,10 +323,6 @@ This page lists every published config page by its upstream `owner/repo`. The co
 ### Occhima
 
 - [Occhima/nix-conf](Occhima/nix-conf.md): 69.0, starter, library units (1)
-
-### OceangreenDev
-
-- [OceangreenDev/nix-config](OceangreenDev/nix-config.md): 42.0, library units (5)
 
 ### oxce5
 

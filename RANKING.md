@@ -4,7 +4,7 @@ This page ranks the published configs by their totals, and shows the ten categor
 
 Each category is scored 1-10. The total is out of 100 and uses 2D + I + S + R + P + L + O + B + ½V + ½X. Shortlists are independent judgments, not awards. The anchors for each score are in [method/RUBRIC.md](method/RUBRIC.md). The README shows [how to read a scorecard](README.md#how-to-read-a-scorecard).
 
-3 scored configs are counted but not listed, because their source is no longer public. They are part of the category distributions below and of the census totals.
+5 scored configs are counted but not listed, because their source is no longer public. They are part of the category distributions below and of the census totals.
 
 `sini/nix-config` is the audit maintainer's own configuration and the rubric's reference anchor. It was scored under the same rubric as every other config.
 
@@ -118,27 +118,25 @@ The score columns use one letter per category:
 | 79 | [phucisstupid/dotfiles](configs/phucisstupid/dotfiles.md) | [phucisstupid/dotfiles](https://github.com/phucisstupid/dotfiles) | 42.5 | 3 | 8 | 4 | 5 | 5 | 3 | 5 | 2 | 6 | 2 | library units (1) |
 | 79 | [sm-f/nix](configs/sm-f/nix.md) | [sm-f/nix](https://github.com/sm-f/nix) | 42.5 | 4 | 7 | 4 | 5 | 5 | 3 | 5 | 4 | 3 | 2 | library units (1) |
 | 82 | [EzT32/nixos](configs/EzT32/nixos.md) | [EzT32/nixos](https://github.com/EzT32/nixos) | 42.0 | 3 | 9 | 5 | 5 | 4 | 4 | 2 | 2 | 5 | 2 | — |
-| 82 | [cmetz/dotfiles](configs/cmetz/dotfiles.md) | [cmetz/dotfiles](https://github.com/cmetz/dotfiles) | 42.0 | 5 | 6 | 4 | 5 | 5 | 2 | 2 | 4 | 4 | 2 | library units (3) |
-| 82 | [OceangreenDev/nix-config](configs/OceangreenDev/nix-config.md) | [OceangreenDev/nix-config](https://github.com/OceangreenDev/nix-config) | 42.0 | 4 | 5 | 5 | 6 | 5 | 3 | 4 | 3 | 4 | 2 | library units (5) |
-| 85 | [arichtman/nix](configs/arichtman/nix.md) | [arichtman/nix](https://github.com/arichtman/nix) | 41.5 | 5 | 6 | 4 | 6 | 4 | 3 | 5 | 2 | 3 | 2 | library units (2) |
-| 86 | [aeshakhzod/blazingly-fast](configs/aeshakhzod/blazingly-fast.md) | [aeshakhzod/blazingly-fast](https://github.com/aeshakhzod/blazingly-fast) | 41.0 | 2 | 8 | 5 | 5 | 5 | 1 | 2 | 5 | 6 | 2 | library units (1) |
-| 86 | [augustocdias/nixos](configs/augustocdias/nixos.md) | [augustocdias/nixos](https://github.com/augustocdias/nixos) | 41.0 | 2 | 6 | 2 | 5 | 7 | 4 | 2 | 5 | 6 | 2 | library units (1) |
-| 88 | [fmway/infra](configs/fmway/infra.md) | [fmway/infra](https://github.com/fmway/infra) | 40.5 | 5 | 7 | 4 | 3 | 5 | 2 | 2 | 4 | 2 | 5 | — |
-| 88 | [jmartindf/dendritic](configs/jmartindf/dendritic.md) | [jmartindf/dendritic](https://github.com/jmartindf/dendritic) | 40.5 | 5 | 5 | 4 | 5 | 5 | 2 | 3 | 5 | 2 | 2 | library units (1) |
-| 90 | [thomasgoulet/nixnites](configs/thomasgoulet/nixnites.md) | [thomasgoulet/nixnites](https://github.com/thomasgoulet/nixnites) | 40.0 | 3 | 7 | 5 | 5 | 5 | 3 | 2 | 3 | 4 | 2 | — |
-| 91 | [klchen0112/dotfiles](configs/klchen0112/dotfiles.md) | [klchen0112/dotfiles](https://github.com/klchen0112/dotfiles) | 39.5 | 2 | 7 | 2 | 5 | 5 | 2 | 3 | 5 | 7 | 2 | library units (2) |
-| 92 | [drupol/infra](configs/drupol/infra.md) | [drupol/infra](https://github.com/drupol/infra) | 39.0 | 3 | 6 | 3 | 4 | 5 | 3 | 2 | 4 | 6 | 2 | library units (2) |
-| 93 | [espdesign/nixos.den](configs/espdesign/nixos.den.md) | [espdesign/nixos.den](https://github.com/espdesign/nixos.den) | 38.5 | 3 | 6 | 3 | 5 | 5 | 4 | 5 | 3 | 3 | 2 | starter, library units (3) |
-| 94 | [Steven-S1020/Nixos-Configuration](configs/Steven-S1020/Nixos-Configuration.md) | [Steven-S1020/Nixos-Configuration](https://github.com/Steven-S1020/Nixos-Configuration) | 36.0 | 3 | 7 | 2 | 5 | 5 | 3 | 2 | 2 | 4 | 2 | library units (1) |
-| 94 | [vodfsh/nixos-config](configs/vodfsh/nixos-config.md) | [vodfsh/nixos-config](https://github.com/vodfsh/nixos-config) | 36.0 | 3 | 5 | 3 | 5 | 5 | 2 | 2 | 4 | 4 | 2 | — |
-| 96 | [clemak27/homelab](configs/clemak27/homelab.md) | [clemak27/homelab](https://github.com/clemak27/homelab) | 34.5 | 2 | 5 | 2 | 6 | 5 | 2 | 5 | 5 | 2 | 2 | library units (1) |
-| 97 | [DJ-Laser/nixos](configs/DJ-Laser/nixos.md) | [DJ-Laser/nixos](https://github.com/DJ-Laser/nixos) | 34.0 | 2 | 8 | 3 | 5 | 5 | 2 | 2 | 2 | 3 | 2 | library units (1) |
-| 97 | [Erastos/nixos-dotfiles](configs/Erastos/nixos-dotfiles.md) | [Erastos/nixos-dotfiles](https://github.com/Erastos/nixos-dotfiles) | 34.0 | 2 | 7 | 4 | 5 | 5 | 2 | 2 | 2 | 3 | 2 | library units (1) |
-| 97 | [talarys/den](configs/talarys/den.md) | [talarys/den](https://github.com/talarys/den) | 34.0 | 2 | 8 | 4 | 5 | 3 | 1 | 2 | 2 | 5 | 2 | library units (1) |
-| 100 | [Heromercer/nixfiles](configs/Heromercer/nixfiles.md) | [Heromercer/nixfiles](https://github.com/Heromercer/nixfiles) | 33.0 | 2 | 5 | 2 | 5 | 4 | 1 | 2 | 5 | 5 | 2 | library units (3) |
-| 101 | [pdarulewski/dotfiles](configs/pdarulewski/dotfiles.md) | [pdarulewski/dotfiles](https://github.com/pdarulewski/dotfiles) | 31.0 | 2 | 6 | 3 | 5 | 3 | 2 | 2 | 2 | 4 | 2 | library units (1) |
-| 102 | [SyahrulBhudiF/dotfiles](configs/SyahrulBhudiF/dotfiles.md) | [SyahrulBhudiF/dotfiles](https://github.com/SyahrulBhudiF/dotfiles) | 30.0 | 2 | 5 | 2 | 5 | 5 | 2 | 2 | 2 | 3 | 2 | library units (1) |
-| 103 | [jcranney/nix-configuration](configs/jcranney/nix-configuration.md) | [jcranney/nix-configuration](https://github.com/jcranney/nix-configuration) | 25.0 | 2 | 4 | 2 | 2 | 5 | 2 | 2 | 2 | 2 | 2 | — |
+| 83 | [arichtman/nix](configs/arichtman/nix.md) | [arichtman/nix](https://github.com/arichtman/nix) | 41.5 | 5 | 6 | 4 | 6 | 4 | 3 | 5 | 2 | 3 | 2 | library units (2) |
+| 84 | [aeshakhzod/blazingly-fast](configs/aeshakhzod/blazingly-fast.md) | [aeshakhzod/blazingly-fast](https://github.com/aeshakhzod/blazingly-fast) | 41.0 | 2 | 8 | 5 | 5 | 5 | 1 | 2 | 5 | 6 | 2 | library units (1) |
+| 84 | [augustocdias/nixos](configs/augustocdias/nixos.md) | [augustocdias/nixos](https://github.com/augustocdias/nixos) | 41.0 | 2 | 6 | 2 | 5 | 7 | 4 | 2 | 5 | 6 | 2 | library units (1) |
+| 86 | [fmway/infra](configs/fmway/infra.md) | [fmway/infra](https://github.com/fmway/infra) | 40.5 | 5 | 7 | 4 | 3 | 5 | 2 | 2 | 4 | 2 | 5 | — |
+| 86 | [jmartindf/dendritic](configs/jmartindf/dendritic.md) | [jmartindf/dendritic](https://github.com/jmartindf/dendritic) | 40.5 | 5 | 5 | 4 | 5 | 5 | 2 | 3 | 5 | 2 | 2 | library units (1) |
+| 88 | [thomasgoulet/nixnites](configs/thomasgoulet/nixnites.md) | [thomasgoulet/nixnites](https://github.com/thomasgoulet/nixnites) | 40.0 | 3 | 7 | 5 | 5 | 5 | 3 | 2 | 3 | 4 | 2 | — |
+| 89 | [klchen0112/dotfiles](configs/klchen0112/dotfiles.md) | [klchen0112/dotfiles](https://github.com/klchen0112/dotfiles) | 39.5 | 2 | 7 | 2 | 5 | 5 | 2 | 3 | 5 | 7 | 2 | library units (2) |
+| 90 | [drupol/infra](configs/drupol/infra.md) | [drupol/infra](https://github.com/drupol/infra) | 39.0 | 3 | 6 | 3 | 4 | 5 | 3 | 2 | 4 | 6 | 2 | library units (2) |
+| 91 | [espdesign/nixos.den](configs/espdesign/nixos.den.md) | [espdesign/nixos.den](https://github.com/espdesign/nixos.den) | 38.5 | 3 | 6 | 3 | 5 | 5 | 4 | 5 | 3 | 3 | 2 | starter, library units (3) |
+| 92 | [Steven-S1020/Nixos-Configuration](configs/Steven-S1020/Nixos-Configuration.md) | [Steven-S1020/Nixos-Configuration](https://github.com/Steven-S1020/Nixos-Configuration) | 36.0 | 3 | 7 | 2 | 5 | 5 | 3 | 2 | 2 | 4 | 2 | library units (1) |
+| 92 | [vodfsh/nixos-config](configs/vodfsh/nixos-config.md) | [vodfsh/nixos-config](https://github.com/vodfsh/nixos-config) | 36.0 | 3 | 5 | 3 | 5 | 5 | 2 | 2 | 4 | 4 | 2 | — |
+| 94 | [clemak27/homelab](configs/clemak27/homelab.md) | [clemak27/homelab](https://github.com/clemak27/homelab) | 34.5 | 2 | 5 | 2 | 6 | 5 | 2 | 5 | 5 | 2 | 2 | library units (1) |
+| 95 | [DJ-Laser/nixos](configs/DJ-Laser/nixos.md) | [DJ-Laser/nixos](https://github.com/DJ-Laser/nixos) | 34.0 | 2 | 8 | 3 | 5 | 5 | 2 | 2 | 2 | 3 | 2 | library units (1) |
+| 95 | [Erastos/nixos-dotfiles](configs/Erastos/nixos-dotfiles.md) | [Erastos/nixos-dotfiles](https://github.com/Erastos/nixos-dotfiles) | 34.0 | 2 | 7 | 4 | 5 | 5 | 2 | 2 | 2 | 3 | 2 | library units (1) |
+| 95 | [talarys/den](configs/talarys/den.md) | [talarys/den](https://github.com/talarys/den) | 34.0 | 2 | 8 | 4 | 5 | 3 | 1 | 2 | 2 | 5 | 2 | library units (1) |
+| 98 | [Heromercer/nixfiles](configs/Heromercer/nixfiles.md) | [Heromercer/nixfiles](https://github.com/Heromercer/nixfiles) | 33.0 | 2 | 5 | 2 | 5 | 4 | 1 | 2 | 5 | 5 | 2 | library units (3) |
+| 99 | [pdarulewski/dotfiles](configs/pdarulewski/dotfiles.md) | [pdarulewski/dotfiles](https://github.com/pdarulewski/dotfiles) | 31.0 | 2 | 6 | 3 | 5 | 3 | 2 | 2 | 2 | 4 | 2 | library units (1) |
+| 100 | [SyahrulBhudiF/dotfiles](configs/SyahrulBhudiF/dotfiles.md) | [SyahrulBhudiF/dotfiles](https://github.com/SyahrulBhudiF/dotfiles) | 30.0 | 2 | 5 | 2 | 5 | 5 | 2 | 2 | 2 | 3 | 2 | library units (1) |
+| 101 | [jcranney/nix-configuration](configs/jcranney/nix-configuration.md) | [jcranney/nix-configuration](https://github.com/jcranney/nix-configuration) | 25.0 | 2 | 4 | 2 | 2 | 5 | 2 | 2 | 2 | 2 | 2 | — |
 
 ## Partial vectors
 
@@ -286,8 +284,6 @@ Self-contained aspects graded A (drop-in) or B (light parametrizing) in each rev
 - [quasigod.xyz/nixconfig](configs/quasigod.xyz/nixconfig.md): displays schema (A), privileged-user battery (A), catppuccin parametric theming (B)
 - [phucisstupid/dotfiles](configs/phucisstupid/dotfiles.md): cli.fd
 - [sm-f/nix](configs/sm-f/nix.md): work
-- [cmetz/dotfiles](configs/cmetz/dotfiles.md): gitClass forward, proxmox-lxc template, polybar quirk
-- [OceangreenDev/nix-config](configs/OceangreenDev/nix-config.md): define-user-adv battery (A), mount-cifs factory (B), accounts.google/exchange/apple mkEmail/mkCalendar/mkContact (B), impermanence perhost/perhome forwards (B), broken/unsupported batteries (B)
 - [arichtman/nix](configs/arichtman/nix.md): nix-maintenance, loki-local
 - [aeshakhzod/blazingly-fast](configs/aeshakhzod/blazingly-fast.md): hibernation
 - [augustocdias/nixos](configs/augustocdias/nixos.md): bat

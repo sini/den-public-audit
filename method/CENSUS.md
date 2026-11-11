@@ -182,4 +182,4 @@ The derived `deployment=macos` axis combines declared Darwin host targets and st
 
 ## Library harvest constraints
 
-Maintainer ruling, 2026-11-10: lucasshiva, oceangreendev and two configs whose source is no longer public are included census and aspect-library sources. No license was found for lucasshiva or oceangreendev: re-implement ideas independently or obtain the author's permission; do not copy their code verbatim. Census inclusion and reuse grades do not grant copying permission.
+Maintainer ruling, 2026-11-10: lucasshiva, a config whose source is no longer public and two configs whose source is no longer public are included census and aspect-library sources. No license was found for lucasshiva or a config whose source is no longer public: re-implement ideas independently or obtain the author's permission; do not copy their code verbatim. Census inclusion and reuse grades do not grant copying permission.

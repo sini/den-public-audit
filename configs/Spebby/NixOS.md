@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Spebby/NixOS](https://github.com/Spebby/NixOS)
 - Reviewed revision: [`e6ea71a1af5e`](https://github.com/Spebby/NixOS/commit/e6ea71a1af5e97b4e8fd343ac33c6c97a1e2ead3)
 - Author: Spebby
-- Score: **48.5 / 100**, rank 54 of 103 ranked configs. D 5 · I 5 · S 7 · R 5 · P 4 · L 3 · V 5 · O 5 · B 6 · X 2. Shortlists: library units (2).
+- Score: **48.5 / 100**, rank 54 of 101 ranked configs. D 5 · I 5 · S 7 · R 5 · P 4 · L 3 · V 5 · O 5 · B 6 · X 2. Shortlists: library units (2).
 - Summary: Many real settings interfaces and user variation, but broad defaults, incomplete alternate contracts and operation-focused entry docs constrain the result.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

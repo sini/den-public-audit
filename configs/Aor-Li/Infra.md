@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Aor-Li/Infra](https://github.com/Aor-Li/Infra)
 - Reviewed revision: [`87405e2c8b13`](https://github.com/Aor-Li/Infra/commit/87405e2c8b133c2c341a50a0aebeb7fd915db507)
 - Author: Aor-Li
-- Score: **66.5 / 100**, rank 5 of 103 ranked configs. D 7 · I 8 · S 5 · R 9 · P 8 · L 8 · V 3 · O 5 · B 7 · X 2. Shortlists: showcase, library units (2).
+- Score: **66.5 / 100**, rank 5 of 101 ranked configs. D 7 · I 8 · S 5 · R 9 · P 8 · L 8 · V 3 · O 5 · B 7 · X 2. Shortlists: showcase, library units (2).
 - Summary: Showcase for the live typed-settings policy and its defensive declaration linter; library for the independently specified settings unit plus workspace adapter. Starter withheld: native workspace/cluster/keyboard constants still need review.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [elianiva/dotfiles](https://github.com/elianiva/dotfiles)
 - Reviewed revision: [`44d6d212ab1d`](https://github.com/elianiva/dotfiles/commit/44d6d212ab1deb2b7285a83244ff15aa20e32869)
 - Author: elianiva
-- Score: **45.0 / 100**, rank 70 of 103 ranked configs. D 3 · I 8 · S 5 · R 5 · P 5 · L 7 · V 2 · O 2 · B 5 · X 2. Shortlists: library units (1).
+- Score: **45.0 / 100**, rank 70 of 101 ranked configs. D 3 · I 8 · S 5 · R 5 · P 5 · L 7 · V 2 · O 2 · B 5 · X 2. Shortlists: library units (1).
 - Summary: D small host-context projection; I clear feature owners with a broad pure-tool bundle; S centralized identity but fixed native paths; R standalone GPG leaf; P native Ghostty Linux path contradiction; L strong guide with stale fields; V no relevant checks; O manual activation; B eight diversity points and three complete references; X standard Darwin/HM.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

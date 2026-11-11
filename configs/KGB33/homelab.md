@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [KGB33/homelab](https://github.com/KGB33/homelab)
 - Reviewed revision: [`6ee44f24e022`](https://github.com/KGB33/homelab/commit/6ee44f24e022c95d0f8010fa63616e5366d20dbf)
 - Author: KGB33
-- Score: **44.5 / 100**, rank 72 of 103 ranked configs. D 5 · I 6 · S 5 · R 5 · P 5 · L 3 · V 5 · O 5 · B 2 · X 2. Shortlists: library units (1).
+- Score: **44.5 / 100**, rank 72 of 101 ranked configs. D 5 · I 6 · S 5 · R 5 · P 5 · L 3 · V 5 · O 5 · B 2 · X 2. Shortlists: library units (1).
 - Summary: Useful A engine policy and host-module VM test pattern are discoverable; direct identity flow, fleet constants and incomplete authoring docs prevent showcase/starter selection.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

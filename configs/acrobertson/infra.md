@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [acrobertson/infra](https://github.com/acrobertson/infra)
 - Reviewed revision: [`05a8582100fb`](https://github.com/acrobertson/infra/commit/05a8582100fb93d1de94b5119cc5dddc86f4ba45)
 - Author: acrobertson
-- Score: **46.0 / 100**, rank 67 of 103 ranked configs. D 3 · I 5 · S 4 · R 5 · P 9 · L 5 · V 6 · O 5 · B 3 · X 2. Shortlists: library units (1).
+- Score: **46.0 / 100**, rank 67 of 101 ranked configs. D 3 · I 5 · S 4 · R 5 · P 9 · L 5 · V 6 · O 5 · B 3 · X 2. Shortlists: library units (1).
 - Summary: Direct shared account facts and carefully guarded Darwin/WSL integrated homes; checks uninvoked, personal values remain in shared owners, app settings bundled and unseen external editor uncredited.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

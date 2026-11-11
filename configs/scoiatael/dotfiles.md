@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [scoiatael/dotfiles](https://github.com/scoiatael/dotfiles)
 - Reviewed revision: [`b1b3cc10eef1`](https://github.com/scoiatael/dotfiles/commit/b1b3cc10eef10161c924085b6946b7a9b1d32ad4)
 - Author: scoiatael
-- Score: **48.0 / 100**, rank 57 of 103 ranked configs. D 2 · I 7 · S 4 · R 7 · P 8 · L 2 · V 4 · O 6 · B 7 · X 2. Shortlists: library units (3).
+- Score: **48.0 / 100**, rank 57 of 101 ranked configs. D 2 · I 7 · S 4 · R 7 · P 8 · L 2 · V 4 · O 6 · B 7 · X 2. Shortlists: library units (3).
 - Summary: Library shortlist for the typed native SSH key generator, complete MPV integration and small comma/database unit. Showcase withheld because composition/source indexing is not structured-fact flow; starter withheld for shared environment constants, cold broken units and stale entry-point docs.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

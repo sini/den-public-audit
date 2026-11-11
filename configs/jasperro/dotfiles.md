@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [jasperro/dotfiles](https://github.com/jasperro/dotfiles)
 - Reviewed revision: [`37a402659597`](https://github.com/jasperro/dotfiles/commit/37a402659597ba8c5de5fad89c5d4c91e5f58926)
 - Author: jasperro
-- Score: **50.5 / 100**, rank 48 of 103 ranked configs. D 5 · I 5 · S 5 · R 5 · P 7 · L 4 · V 3 · O 6 · B 6 · X 2. Shortlists: library units (1).
+- Score: **50.5 / 100**, rank 48 of 101 ranked configs. D 5 · I 5 · S 5 · R 5 · P 7 · L 4 · V 3 · O 6 · B 6 · X 2. Shortlists: library units (1).
 - Summary: D direct schema/context consumers cap5; I feature files but coarse defaults and fleet-dependent service graph; S typed display/storage/service contracts with host-rooted global settings and eleven grouped defaults; R encrypted BTRFS B closure; P explicit guarded storage/WSL/Pi support; L intention/service inventory docs; V local assertions only; O selected secrets plus settings-derived DNS reconciliation; B18 complete app/file closures and census6.5; X native OS/HM and operational JSON only.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

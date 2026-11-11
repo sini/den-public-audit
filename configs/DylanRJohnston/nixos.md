@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [DylanRJohnston/nixos](https://github.com/DylanRJohnston/nixos)
 - Reviewed revision: [`505097f4d0fd`](https://github.com/DylanRJohnston/nixos/commit/505097f4d0fd9fe271bd1f5a75a6791564333b8f)
 - Author: DylanRJohnston
-- Score: **56.5 / 100**, rank 27 of 103 ranked configs. D 5 · I 8 · S 5 · R 5 · P 8 · L 5 · V 9 · O 5 · B 5 · X 2. Shortlists: library units (1).
+- Score: **56.5 / 100**, rank 27 of 101 ranked configs. D 5 · I 8 · S 5 · R 5 · P 8 · L 5 · V 9 · O 5 · B 5 · X 2. Shortlists: library units (1).
 - Summary: Tested namespace composition is notable, with a useful B leaf; direct entity flow and advanced import prerequisites prevent showcase/starter selection.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

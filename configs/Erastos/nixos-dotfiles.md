@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [Erastos/nixos-dotfiles](https://github.com/Erastos/nixos-dotfiles)
 - Reviewed revision: [`f2336347f41d`](https://github.com/Erastos/nixos-dotfiles/commit/f2336347f41da991f4e371e10cd01864109b4687)
 - Author: Erastos
-- Score: **34.0 / 100**, rank 97 of 103 ranked configs. D 2 · I 7 · S 4 · R 5 · P 5 · L 2 · V 2 · O 2 · B 3 · X 2. Shortlists: library units (1).
+- Score: **34.0 / 100**, rank 95 of 101 ranked configs. D 2 · I 7 · S 4 · R 5 · P 5 · L 2 · V 2 · O 2 · B 3 · X 2. Shortlists: library units (1).
 - Summary: Useful incremental wrapping of an existing native module tree; direct selection dominates Den composition, and native schemas coexist with author-specific shared settings.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

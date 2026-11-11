@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [sonntag/nix](https://github.com/sonntag/nix)
 - Reviewed revision: [`816947c6a270`](https://github.com/sonntag/nix/commit/816947c6a2707def93b5f5070e5420a6abac7bb1)
 - Author: sonntag
-- Score: **57.0 / 100**, rank 24 of 103 ranked configs. D 5 · I 6 · S 5 · R 5 · P 7 · L 8 · V 4 · O 7 · B 6 · X 2. Shortlists: library units (2).
+- Score: **57.0 / 100**, rank 24 of 101 ranked configs. D 5 · I 6 · S 5 · R 5 · P 7 · L 8 · V 4 · O 7 · B 6 · X 2. Shortlists: library units (2).
 - Summary: D direct target enumeration/context graph cap5; I coherent named integrations/custom playbook enable contract within broad personal/default ownership; S typed options plus four grouped installation assumptions; R Nixible/Kanata B closures; P explicit Darwin/Linux-home boundaries; L detailed setup/fork/enrollment docs; V one-host update CI without bridge tests; O actual per-Den-target playbooks and secrets setup with masked evaluation failure; B19 complete units/census7; X operational class only.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [eugencowie/dotfiles](https://github.com/eugencowie/dotfiles)
 - Reviewed revision: [`64dbfad5d9ca`](https://github.com/eugencowie/dotfiles/commit/64dbfad5d9ca500edd0043e51502172bac37d7d7)
 - Author: eugencowie
-- Score: **44.5 / 100**, rank 72 of 103 ranked configs. D 5 · I 6 · S 5 · R 5 · P 7 · L 3 · V 3 · O 2 · B 4 · X 2. Shortlists: library units (1).
+- Score: **44.5 / 100**, rank 72 of 101 ranked configs. D 5 · I 6 · S 5 · R 5 · P 7 · L 3 · V 3 · O 2 · B 4 · X 2. Shortlists: library units (1).
 - Summary: D user-context service projection; I feature ownership capped by global license side effects; S explicit Git/context contracts with fixed remote/MCP installation facts; R Git/Meld B unit; P portable class branches; L generation guide only; V static lint plus check recipe; O manual activation; B complete presets and integrations; X ordinary packages/HM.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [soriPhoono/homelab](https://github.com/soriPhoono/homelab)
 - Reviewed revision: [`c6599b697b93`](https://github.com/soriPhoono/homelab/commit/c6599b697b933728d67088cf3ab9197a07d9d8f1)
 - Author: soriPhoono
-- Score: **61.0 / 100**, rank 12 of 103 ranked configs. D 5 · I 7 · S 6 · R 7 · P 7 · L 7 · V 6 · O 7 · B 6 · X 2. Shortlists: showcase, library units (2).
+- Score: **61.0 / 100**, rank 12 of 101 ranked configs. D 5 · I 7 · S 6 · R 7 · P 7 · L 7 · V 6 · O 7 · B 6 · X 2. Shortlists: showcase, library units (2).
 - Summary: Entity-scoped secrets, typed hardware/service options, container lifecycle derivation and host-derived VM outputs provide substantial integration evidence; shared physical/owner assumptions and unfinished provisioning limit adoption.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).

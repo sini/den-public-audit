@@ -7,7 +7,7 @@ About this page: this is the review of one config at one pinned revision. The he
 - Upstream: [r17x/universe](https://github.com/r17x/universe)
 - Reviewed revision: [`f8bc64a503b4`](https://github.com/r17x/universe/commit/f8bc64a503b4f09b8eb325d07a5e1b37e6a49cc7)
 - Author: r17x
-- Score: **62.5 / 100**, rank 10 of 103 ranked configs. D 7 · I 9 · S 7 · R 5 · P 5 · L 7 · V 8 · O 6 · B 3 · X 5. Shortlists: showcase, library units (1).
+- Score: **62.5 / 100**, rank 10 of 101 ranked configs. D 7 · I 9 · S 7 · R 5 · P 5 · L 7 · V 8 · O 6 · B 3 · X 5. Shortlists: showcase, library units (1).
 - Summary: Live runtime/test routing D7 with implicit collision semantics; typed profile S7; meaningful GPG reference; actual class bridge X5; extensive semantic tests V8; derived DNS/secrets operations.
 
 Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../../method/RUBRIC.md).
