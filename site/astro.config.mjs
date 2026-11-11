@@ -98,6 +98,8 @@ export default defineConfig({
 						// groups them by owner, and every config page links back to it.
 						{ label: 'Config index', slug: 'configs' },
 						{ label: 'Glossary', slug: 'glossary' },
+						{ label: 'Score your own config', slug: 'score-your-config' },
+						{ label: 'Contributing', slug: 'contributing' },
 					],
 				},
 				{

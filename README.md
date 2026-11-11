@@ -18,6 +18,7 @@ audit's terms.
 - [Shortlists](#shortlists)
 - [Top 15](#top-15)
 - [Find your config](#find-your-config)
+- [Score your own config](#score-your-own-config)
 - [Starter picks](#starter-picks)
 - [Showcase picks](#showcase-picks)
 - [Libraries](#libraries)
@@ -118,6 +119,12 @@ shortlists. Each config page links to the upstream repository at the reviewed re
 
 5 more configs were scored and are counted in the totals. They are not listed, because their source is
 no longer public.
+
+## Score your own config
+
+You can score your own config with the same rubric. [Score your own config](SCORE-YOUR-CONFIG.md) gives you a prompt
+for an AI coding agent, explains how to read the result, and tells you how to add your config to the survey. To add a
+config, correct a finding or remove a config, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Starter picks
 
