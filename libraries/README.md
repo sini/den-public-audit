@@ -23,9 +23,9 @@ the upstream repo.
 
 | library | namespace | what it offers | reader A / reader B, out of 80 | upstream |
 |---|---|---|---|---|
-| [adanoelle__garden-shell](adanoelle__garden-shell.md) | `garden` | an aspect and package library, a pure namespace provider | 41 / 41 | [adanoelle/garden-shell](https://github.com/adanoelle/garden-shell) |
-| [crocuda__crocuda.nixos](crocuda__crocuda.nixos.md) | `crocuda` | hardened NixOS server modules, with dotfiles kept in their native formats and Nix as glue | 26 / 29 | [crocuda/crocuda.nixos](https://github.com/crocuda/crocuda.nixos) |
-| [crocuda__normal.nixos](crocuda__normal.nixos.md) | `normal` | the same author's opinionated desktop modules | 23 / 26 | [crocuda/normal.nixos](https://github.com/crocuda/normal.nixos) |
+| [adanoelle/garden-shell](adanoelle/garden-shell.md) | `garden` | an aspect and package library, a pure namespace provider | 41 / 41 | [adanoelle/garden-shell](https://github.com/adanoelle/garden-shell) |
+| [crocuda/crocuda.nixos](crocuda/crocuda.nixos.md) | `crocuda` | hardened NixOS server modules, with dotfiles kept in their native formats and Nix as glue | 26 / 29 | [crocuda/crocuda.nixos](https://github.com/crocuda/crocuda.nixos) |
+| [crocuda/normal.nixos](crocuda/normal.nixos.md) | `normal` | the same author's opinionated desktop modules | 23 / 26 | [crocuda/normal.nixos](https://github.com/crocuda/normal.nixos) |
 
 Both readers agree that no library is ready for consumers as published. The [library pilot](../method/library-pilot.md)
 gives the findings.

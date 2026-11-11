@@ -22,9 +22,9 @@ Each category cell is reader A / reader B.
 
 | library | reader A | reader B | E | N | K | Q | C | U | T |
 |---|---|---|---|---|---|---|---|---|---|
-| [adanoelle__garden-shell](../libraries/adanoelle__garden-shell.md) | 41 | 41 | 6/5 | 8/9 | 4/5 | 5/5 | 6/5 | 4/3 | 3/4 |
-| [crocuda__crocuda.nixos](../libraries/crocuda__crocuda.nixos.md) | 26 | 29 | 4/5 | 2/3 | 3/4 | 4/4 | 3/3 | 3/2 | 3/4 |
-| [crocuda__normal.nixos](../libraries/crocuda__normal.nixos.md) | 23 | 26 | 4/3 | 2/2 | 4/4 | 3/5 | 3/2 | 2/3 | 2/2 |
+| [adanoelle/garden-shell](../libraries/adanoelle/garden-shell.md) | 41 | 41 | 6/5 | 8/9 | 4/5 | 5/5 | 6/5 | 4/3 | 3/4 |
+| [crocuda/crocuda.nixos](../libraries/crocuda/crocuda.nixos.md) | 26 | 29 | 4/5 | 2/3 | 3/4 | 4/4 | 3/3 | 3/2 | 3/4 |
+| [crocuda/normal.nixos](../libraries/crocuda/normal.nixos.md) | 23 | 26 | 4/3 | 2/2 | 4/4 | 3/5 | 3/2 | 2/3 | 2/2 |
 
 ## Agreement
 

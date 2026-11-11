@@ -20,8 +20,8 @@ columns of each TSV.
 ## TSV files
 
 Every TSV is tab-separated with one header row. The per-repository files cover published configs only. Each of them
-starts with the same identity columns: `id`, `source`, `rev` (the reviewed revision), `repo_kind` (where present)
-and `included`.
+starts with the same identity columns: `repo`, `source`, `rev` (the reviewed revision), `repo_kind` (where present)
+and `included`. `repo` is the upstream `owner/repo` of the config, the same name that its page uses.
 
 | file | one row per | other columns |
 |---|---|---|

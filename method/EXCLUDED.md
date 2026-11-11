@@ -22,12 +22,12 @@ Each row gives one excluded repo and the reason for its exclusion.
 
 | repository | why excluded |
 |---|---|
-| gwenodai-nixos | an older clone of the same upstream as `Gwenodai__nixos`, which is the newer copy and is included |
-| vic__yen | a den-derived engine and fleet library, not a config: no hosts or homes |
-| denful__with-inputs | not a config: den's input-helper library |
-| crocuda__crocuda.nixos | an aspect namespace library, not a config; [audited separately](../libraries/crocuda__crocuda.nixos.md) |
-| crocuda__normal.nixos | an aspect namespace library, not a config; [audited separately](../libraries/crocuda__normal.nixos.md) |
-| adanoelle__garden-shell | an aspect namespace library, not a config; [audited separately](../libraries/adanoelle__garden-shell.md) |
+| gwenodai-nixos | an older clone of the same upstream as `Gwenodai/nixos`, which is the newer copy and is included |
+| vic/yen | a den-derived engine and fleet library, not a config: no hosts or homes |
+| denful/with-inputs | not a config: den's input-helper library |
+| crocuda/crocuda.nixos | an aspect namespace library, not a config; [audited separately](../libraries/crocuda/crocuda.nixos.md) |
+| crocuda/normal.nixos | an aspect namespace library, not a config; [audited separately](../libraries/crocuda/normal.nixos.md) |
+| adanoelle/garden-shell | an aspect namespace library, not a config; [audited separately](../libraries/adanoelle/garden-shell.md) |
 | slashfiles | superseded by `theutz`, the same author's newer repo, so including both would count one person twice |
 | a config whose source is no longer public | a den host's `mainModule` handed to a non-den flake builder; the pattern also appears in three included configs |
 | a config whose source is no longer public | an installer ISO as a den host; installer hosts appear in 18 included configs |

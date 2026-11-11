@@ -8,16 +8,16 @@ All source observations below are static. A test definition establishes an inten
 
 | clone id | revision |
 |---|---|
-| byte-sized-emi__nix-config | 8df6aa42d1bb |
-| auscyber__dotfiles | 96be028eaba6 |
-| DylanRJohnston__nixos | 505097f4d0fd |
-| JoonasKajava__nvf-config | 9674a20a5632 |
-| SyahrulBhudiF__dotfiles | ba537827987e |
-| Keyruu__shinyflakes | 021ee48343db |
-| adanoelle__fern | 060cd42a3d02 |
-| adanoelle__garden-shell | e9c3a6b47faf |
-| mio-19__config-public | a269164a1be6 |
-| theutz | 3ede31e7a4e9 |
+| byte-sized-emi/nix-config | 8df6aa42d1bb |
+| auscyber/dotfiles | 96be028eaba6 |
+| DylanRJohnston/nixos | 505097f4d0fd |
+| JoonasKajava/nvf-config | 9674a20a5632 |
+| SyahrulBhudiF/dotfiles | ba537827987e |
+| Keyruu/shinyflakes | 021ee48343db |
+| adanoelle/fern | 060cd42a3d02 |
+| adanoelle/garden-shell | e9c3a6b47faf |
+| mio-19/config-public | a269164a1be6 |
+| ~theutz/flake | 3ede31e7a4e9 |
 
 ## Contents
 
@@ -40,23 +40,23 @@ All source observations below are static. A test definition establishes an inten
 | readability and docs | Keep, assess task completion | Can a reader trace a feature and add a host/user? README length and comment count are not quality. |
 | scale handled clearly | Remove as a separate number | Treat scale as context for composition/docs: necessary complexity can be clear; host count never earns points itself. |
 
-A single-platform aspect can have an excellent reuse contract. Conversely, a feature containing both `darwin` and `homeManager` may still carry the author's Git identity. Dylan's Git aspect demonstrates that distinction: `DylanRJohnston__nixos/modules/git.nix:19` covers OS installation and `:25` HM, while `:28` fixes a personal identity. Count this as platform separation with a reuse limitation, not two deductions for the same limitation.
+A single-platform aspect can have an excellent reuse contract. Conversely, a feature containing both `darwin` and `homeManager` may still carry the author's Git identity. Dylan's Git aspect demonstrates that distinction: `DylanRJohnston/nixos/modules/git.nix:19` covers OS installation and `:25` HM, while `:28` fixes a personal identity. Count this as platform separation with a reuse limitation, not two deductions for the same limitation.
 
-Do not penalize a workaround once under fluency, again under composition, and again under complexity. Joonas documents a shallow-merge problem and adapts modules through `forward` to preserve option merging (`JoonasKajava__nvf-config/modules/nvf-integration.nix:19`, `:24`, `:36`). That is a useful integration idea with a version-sensitive dependency, not evidence of three independent quality failures.
+Do not penalize a workaround once under fluency, again under composition, and again under complexity. Joonas documents a shallow-merge problem and adapts modules through `forward` to preserve option merging (`JoonasKajava/nvf-config/modules/nvf-integration.nix:19`, `:24`, `:36`). That is a useful integration idea with a version-sensitive dependency, not evidence of three independent quality failures.
 
 ## 2. Missing evidence: add verification intent; keep inventory and novelty outside the sum
 
-Add **verification intent and maintenance boundaries** as a seventh dimension. Look for relevant positive/negative assertions and whether the check definitions cover the composition being recommended. Dylan defines enabled expectations and a disabled failure case beside dark-mode composition (`DylanRJohnston__nixos/modules/darkmode.nix:30`, `:40`, `:46`), plus a same-user/two-host projection check (`modules/host-aspects-test.nix:230`). These deserve recognition that formatting alone cannot earn. Static inspection cannot certify that CI runs or that any check passes.
+Add **verification intent and maintenance boundaries** as a seventh dimension. Look for relevant positive/negative assertions and whether the check definitions cover the composition being recommended. Dylan defines enabled expectations and a disabled failure case beside dark-mode composition (`DylanRJohnston/nixos/modules/darkmode.nix:30`, `:40`, `:46`), plus a same-user/two-host projection check (`modules/host-aspects-test.nix:230`). These deserve recognition that formatting alone cannot earn. Static inspection cannot certify that CI runs or that any check passes.
 
 Keep these as separate fields, with citations and explicit evidence states:
 
-- Inputs/secrets prerequisites: public/private/local inputs; required checked-in assets; encrypted versus absent files; runtime credentials versus evaluation-time reads. Missing runtime credentials do not prove an evaluation blocker. The public/stub warning in `mio-19__config-public/README.md:15` is a reason to inspect the sweep target, not a low architecture score by itself.
+- Inputs/secrets prerequisites: public/private/local inputs; required checked-in assets; encrypted versus absent files; runtime credentials versus evaluation-time reads. Missing runtime credentials do not prove an evaluation blocker. The public/stub warning in `mio-19/config-public/README.md:15` is a reason to inspect the sweep target, not a low architecture score by itself.
 - Verified test results and recency: measured result/revision/date, separate from tests-present. A recent commit does not establish maintenance quality; a stable small aspect does not become worse because it needed no recent edit.
-- Novelty/standout idea: a cited explanation, independent of the numeric total. The nvf merge adapter above can be notable despite sparse onboarding documentation (`JoonasKajava__nvf-config/README.md:1`).
-- Support coverage: actual instantiated targets separately from packages mentioned, test fixtures and commented hosts. Fern explicitly parks Asahi because of placeholders and x86-only packages (`adanoelle__fern/modules/hosts.nix:29`); it should receive honesty credit, not active ARM-support credit.
+- Novelty/standout idea: a cited explanation, independent of the numeric total. The nvf merge adapter above can be notable despite sparse onboarding documentation (`JoonasKajava/nvf-config/README.md:1`).
+- Support coverage: actual instantiated targets separately from packages mentioned, test fixtures and commented hosts. Fern explicitly parks Asahi because of placeholders and x86-only packages (`adanoelle/fern/modules/hosts.nix:29`); it should receive honesty credit, not active ARM-support credit.
 - Formatting/lint: useful verification evidence, but no standalone category. A formatter cannot prove correct routing or reusable boundaries.
 
-Host/user variation belongs explicitly in composition. Fern reuses the same user aspect for a differently named standalone login and supplies its own package set and extra arguments (`adanoelle__fern/modules/hosts.nix:12`, `:18`, `:21`). That is more informative than a count of batteries.
+Host/user variation belongs explicitly in composition. Fern reuses the same user aspect for a differently named standalone login and supplies its own package set and extra arguments (`adanoelle/fern/modules/hosts.nix:12`, `:18`, `:21`). That is more informative than a count of batteries.
 
 ## 3. Revised seven-category evidence profile and observable anchors
 
@@ -76,16 +76,16 @@ Examples pin how to apply these anchors:
 
 - **D, middle rather than top:** byte-sized-emi emits ntfy endpoint data (`modules/stacks/ntfy.nix:3`), collects/transforms it (`modules/fleet.nix:20`, `:22`), and consumes it in update notifications (`modules/auto-update.nix:20`). This is real flow. The `builtins.head` lookups at `:20` and `:21` leave missing/duplicate producer behavior implicit, so a full chain alone does not justify 9.
 - **D, upper-end evidence to inspect:** auscyber publishes cache facts (`aspects/base/celler/server.nix:169`), collects them (`aspects/base/celler/push.nix:298`), and uses them to derive HM configuration (`:532`, `:538`). Cross-scope exposure is explicit at `:307`. This supports depth; it does not by itself establish that every channel has robust conflict handling.
-- **I/S, middle:** a compact standalone-home entry and explicit module list are easy to follow (`SyahrulBhudiF__dotfiles/flake.nix:40`, `:43`). The bespoke nixGL compatibility overlay (`modules/den.nix:12`) is complexity to explain, not an automatic Den-fluency penalty.
-- **R, upper-end opportunity but not a free 9:** garden-shell deliberately exports a namespace (`adanoelle__garden-shell/modules/namespace.nix:4`), but its bundle also owns mutable settings and session restarts (`modules/aspects/shell.nix:30`, `:40`). Review the adoption contract. A library is still `is_den_config: false`; score its reusable units separately from corpus host rankings.
-- **P, middle:** Fern handles NixOS plus a standalone Ubuntu home with explicit constructor overrides (`adanoelle__fern/modules/hosts.nix:4`, `:12`, `:21`). The parked ARM host at `:29` limits coverage without contradicting active support.
-- **L, low versus middle:** Joonas's README is a TODO (`JoonasKajava__nvf-config/README.md:1`); Dylan explains structure and links ADRs (`DylanRJohnston__nixos/README.md:40`, `:46`). Rich internal comments should be credited, but they do not replace an entry-level usage path.
+- **I/S, middle:** a compact standalone-home entry and explicit module list are easy to follow (`SyahrulBhudiF/dotfiles/flake.nix:40`, `:43`). The bespoke nixGL compatibility overlay (`modules/den.nix:12`) is complexity to explain, not an automatic Den-fluency penalty.
+- **R, upper-end opportunity but not a free 9:** garden-shell deliberately exports a namespace (`adanoelle/garden-shell/modules/namespace.nix:4`), but its bundle also owns mutable settings and session restarts (`modules/aspects/shell.nix:30`, `:40`). Review the adoption contract. A library is still `is_den_config: false`; score its reusable units separately from corpus host rankings.
+- **P, middle:** Fern handles NixOS plus a standalone Ubuntu home with explicit constructor overrides (`adanoelle/fern/modules/hosts.nix:4`, `:12`, `:21`). The parked ARM host at `:29` limits coverage without contradicting active support.
+- **L, low versus middle:** Joonas's README is a TODO (`JoonasKajava/nvf-config/README.md:1`); Dylan explains structure and links ADRs (`DylanRJohnston/nixos/README.md:40`, `:46`). Rich internal comments should be credited, but they do not replace an entry-level usage path.
 - **V, upper-end evidence:** Dylan's positive/negative aspect expectations and two-host context test above are stronger evidence than a bare formatter. Confirm how they are exported/invoked before assigning 9; no checks were executed here.
 
 
 ### Separate layout from settings without counting one defect twice
 
-I recommend the two categories. Dylan's Git feature is isolated under `arc.base._.git` (`DylanRJohnston__nixos/modules/git.nix:18`), yet its shared body fixes the author's name/email (`:28`). The first fact supports I; the second limits S. Moving the constants into settings improves S without moving a file or changing I. A reusable name/email contract could also improve R, but the same defect must not be charged a full deduction in all three categories: assign it one primary cost category, and describe the adoption effect in R without another penalty unless an independent reuse defect exists.
+I recommend the two categories. Dylan's Git feature is isolated under `arc.base._.git` (`DylanRJohnston/nixos/modules/git.nix:18`), yet its shared body fixes the author's name/email (`:28`). The first fact supports I; the second limits S. Moving the constants into settings improves S without moving a file or changing I. A reusable name/email contract could also improve R, but the same defect must not be charged a full deduction in all three categories: assign it one primary cost category, and describe the adoption effect in R without another penalty unless an independent reuse defect exists.
 
 Settings expressiveness is **not option count**. Function args, entity attributes, quirks and ordinary module options can all express a good contract. Not every port, package name or standard path needs a new setting. A deliberate opinionated default is acceptable when the advertised consumer can override it; a leaked personal value is a defect when the intended second consumer must edit shared implementation. Require the concrete variation use case before prescribing an option. Otherwise the score would reward unnecessary framework and punish a useful tiny preset.
 
@@ -121,13 +121,13 @@ Do not use a showcase award as the admission rule for a starter template or an a
 - **Library:** select cited grade-A/B units by adoption cost, explicit dependencies, and parameter contracts. A low-scoring whole repo may contain an excellent small unit. A namespace-exporting library should remain discoverable even though excluded from den-config counts.
 - **Starter:** favor a short entry-to-output path, minimal prerequisites, clear host/user variation, and truthful platform boundaries. Provide one minimal host/user template and one optional contribution/policy extension. A standalone HM example can be good without pretending to be a fleet.
 
-A tidy single-user configuration naturally needs little or no cross-host flow. Its low D score means “limited showcase evidence for this preference,” not “bad configuration.” Never add gratuitous quirks to improve a beginner template's total. Syahrul's explicit one-home module list (`SyahrulBhudiF__dotfiles/flake.nix:40`) illustrates the value of a small path; its nixGL workaround (`modules/den.nix:12`) also shows why small file count alone cannot settle beginner suitability.
+A tidy single-user configuration naturally needs little or no cross-host flow. Its low D score means “limited showcase evidence for this preference,” not “bad configuration.” Never add gratuitous quirks to improve a beginner template's total. Syahrul's explicit one-home module list (`SyahrulBhudiF/dotfiles/flake.nix:40`) illustrates the value of a small path; its nixGL workaround (`modules/den.nix:12`) also shows why small file count alone cannot settle beginner suitability.
 
 Keep scale as scope, not an achievement metric. A clear two-host composition can score well on I/S/L; a large framework must justify its machinery. This also prevents penalizing small configs once for low flow, once for few platforms, and once for small scale.
 
 ## 6. Calibration anchors and dissent for the maintainer
 
-**Theutz as about 8 in every category is not supported.** Its data-flow and integration ideas are strong: casks are emitted by `theutz/modules/aspects/omniwm.nix:8`, consumed by `modules/aspects/homebrew.nix:6`, and defined by `modules/quirks/casks.nix:2`; class routing appears in `modules/deploy.nix:14`. But the current review records doc_quality 1 and no README ([theutz](../configs/theutz.md), §6). It cannot simultaneously anchor an 8 on beginner explanation under the proposed L anchors. The review itself is not a source file in the clone; it is evidence of the audit's existing judgment, pending the maintainer's anchor update.
+**Theutz as about 8 in every category is not supported.** Its data-flow and integration ideas are strong: casks are emitted by `theutz/modules/aspects/omniwm.nix:8`, consumed by `modules/aspects/homebrew.nix:6`, and defined by `modules/quirks/casks.nix:2`; class routing appears in `modules/deploy.nix:14`. But the current review records doc_quality 1 and no README ([~theutz/flake](../configs/theutz/flake.md), §6). It cannot simultaneously anchor an 8 on beginner explanation under the proposed L anchors. The review itself is not a source file in the clone; it is evidence of the audit's existing judgment, pending the maintainer's anchor update.
 
 The maintainer may keep **32 as a holistic calibration judgment** under the four-lens model. That does not justify distributing 8/8/8/8, nor multiplying 8 by every newly introduced category. Calibrate the vector first; let any index follow it. Do not tune dimensions until a preferred repo lands on a predetermined total.
 
@@ -135,7 +135,7 @@ The maintainer now explicitly says sini/nix-config has strong layout/isolation b
 
 Dissent I would preserve even if the maintainer chooses /70 awards:
 
-1. More Den APIs do not mean better architecture. Keyruu's explicit provenance failure (`Keyruu__shinyflakes/modules/policies/services-collect.nix:22`) is valuable feedback alongside real collection (`:23`), not grounds to discard the design or reward unexamined API use.
+1. More Den APIs do not mean better architecture. Keyruu's explicit provenance failure (`Keyruu/shinyflakes/modules/policies/services-collect.nix:22`) is valuable feedback alongside real collection (`:23`), not grounds to discard the design or reward unexamined API use.
 2. A single leaderboard cannot faithfully select both a clever fleet and a first lesson. Keep the three use-specific shortlists even if there is one headline total.
 3. Static reviews support evidence-backed judgments, not claims of correctness, successful CI, secret availability or cross-platform execution. Keep sweep flags and measured eval outcomes separate.
 4. Anchors must be falsifiable. If no amount of missing docs could lower theutz's docs lens, it is a preference label, not a scoring category.

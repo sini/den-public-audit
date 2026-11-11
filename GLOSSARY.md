@@ -162,7 +162,9 @@ shells. See the [census contract](method/CENSUS.md).
 
 ### config
 
-A config is a den configuration repo that declares its own hosts or homes.
+A config is a den configuration repo that declares its own hosts or homes. The audit names each config by its
+upstream `owner/repo`, as the forge spells it, for example `Keyruu/shinyflakes` or `~theutz/flake`. Its review page
+is `configs/<owner>/<repo>.md`, without the sr.ht `~`. The census TSVs name it in their `repo` column.
 
 ### configuration depth
 

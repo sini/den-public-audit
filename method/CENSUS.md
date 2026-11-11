@@ -174,7 +174,7 @@ Every software row carries `configuration_depth`: `enable-only`, `substantive`, 
 
 The maintainer-directed id table in `EXCLUDED.md` is the exclusion authority. Keep original `source` provenance in manifest and records; moved-clone paths remain recorded in the manifest. The validator checks every manifest evidence record, including excluded entries. Rendering reads the table (CLI `--exclusions`, default audit-root `EXCLUDED.md`) and excludes those ids from all corpus aggregates and the main breadth/role/platform summary. The current evidence set is 120 entries; the included corpus is 108, with twelve excluded.
 
-Raw `software.tsv`, `targets.tsv`, `roles.tsv`, `coverage.tsv` and `breadth.tsv` retain evidence for all manifest entries and carry an `included` flag. Filter this flag before making corpus totals. `repo-counts.tsv` already contains only included entries. `excluded.tsv` and the summary appendix retain excluded ids, reasons and source links; they never enter headline counts. In particular, excluded `gwenodai-nixos` cannot double-count included `Gwenodai__nixos`.
+Raw `software.tsv`, `targets.tsv`, `roles.tsv`, `coverage.tsv` and `breadth.tsv` retain evidence for all manifest entries and carry an `included` flag. Filter this flag before making corpus totals. `repo-counts.tsv` already contains only included entries. `excluded.tsv` and the summary appendix retain excluded ids, reasons and source links; they never enter headline counts. In particular, excluded `gwenodai-nixos` cannot double-count included `Gwenodai/nixos`.
 
 ## macOS selection union
 

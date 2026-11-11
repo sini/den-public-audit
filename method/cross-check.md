@@ -24,12 +24,12 @@ Each cell in this table is first reviewer / second reviewer.
 
 | config | D | I | S | R | P | L | V | O | B | X | total (first / second) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| [Erastos__nixos-dotfiles](../configs/Erastos__nixos-dotfiles.md) | 2/2 | 7/5 | 4/4 | 5/3 | 5/5 | 2/2 | 2/2 | 2/3 | 3/3 | 2/2 | 34.0 / 31.0 |
-| [arichtman__nix](../configs/arichtman__nix.md) | 5/5 | 6/6 | 4/5 | 6/5 | 4/4 | 3/3 | 5/4 | 2/3 | 3/4 | 2/2 | 41.5 / 43.0 |
-| [eugencowie__dotfiles](../configs/eugencowie__dotfiles.md) | 5/3 | 6/7 | 6/4 | 5/5 | 7/6 | 3/3 | 3/2 | 2/2 | 4/4 | 2/2 | 45.5 / 39.0 |
-| [acrobertson__infra](../configs/acrobertson__infra.md) | 5/3 | 5/5 | 4/5 | 5/4 | 9/7 | 5/4 | 6/6 | 5/2 | 3/4 | 2/2 | 50.0 / 41.0 |
-| [Aor-Li__Infra](../configs/Aor-Li__Infra.md) | 7/8 | 8/8 | 5/6 | 9/8 | 8/7 | 8/8 | 3/3 | 5/4 | 7/6 | 2/2 | 66.5 / 65.5 |
-| [amatos__magnanix](../configs/amatos__magnanix.md) | 5/5 | 8/8 | 6/5 | 5/7 | 9/8 | 9/9 | 9/6 | 6/7 | 7/7 | 2/2 | 65.5 / 65.0 |
+| [Erastos/nixos-dotfiles](../configs/Erastos/nixos-dotfiles.md) | 2/2 | 7/5 | 4/4 | 5/3 | 5/5 | 2/2 | 2/2 | 2/3 | 3/3 | 2/2 | 34.0 / 31.0 |
+| [arichtman/nix](../configs/arichtman/nix.md) | 5/5 | 6/6 | 4/5 | 6/5 | 4/4 | 3/3 | 5/4 | 2/3 | 3/4 | 2/2 | 41.5 / 43.0 |
+| [eugencowie/dotfiles](../configs/eugencowie/dotfiles.md) | 5/3 | 6/7 | 6/4 | 5/5 | 7/6 | 3/3 | 3/2 | 2/2 | 4/4 | 2/2 | 45.5 / 39.0 |
+| [acrobertson/infra](../configs/acrobertson/infra.md) | 5/3 | 5/5 | 4/5 | 5/4 | 9/7 | 5/4 | 6/6 | 5/2 | 3/4 | 2/2 | 50.0 / 41.0 |
+| [Aor-Li/Infra](../configs/Aor-Li/Infra.md) | 7/8 | 8/8 | 5/6 | 9/8 | 8/7 | 8/8 | 3/3 | 5/4 | 7/6 | 2/2 | 66.5 / 65.5 |
+| [amatos/magnanix](../configs/amatos/magnanix.md) | 5/5 | 8/8 | 6/5 | 5/7 | 9/8 | 9/9 | 9/6 | 6/7 | 7/7 | 2/2 | 65.5 / 65.0 |
 
 ## Agreement
 
@@ -61,12 +61,12 @@ Each row gives one re-examined cell, its score before and after adjudication, an
 
 | config | cell | before | final | basis |
 |---|---|---|---|---|
-| amatos__magnanix | V | 9 | **6** | flake `checks` are never invoked by CI or a recipe; package-local postBuild tests are real, but the cap applies. Total 65.5 → **64.0** |
-| acrobertson__infra | D | 5 | **3** | `userConfig` is a static `let` record passed through native Home Manager `_module.args`, not den entity facts |
-| acrobertson__infra | O | 5 | **5** | `modules/flake/tarball.nix` turns a den-instantiated host's `tarballBuilder` into a WSL install artifact, one den-derived bootstrap concern. The blind reading missed it |
-| acrobertson__infra | P | 9 | **9** | negative platform fixtures plus guards. Total 50.0 → **46.0** |
-| eugencowie__dotfiles | D | 5 | **5** | a real `{user}` entity drives the runtime user, the tailscale operator and the matching home path |
-| eugencowie__dotfiles | S | 6 | **5** | genuine argument and context variation, but no broad settings contract. Total 45.5 → **44.5** |
+| amatos/magnanix | V | 9 | **6** | flake `checks` are never invoked by CI or a recipe; package-local postBuild tests are real, but the cap applies. Total 65.5 → **64.0** |
+| acrobertson/infra | D | 5 | **3** | `userConfig` is a static `let` record passed through native Home Manager `_module.args`, not den entity facts |
+| acrobertson/infra | O | 5 | **5** | `modules/flake/tarball.nix` turns a den-instantiated host's `tarballBuilder` into a WSL install artifact, one den-derived bootstrap concern. The blind reading missed it |
+| acrobertson/infra | P | 9 | **9** | negative platform fixtures plus guards. Total 50.0 → **46.0** |
+| eugencowie/dotfiles | D | 5 | **5** | a real `{user}` entity drives the runtime user, the tailscale operator and the matching home path |
+| eugencowie/dotfiles | S | 6 | **5** | genuine argument and context variation, but no broad settings contract. Total 45.5 → **44.5** |
 
 ## Outcome
 

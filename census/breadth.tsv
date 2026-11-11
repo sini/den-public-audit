@@ -1,106 +1,106 @@
-id	source	rev	repo_kind	included	selected_families	required_families	configured_families	installation_only_families	substantive_families	enable_only_families	optional_peers	selected_family_names	optional_peer_names
-AnonymousRand__nix_config	public	583567f25d10	config	True	3	19	3	0	3	0	0	"[""bash"", ""fish"", ""niri""]"	[]
-Aor-Li__Infra	public	87405e2c8b13	config	True	10	19	10	0	8	2	3	"[""aerospace"", ""bash"", ""fish"", ""helix"", ""neovim"", ""niri"", ""starship"", ""tmux"", ""vscode"", ""zsh""]"	"[""other_editor:cursor"", ""other_multiplexer:herdr"", ""other_multiplexer:rex""]"
-DJ-Laser__nixos	public	27e216e2f9d3	config	True	3	19	3	0	2	1	0	"[""bash"", ""niri"", ""vscode""]"	[]
-Draculestein__nixos-config	public	3514a1d2e512	config	True	7	19	7	0	6	1	0	"[""bash"", ""gnome"", ""neovim"", ""niri"", ""starship"", ""vscode"", ""zsh""]"	[]
-DylanRJohnston__nixos	public	505097f4d0fd	config	True	5	19	5	0	5	0	1	"[""niri"", ""starship"", ""tmux"", ""zed"", ""zsh""]"	"[""other_editor:vim""]"
-Erastos__nixos-dotfiles	public	f2336347f41d	config	True	6	19	5	1	3	2	0	"[""emacs"", ""neovim"", ""niri"", ""sway"", ""tmux"", ""zsh""]"	[]
-EzT32__nixos	public	aa287213a56e	config	True	4	19	4	0	2	2	0	"[""bash"", ""hyprland"", ""neovim"", ""vscode""]"	[]
-FastTrackStudios__task	public	a40932117efa	library	True	1	19	0	1	0	0	0	"[""bash""]"	[]
-Gwenodai__nixos	public	ab05d3c6e156	config	True	5	19	5	0	4	1	0	"[""bash"", ""niri"", ""starship"", ""vscode"", ""zsh""]"	[]
-Heromercer__nixfiles	public	72d86dd2774f	config	True	4	19	4	0	4	0	0	"[""emacs"", ""fish"", ""neovim"", ""niri""]"	[]
-JoonasKajava__nvf-config	public	9674a20a5632	config	True	1	19	1	0	1	0	0	"[""neovim""]"	[]
-KGB33__.dotfiles	public	851fb5b43c9e	config	True	9	19	9	0	9	0	1	"[""aerospace"", ""bash"", ""hyprland"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""tmux"", ""zsh""]"	"[""other_editor:vim""]"
-KGB33__homelab	public	6ee44f24e022	config	True	1	19	1	0	1	0	0	"[""fish""]"	[]
-Keyruu__shinyflakes	public	021ee48343db	config	True	10	19	10	0	9	1	2	"[""bash"", ""fish"", ""helix"", ""neovim"", ""starship"", ""tmux"", ""vscode"", ""zed"", ""zellij"", ""zsh""]"	"[""other_multiplexer:herdr"", ""other_wm:umbriel""]"
-Kykero__Nazunix	public	469bacd7b841	config	True	5	19	5	0	5	0	0	"[""bash"", ""fish"", ""neovim"", ""niri"", ""tmux""]"	[]
-Le0-dot__config.nix	public	4171c4b9f1f2	config	True	4	19	4	0	4	0	0	"[""hyprland"", ""neovim"", ""starship"", ""zsh""]"	[]
-Likivik__spectacle	public	ce6d767b84e9	config	True	5	19	4	1	4	0	0	"[""bash"", ""gnome"", ""kde"", ""niri"", ""vscode""]"	[]
-Occhima__nix-conf	public	201ebbb67074	config	True	6	19	6	0	6	0	0	"[""emacs"", ""hyprland"", ""neovim"", ""starship"", ""zellij"", ""zsh""]"	[]
-RafaelMuijsert__nixos-config	public	c2466a023f20	config	True	3	19	3	0	3	0	0	"[""fish"", ""helix"", ""niri""]"	[]
-Sharparam__nix-config	public	eb5fe2550c15	config	True	10	19	10	0	9	1	1	"[""bash"", ""emacs"", ""helix"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""tmux"", ""zellij"", ""zsh""]"	"[""other_editor:vim""]"
-Shawn8901__nixos-configuration	public	890a465d7eb3	config	True	4	19	4	0	4	0	0	"[""kde"", ""starship"", ""vscode"", ""zsh""]"	[]
-Shochraos__nixfiles	public	4d7c55187377	config	True	4	19	4	0	3	1	0	"[""bash"", ""hyprland"", ""starship"", ""zed""]"	[]
-Spebby__NixOS	public	e6ea71a1af5e	config	True	7	19	6	1	4	2	2	"[""bash"", ""gnome"", ""neovim"", ""starship"", ""vscode"", ""zed"", ""zsh""]"	"[""other_editor:vim"", ""other_wm:cosmic""]"
-Steven-S1020__Nixos-Configuration	public	89fd086f61a5	config	True	5	19	5	0	5	0	0	"[""bash"", ""hyprland"", ""neovim"", ""starship"", ""zsh""]"	[]
-SuNNjek__nixos-config	public	f40297e9d045	config	True	4	19	4	0	2	2	1	"[""niri"", ""starship"", ""vscode"", ""zsh""]"	"[""other_editor:vim""]"
-SyahrulBhudiF__dotfiles	public	ba537827987e	config	True	4	19	4	0	4	0	0	"[""neovim"", ""nushell"", ""starship"", ""zsh""]"	[]
-acrobertson__infra	public	05a8582100fb	config	True	6	19	6	0	3	3	0	"[""fish"", ""neovim"", ""nushell"", ""starship"", ""tmux"", ""zsh""]"	[]
-adanoelle__fern	public	060cd42a3d02	config	True	8	19	8	0	8	0	1	"[""fish"", ""helix"", ""hyprland"", ""niri"", ""nushell"", ""starship"", ""tmux"", ""zsh""]"	"[""other_editor:kakoune""]"
-adda-nixos-config	local	31f3e4b1489f	config	True	11	19	11	0	10	1	2	"[""bash"", ""fish"", ""helix"", ""kde"", ""nushell"", ""starship"", ""tmux"", ""vscode"", ""zed"", ""zellij"", ""zsh""]"	"[""other_editor:clion/pycharm"", ""other_multiplexer:screen""]"
-aeshakhzod__blazingly-fast	public	2c2fb84d6b39	config	True	7	19	7	0	7	0	0	"[""emacs"", ""kde"", ""neovim"", ""starship"", ""vscode"", ""zed"", ""zsh""]"	[]
-akeuben__dotfiles	public	48183786da04	config	True	6	19	5	1	5	0	0	"[""fish"", ""hyprland"", ""kde"", ""neovim"", ""tmux"", ""vscode""]"	[]
-amatos__magnanix	public	7675475f0509	config	True	9	19	9	0	9	0	0	"[""bash"", ""fish"", ""hyprland"", ""neovim"", ""nushell"", ""starship"", ""zed"", ""zellij"", ""zsh""]"	[]
-anders130__dotfiles	public	470c551356c8	config	True	5	19	5	0	4	1	0	"[""fish"", ""hyprland"", ""neovim"", ""starship"", ""tmux""]"	[]
-andreshungbz__nixconfig	public	bdee3f6ec030	config	True	7	19	5	2	5	0	0	"[""fish"", ""helix"", ""niri"", ""starship"", ""vscode"", ""zed"", ""zellij""]"	[]
-andrewix	local	bd9927ece041	config	True	3	19	3	0	3	0	1	"[""fish"", ""neovim"", ""niri""]"	"[""other_prompt:oh-my-posh""]"
-arichtman__nix	public	a33136e4580d	config	True	5	19	5	0	4	1	0	"[""bash"", ""helix"", ""starship"", ""zellij"", ""zsh""]"	[]
-augustocdias__nixos	public	494e352fa63d	config	True	6	19	5	1	5	0	1	"[""bash"", ""fish"", ""hyprland"", ""neovim"", ""starship"", ""zed""]"	"[""other_wm:omniwm""]"
-aullisia__nixos-config	public	233eb5e4cfaf	config	True	5	19	5	0	5	0	0	"[""helix"", ""niri"", ""starship"", ""vscode"", ""zsh""]"	[]
-auscyber__dotfiles	public	96be028eaba6	config	True	8	19	6	2	4	2	0	"[""fish"", ""kde"", ""neovim"", ""nushell"", ""starship"", ""tmux"", ""vscode"", ""zsh""]"	[]
-aveeryy__kadachi	public	ba03c6ede780	config	True	4	19	4	0	3	1	0	"[""hyprland"", ""neovim"", ""starship"", ""zsh""]"	[]
-byte-sized-emi__nix-config	public	8df6aa42d1bb	config	True	6	19	4	2	3	1	1	"[""niri"", ""starship"", ""tmux"", ""zed"", ""zellij"", ""zsh""]"	"[""other_editor:kate""]"
-cfrenette__nixos-config	public	af711691cde3	config	True	3	19	3	0	1	2	1	"[""bash"", ""neovim"", ""starship""]"	"[""other_wm:cosmic""]"
-clemak27__homelab	public	a8bb1c3f0fec	config	True	3	19	3	0	2	1	0	"[""neovim"", ""starship"", ""zsh""]"	[]
-closure-labs__foundation	public	0715d5823b45	mixed	True	2	19	1	1	1	0	0	"[""neovim"", ""zsh""]"	[]
-closure-labs__maestro	public	6d707f35e29b	config	True	1	19	1	0	1	0	0	"[""bash""]"	[]
-closure-labs__mish	public	6587ee6dbb2f	config	True	0	19	0	0	0	0	0	[]	[]
-danielgafni__nixos	public	26f03bc416ad	config	True	8	19	8	0	7	1	1	"[""aerospace"", ""helix"", ""hyprland"", ""neovim"", ""starship"", ""zed"", ""zellij"", ""zsh""]"	"[""other_editor:cursor""]"
-derangga__dotfiles	public	c43c24f8b7f7	config	True	7	19	6	1	5	1	1	"[""aerospace"", ""fish"", ""neovim"", ""starship"", ""tmux"", ""vscode"", ""zed""]"	"[""other_wm:omniwm""]"
-dotfiles	local	0c38be9224d7	config	True	4	19	4	0	4	0	1	"[""bash"", ""helix"", ""tmux"", ""vscode""]"	"[""other_wm:bspwm""]"
-drupol	local	b8cf59f140f5	config	True	6	19	6	0	6	0	2	"[""fish"", ""kde"", ""starship"", ""vscode"", ""zed"", ""zellij""]"	"[""other_editor:gram (Zed fork), antigravity"", ""other_editor:micro""]"
-eldios__dotfiles	public	ce9d9573891e	config	True	9	19	7	2	6	1	0	"[""bash"", ""hyprland"", ""neovim"", ""nushell"", ""starship"", ""tmux"", ""vscode"", ""zed"", ""zsh""]"	[]
-elianiva__dotfiles	public	44d6d212ab1d	config	True	9	19	7	2	7	0	0	"[""bash"", ""fish"", ""helix"", ""neovim"", ""nushell"", ""starship"", ""tmux"", ""zed"", ""zellij""]"	[]
-eugencowie__dotfiles	public	64dbfad5d9ca	config	True	6	19	6	0	4	2	0	"[""gnome"", ""neovim"", ""starship"", ""zed"", ""zellij"", ""zsh""]"	[]
-fmway__infra	public	ad5b83625ade	mixed	True	0	19	0	0	0	0	0	[]	[]
-greysilly7__nixos-config	public	955ea2336310	config	True	9	19	5	4	2	3	0	"[""aerospace"", ""bash"", ""helix"", ""neovim"", ""niri"", ""starship"", ""tmux"", ""vscode"", ""zsh""]"	[]
-henriquekirchheck__nixos-flake	public	f9b5451633a4	config	True	7	19	7	0	6	1	0	"[""bash"", ""fish"", ""kde"", ""neovim"", ""niri"", ""starship"", ""zed""]"	[]
-hmajid2301__nixicle	public	ca0d927add73	config	True	7	19	6	1	6	0	0	"[""fish"", ""helix"", ""neovim"", ""niri"", ""starship"", ""tmux"", ""zellij""]"	[]
-icebluerabbit__nixos	public	21a704b338c3	config	True	7	19	7	0	7	0	1	"[""bash"", ""neovim"", ""niri"", ""tmux"", ""vscode"", ""zed"", ""zsh""]"	"[""other_prompt:oh-my-posh""]"
-ivokun__kebun	public	1038ddc22989	config	True	7	19	7	0	7	0	0	"[""fish"", ""helix"", ""hyprland"", ""neovim"", ""starship"", ""tmux"", ""zsh""]"	[]
-jadestar1864__nix-config	public	1e0fcc909f4f	config	True	5	19	5	0	5	0	0	"[""helix"", ""kde"", ""starship"", ""tmux"", ""zsh""]"	[]
-jasperro__dotfiles	public	37a402659597	config	True	7	19	6	1	4	2	1	"[""fish"", ""kde"", ""neovim"", ""niri"", ""nushell"", ""vscode"", ""zsh""]"	"[""other_prompt:oh-my-posh""]"
-jcranney__nix-configuration	public	12376d630e3e	config	True	3	19	2	1	1	1	0	"[""niri"", ""vscode"", ""zsh""]"	[]
-jkopano__nixiak	public	97bf0689bb4d	mixed	True	9	19	8	1	5	3	0	"[""gnome"", ""helix"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""tmux"", ""zed"", ""zsh""]"	[]
-jmartindf__dendritic	public	db88ba8d4a10	config	True	2	19	2	0	2	0	1	"[""bash"", ""fish""]"	"[""other_editor:vim""]"
-klchen0112__dotfiles	public	d47908159f3e	config	True	9	19	8	1	6	2	1	"[""bash"", ""emacs"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""tmux"", ""vscode"", ""zsh""]"	"[""other_wm:paneru""]"
-lorenzorapetti__nix	public	e6b3e716d30a	config	True	6	19	6	0	4	2	0	"[""fish"", ""hyprland"", ""neovim"", ""starship"", ""zed"", ""zellij""]"	[]
-loystonpais__lunar	public	5f836c9e4a1c	config	True	8	19	6	2	5	1	1	"[""bash"", ""niri"", ""starship"", ""tmux"", ""vscode"", ""zed"", ""zellij"", ""zsh""]"	"[""other_shell:xonsh""]"
-lucasshiva	archived	9e8aa1ba03ce	config	True	9	19	8	1	6	2	0	"[""bash"", ""fish"", ""kde"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""zed"", ""zsh""]"	[]
-megadots	local	09aae5c6af50	config	True	5	19	5	0	5	0	0	"[""gnome"", ""neovim"", ""starship"", ""vscode"", ""zsh""]"	[]
-mio-19__config-public	public	a269164a1be6	config	True	9	19	9	0	9	0	0	"[""bash"", ""emacs"", ""fish"", ""kde"", ""starship"", ""tmux"", ""vscode"", ""zed"", ""zsh""]"	[]
-motheki__nix	public	e75e72ed08cc	config	True	6	19	6	0	4	2	1	"[""bash"", ""fish"", ""neovim"", ""nushell"", ""starship"", ""zsh""]"	"[""other_multiplexer:tuios""]"
-moxie0420__dotfiles	public	42df6003db8c	config	True	4	19	4	0	4	0	0	"[""fish"", ""helix"", ""niri"", ""starship""]"	[]
-mrbandler__nix	public	6869a203c3fc	config	True	10	19	10	0	9	1	1	"[""aerospace"", ""bash"", ""helix"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""vscode"", ""zed"", ""zsh""]"	"[""other_multiplexer:tuios""]"
-muhammadtalha-quant__denix	public	70e67b484b5e	config	True	3	19	3	0	3	0	1	"[""fish"", ""hyprland"", ""zed""]"	"[""other_editor:vim""]"
-nazarewk-iac__nix-configs	public	a1a10f5c8272	mixed	True	8	19	6	2	6	0	0	"[""bash"", ""fish"", ""helix"", ""kde"", ""sway"", ""tmux"", ""zellij"", ""zsh""]"	[]
-neonvoidx__nix	public	50ad179a5fb4	config	True	4	19	4	0	2	2	1	"[""bash"", ""neovim"", ""starship"", ""zsh""]"	"[""other_wm:umbriel""]"
-nifoc__dotfiles	public	387a13d9abfe	config	True	0	19	0	0	0	0	0	[]	[]
-nixos.den	local	f52aed42f511	config	True	5	19	5	0	5	0	0	"[""gnome"", ""neovim"", ""starship"", ""vscode"", ""zsh""]"	[]
-nixpedition	local	b45ae683a1b2	config	True	3	19	2	1	0	2	0	"[""bash"", ""fish"", ""neovim""]"	[]
-nolvyn__nixos	public	e0fd0f9f0537	config	True	4	19	4	0	4	0	2	"[""fish"", ""hyprland"", ""vscode"", ""zed""]"	"[""other_editor:nano"", ""other_wm:omniwm""]"
-oceangreendev	archived	5103cc02832d	config	True	5	19	5	0	3	2	0	"[""kde"", ""neovim"", ""starship"", ""vscode"", ""zsh""]"	[]
-oxce5__chimera	public	cc96a65abd5d	config	True	5	19	5	0	5	0	1	"[""bash"", ""fish"", ""neovim"", ""niri"", ""starship""]"	"[""other_multiplexer:herdr""]"
-pdarulewski__dotfiles	public	97a47bb048ad	config	True	3	19	3	0	3	0	1	"[""neovim"", ""tmux"", ""zsh""]"	"[""other_prompt:oh-my-posh""]"
-phucisstupid__dotfiles	public	0e80243bb07b	config	True	5	19	5	0	5	0	0	"[""aerospace"", ""fish"", ""neovim"", ""starship"", ""tmux""]"	[]
-quasi-coherent__nix-config	public	52971feef21f	config	True	4	19	4	0	4	0	0	"[""emacs"", ""starship"", ""tmux"", ""zsh""]"	[]
-quasigod-xyz-nixconfig	local	570018d633c7	config	True	8	19	7	1	7	0	0	"[""bash"", ""emacs"", ""fish"", ""helix"", ""niri"", ""nushell"", ""starship"", ""zellij""]"	[]
-r17x__universe	public	f8bc64a503b4	config	True	5	19	5	0	5	0	0	"[""aerospace"", ""fish"", ""neovim"", ""starship"", ""tmux""]"	[]
-raphaelladinig__dotfiles	public	f29658d31d04	config	True	2	19	2	0	2	0	0	"[""fish"", ""neovim""]"	[]
-recursivepaws__nix	public	c4317eb95fad	config	True	5	19	4	1	4	0	0	"[""neovim"", ""niri"", ""starship"", ""tmux"", ""zsh""]"	[]
-redxtech__nixfiles	public	f0611199ba42	config	True	7	19	7	0	7	0	1	"[""fish"", ""neovim"", ""niri"", ""starship"", ""tmux"", ""zed"", ""zellij""]"	"[""other_editor:micro""]"
-repparw__nix	public	b2a680435a4e	config	True	5	19	5	0	4	1	0	"[""bash"", ""fish"", ""neovim"", ""niri"", ""tmux""]"	[]
-rhedgeco__nix-config	public	fd875038e37f	config	True	5	19	4	1	3	1	0	"[""bash"", ""fish"", ""niri"", ""starship"", ""zed""]"	[]
-scoiatael__dotfiles	public	b1b3cc10eef1	config	True	10	19	9	1	8	1	0	"[""aerospace"", ""emacs"", ""fish"", ""helix"", ""kde"", ""neovim"", ""niri"", ""tmux"", ""zellij"", ""zsh""]"	[]
-sini__nix-config	anchor	7e267a559e4a	config	True	9	19	9	0	8	1	1	"[""aerospace"", ""bash"", ""gnome"", ""neovim"", ""starship"", ""tmux"", ""vscode"", ""zellij"", ""zsh""]"	"[""other_multiplexer:herdr""]"
-sk4rd__mikos-den	public	de31f342886a	config	True	3	19	3	0	3	0	0	"[""fish"", ""kde"", ""neovim""]"	[]
-sm-f__nix	public	23820eea5e00	config	True	5	19	5	0	5	0	0	"[""neovim"", ""niri"", ""nushell"", ""starship"", ""zsh""]"	[]
-sonntag__nix	public	816947c6a270	mixed	True	8	19	7	1	6	1	0	"[""aerospace"", ""fish"", ""helix"", ""neovim"", ""starship"", ""tmux"", ""zed"", ""zellij""]"	[]
-soriPhoono__homelab	public	c6599b697b93	config	True	5	19	5	0	4	1	0	"[""fish"", ""hyprland"", ""kde"", ""neovim"", ""starship""]"	[]
-talarys__den	public	469df2c2de88	config	True	8	19	6	2	3	3	1	"[""fish"", ""kde"", ""neovim"", ""nushell"", ""starship"", ""tmux"", ""vscode"", ""zellij""]"	"[""other_multiplexer:herdr""]"
-theutz	local	3ede31e7a4e9	config	True	11	19	11	0	8	3	0	"[""aerospace"", ""bash"", ""fish"", ""gnome"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""tmux"", ""zellij"", ""zsh""]"	[]
-thomasgoulet__nixnites	public	54d53d7979ed	config	True	4	19	4	0	3	1	1	"[""helix"", ""niri"", ""nushell"", ""starship""]"	"[""other_multiplexer:herdr""]"
-trash-panda-v91-beta__dots.factory	public	04ed87289164	config	True	4	19	4	0	4	0	1	"[""aerospace"", ""neovim"", ""nushell"", ""starship""]"	"[""other_multiplexer:herdr""]"
-vitalyavolyn__dotfiles	public	4fbe31ccb7bb	config	True	4	19	4	0	4	0	1	"[""fish"", ""gnome"", ""zed"", ""zsh""]"	"[""other_editor:vim""]"
-vodfsh__nixos-config	public	a0ff916b0b31	config	True	6	19	4	2	2	2	0	"[""kde"", ""neovim"", ""starship"", ""vscode"", ""zellij"", ""zsh""]"	[]
-voidlily__dotfiles	public	ef20abb997bd	config	True	4	19	4	0	3	1	1	"[""emacs"", ""kde"", ""starship"", ""zsh""]"	"[""other_editor:vim""]"
+repo	source	rev	repo_kind	included	selected_families	required_families	configured_families	installation_only_families	substantive_families	enable_only_families	optional_peers	selected_family_names	optional_peer_names
+AnonymousRand/nix_config	public	583567f25d10	config	True	3	19	3	0	3	0	0	"[""bash"", ""fish"", ""niri""]"	[]
+Aor-Li/Infra	public	87405e2c8b13	config	True	10	19	10	0	8	2	3	"[""aerospace"", ""bash"", ""fish"", ""helix"", ""neovim"", ""niri"", ""starship"", ""tmux"", ""vscode"", ""zsh""]"	"[""other_editor:cursor"", ""other_multiplexer:herdr"", ""other_multiplexer:rex""]"
+DJ-Laser/nixos	public	27e216e2f9d3	config	True	3	19	3	0	2	1	0	"[""bash"", ""niri"", ""vscode""]"	[]
+Draculestein/nixos-config	public	3514a1d2e512	config	True	7	19	7	0	6	1	0	"[""bash"", ""gnome"", ""neovim"", ""niri"", ""starship"", ""vscode"", ""zsh""]"	[]
+DylanRJohnston/nixos	public	505097f4d0fd	config	True	5	19	5	0	5	0	1	"[""niri"", ""starship"", ""tmux"", ""zed"", ""zsh""]"	"[""other_editor:vim""]"
+Erastos/nixos-dotfiles	public	f2336347f41d	config	True	6	19	5	1	3	2	0	"[""emacs"", ""neovim"", ""niri"", ""sway"", ""tmux"", ""zsh""]"	[]
+EzT32/nixos	public	aa287213a56e	config	True	4	19	4	0	2	2	0	"[""bash"", ""hyprland"", ""neovim"", ""vscode""]"	[]
+FastTrackStudios/task	public	a40932117efa	library	True	1	19	0	1	0	0	0	"[""bash""]"	[]
+Gwenodai/nixos	public	ab05d3c6e156	config	True	5	19	5	0	4	1	0	"[""bash"", ""niri"", ""starship"", ""vscode"", ""zsh""]"	[]
+Heromercer/nixfiles	public	72d86dd2774f	config	True	4	19	4	0	4	0	0	"[""emacs"", ""fish"", ""neovim"", ""niri""]"	[]
+JoonasKajava/nvf-config	public	9674a20a5632	config	True	1	19	1	0	1	0	0	"[""neovim""]"	[]
+KGB33/.dotfiles	public	851fb5b43c9e	config	True	9	19	9	0	9	0	1	"[""aerospace"", ""bash"", ""hyprland"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""tmux"", ""zsh""]"	"[""other_editor:vim""]"
+KGB33/homelab	public	6ee44f24e022	config	True	1	19	1	0	1	0	0	"[""fish""]"	[]
+Keyruu/shinyflakes	public	021ee48343db	config	True	10	19	10	0	9	1	2	"[""bash"", ""fish"", ""helix"", ""neovim"", ""starship"", ""tmux"", ""vscode"", ""zed"", ""zellij"", ""zsh""]"	"[""other_multiplexer:herdr"", ""other_wm:umbriel""]"
+Kykero/Nazunix	public	469bacd7b841	config	True	5	19	5	0	5	0	0	"[""bash"", ""fish"", ""neovim"", ""niri"", ""tmux""]"	[]
+Le0-dot/config.nix	public	4171c4b9f1f2	config	True	4	19	4	0	4	0	0	"[""hyprland"", ""neovim"", ""starship"", ""zsh""]"	[]
+Likivik/spectacle	public	ce6d767b84e9	config	True	5	19	4	1	4	0	0	"[""bash"", ""gnome"", ""kde"", ""niri"", ""vscode""]"	[]
+Occhima/nix-conf	public	201ebbb67074	config	True	6	19	6	0	6	0	0	"[""emacs"", ""hyprland"", ""neovim"", ""starship"", ""zellij"", ""zsh""]"	[]
+RafaelMuijsert/nixos-config	public	c2466a023f20	config	True	3	19	3	0	3	0	0	"[""fish"", ""helix"", ""niri""]"	[]
+Sharparam/nix-config	public	eb5fe2550c15	config	True	10	19	10	0	9	1	1	"[""bash"", ""emacs"", ""helix"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""tmux"", ""zellij"", ""zsh""]"	"[""other_editor:vim""]"
+Shawn8901/nixos-configuration	public	890a465d7eb3	config	True	4	19	4	0	4	0	0	"[""kde"", ""starship"", ""vscode"", ""zsh""]"	[]
+Shochraos/nixfiles	public	4d7c55187377	config	True	4	19	4	0	3	1	0	"[""bash"", ""hyprland"", ""starship"", ""zed""]"	[]
+Spebby/NixOS	public	e6ea71a1af5e	config	True	7	19	6	1	4	2	2	"[""bash"", ""gnome"", ""neovim"", ""starship"", ""vscode"", ""zed"", ""zsh""]"	"[""other_editor:vim"", ""other_wm:cosmic""]"
+Steven-S1020/Nixos-Configuration	public	89fd086f61a5	config	True	5	19	5	0	5	0	0	"[""bash"", ""hyprland"", ""neovim"", ""starship"", ""zsh""]"	[]
+SuNNjek/nixos-config	public	f40297e9d045	config	True	4	19	4	0	2	2	1	"[""niri"", ""starship"", ""vscode"", ""zsh""]"	"[""other_editor:vim""]"
+SyahrulBhudiF/dotfiles	public	ba537827987e	config	True	4	19	4	0	4	0	0	"[""neovim"", ""nushell"", ""starship"", ""zsh""]"	[]
+acrobertson/infra	public	05a8582100fb	config	True	6	19	6	0	3	3	0	"[""fish"", ""neovim"", ""nushell"", ""starship"", ""tmux"", ""zsh""]"	[]
+adanoelle/fern	public	060cd42a3d02	config	True	8	19	8	0	8	0	1	"[""fish"", ""helix"", ""hyprland"", ""niri"", ""nushell"", ""starship"", ""tmux"", ""zsh""]"	"[""other_editor:kakoune""]"
+Adda/nixos-config	local	31f3e4b1489f	config	True	11	19	11	0	10	1	2	"[""bash"", ""fish"", ""helix"", ""kde"", ""nushell"", ""starship"", ""tmux"", ""vscode"", ""zed"", ""zellij"", ""zsh""]"	"[""other_editor:clion/pycharm"", ""other_multiplexer:screen""]"
+aeshakhzod/blazingly-fast	public	2c2fb84d6b39	config	True	7	19	7	0	7	0	0	"[""emacs"", ""kde"", ""neovim"", ""starship"", ""vscode"", ""zed"", ""zsh""]"	[]
+akeuben/dotfiles	public	48183786da04	config	True	6	19	5	1	5	0	0	"[""fish"", ""hyprland"", ""kde"", ""neovim"", ""tmux"", ""vscode""]"	[]
+amatos/magnanix	public	7675475f0509	config	True	9	19	9	0	9	0	0	"[""bash"", ""fish"", ""hyprland"", ""neovim"", ""nushell"", ""starship"", ""zed"", ""zellij"", ""zsh""]"	[]
+anders130/dotfiles	public	470c551356c8	config	True	5	19	5	0	4	1	0	"[""fish"", ""hyprland"", ""neovim"", ""starship"", ""tmux""]"	[]
+andreshungbz/nixconfig	public	bdee3f6ec030	config	True	7	19	5	2	5	0	0	"[""fish"", ""helix"", ""niri"", ""starship"", ""vscode"", ""zed"", ""zellij""]"	[]
+hoanhxlyn/andrewix	local	bd9927ece041	config	True	3	19	3	0	3	0	1	"[""fish"", ""neovim"", ""niri""]"	"[""other_prompt:oh-my-posh""]"
+arichtman/nix	public	a33136e4580d	config	True	5	19	5	0	4	1	0	"[""bash"", ""helix"", ""starship"", ""zellij"", ""zsh""]"	[]
+augustocdias/nixos	public	494e352fa63d	config	True	6	19	5	1	5	0	1	"[""bash"", ""fish"", ""hyprland"", ""neovim"", ""starship"", ""zed""]"	"[""other_wm:omniwm""]"
+aullisia/nixos-config	public	233eb5e4cfaf	config	True	5	19	5	0	5	0	0	"[""helix"", ""niri"", ""starship"", ""vscode"", ""zsh""]"	[]
+auscyber/dotfiles	public	96be028eaba6	config	True	8	19	6	2	4	2	0	"[""fish"", ""kde"", ""neovim"", ""nushell"", ""starship"", ""tmux"", ""vscode"", ""zsh""]"	[]
+aveeryy/kadachi	public	ba03c6ede780	config	True	4	19	4	0	3	1	0	"[""hyprland"", ""neovim"", ""starship"", ""zsh""]"	[]
+byte-sized-emi/nix-config	public	8df6aa42d1bb	config	True	6	19	4	2	3	1	1	"[""niri"", ""starship"", ""tmux"", ""zed"", ""zellij"", ""zsh""]"	"[""other_editor:kate""]"
+cfrenette/nixos-config	public	af711691cde3	config	True	3	19	3	0	1	2	1	"[""bash"", ""neovim"", ""starship""]"	"[""other_wm:cosmic""]"
+clemak27/homelab	public	a8bb1c3f0fec	config	True	3	19	3	0	2	1	0	"[""neovim"", ""starship"", ""zsh""]"	[]
+closure-labs/foundation	public	0715d5823b45	mixed	True	2	19	1	1	1	0	0	"[""neovim"", ""zsh""]"	[]
+closure-labs/maestro	public	6d707f35e29b	config	True	1	19	1	0	1	0	0	"[""bash""]"	[]
+closure-labs/mish	public	6587ee6dbb2f	config	True	0	19	0	0	0	0	0	[]	[]
+danielgafni/nixos	public	26f03bc416ad	config	True	8	19	8	0	7	1	1	"[""aerospace"", ""helix"", ""hyprland"", ""neovim"", ""starship"", ""zed"", ""zellij"", ""zsh""]"	"[""other_editor:cursor""]"
+derangga/dotfiles	public	c43c24f8b7f7	config	True	7	19	6	1	5	1	1	"[""aerospace"", ""fish"", ""neovim"", ""starship"", ""tmux"", ""vscode"", ""zed""]"	"[""other_wm:omniwm""]"
+cmetz/dotfiles	local	0c38be9224d7	config	True	4	19	4	0	4	0	1	"[""bash"", ""helix"", ""tmux"", ""vscode""]"	"[""other_wm:bspwm""]"
+drupol/infra	local	b8cf59f140f5	config	True	6	19	6	0	6	0	2	"[""fish"", ""kde"", ""starship"", ""vscode"", ""zed"", ""zellij""]"	"[""other_editor:gram (Zed fork), antigravity"", ""other_editor:micro""]"
+eldios/dotfiles	public	ce9d9573891e	config	True	9	19	7	2	6	1	0	"[""bash"", ""hyprland"", ""neovim"", ""nushell"", ""starship"", ""tmux"", ""vscode"", ""zed"", ""zsh""]"	[]
+elianiva/dotfiles	public	44d6d212ab1d	config	True	9	19	7	2	7	0	0	"[""bash"", ""fish"", ""helix"", ""neovim"", ""nushell"", ""starship"", ""tmux"", ""zed"", ""zellij""]"	[]
+eugencowie/dotfiles	public	64dbfad5d9ca	config	True	6	19	6	0	4	2	0	"[""gnome"", ""neovim"", ""starship"", ""zed"", ""zellij"", ""zsh""]"	[]
+fmway/infra	public	ad5b83625ade	mixed	True	0	19	0	0	0	0	0	[]	[]
+greysilly7/nixos-config	public	955ea2336310	config	True	9	19	5	4	2	3	0	"[""aerospace"", ""bash"", ""helix"", ""neovim"", ""niri"", ""starship"", ""tmux"", ""vscode"", ""zsh""]"	[]
+henriquekirchheck/nixos-flake	public	f9b5451633a4	config	True	7	19	7	0	6	1	0	"[""bash"", ""fish"", ""kde"", ""neovim"", ""niri"", ""starship"", ""zed""]"	[]
+hmajid2301/nixicle	public	ca0d927add73	config	True	7	19	6	1	6	0	0	"[""fish"", ""helix"", ""neovim"", ""niri"", ""starship"", ""tmux"", ""zellij""]"	[]
+icebluerabbit/nixos	public	21a704b338c3	config	True	7	19	7	0	7	0	1	"[""bash"", ""neovim"", ""niri"", ""tmux"", ""vscode"", ""zed"", ""zsh""]"	"[""other_prompt:oh-my-posh""]"
+ivokun/kebun	public	1038ddc22989	config	True	7	19	7	0	7	0	0	"[""fish"", ""helix"", ""hyprland"", ""neovim"", ""starship"", ""tmux"", ""zsh""]"	[]
+jadestar1864/nix-config	public	1e0fcc909f4f	config	True	5	19	5	0	5	0	0	"[""helix"", ""kde"", ""starship"", ""tmux"", ""zsh""]"	[]
+jasperro/dotfiles	public	37a402659597	config	True	7	19	6	1	4	2	1	"[""fish"", ""kde"", ""neovim"", ""niri"", ""nushell"", ""vscode"", ""zsh""]"	"[""other_prompt:oh-my-posh""]"
+jcranney/nix-configuration	public	12376d630e3e	config	True	3	19	2	1	1	1	0	"[""niri"", ""vscode"", ""zsh""]"	[]
+jkopano/nixiak	public	97bf0689bb4d	mixed	True	9	19	8	1	5	3	0	"[""gnome"", ""helix"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""tmux"", ""zed"", ""zsh""]"	[]
+jmartindf/dendritic	public	db88ba8d4a10	config	True	2	19	2	0	2	0	1	"[""bash"", ""fish""]"	"[""other_editor:vim""]"
+klchen0112/dotfiles	public	d47908159f3e	config	True	9	19	8	1	6	2	1	"[""bash"", ""emacs"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""tmux"", ""vscode"", ""zsh""]"	"[""other_wm:paneru""]"
+lorenzorapetti/nix	public	e6b3e716d30a	config	True	6	19	6	0	4	2	0	"[""fish"", ""hyprland"", ""neovim"", ""starship"", ""zed"", ""zellij""]"	[]
+loystonpais/lunar	public	5f836c9e4a1c	config	True	8	19	6	2	5	1	1	"[""bash"", ""niri"", ""starship"", ""tmux"", ""vscode"", ""zed"", ""zellij"", ""zsh""]"	"[""other_shell:xonsh""]"
+lucasshiva/nixconfig	archived	9e8aa1ba03ce	config	True	9	19	8	1	6	2	0	"[""bash"", ""fish"", ""kde"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""zed"", ""zsh""]"	[]
+tomwrw/megadots	local	09aae5c6af50	config	True	5	19	5	0	5	0	0	"[""gnome"", ""neovim"", ""starship"", ""vscode"", ""zsh""]"	[]
+mio-19/config-public	public	a269164a1be6	config	True	9	19	9	0	9	0	0	"[""bash"", ""emacs"", ""fish"", ""kde"", ""starship"", ""tmux"", ""vscode"", ""zed"", ""zsh""]"	[]
+motheki/nix	public	e75e72ed08cc	config	True	6	19	6	0	4	2	1	"[""bash"", ""fish"", ""neovim"", ""nushell"", ""starship"", ""zsh""]"	"[""other_multiplexer:tuios""]"
+moxie0420/dotfiles	public	42df6003db8c	config	True	4	19	4	0	4	0	0	"[""fish"", ""helix"", ""niri"", ""starship""]"	[]
+mrbandler/nix	public	6869a203c3fc	config	True	10	19	10	0	9	1	1	"[""aerospace"", ""bash"", ""helix"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""vscode"", ""zed"", ""zsh""]"	"[""other_multiplexer:tuios""]"
+muhammadtalha-quant/denix	public	70e67b484b5e	config	True	3	19	3	0	3	0	1	"[""fish"", ""hyprland"", ""zed""]"	"[""other_editor:vim""]"
+nazarewk-iac/nix-configs	public	a1a10f5c8272	mixed	True	8	19	6	2	6	0	0	"[""bash"", ""fish"", ""helix"", ""kde"", ""sway"", ""tmux"", ""zellij"", ""zsh""]"	[]
+neonvoidx/nix	public	50ad179a5fb4	config	True	4	19	4	0	2	2	1	"[""bash"", ""neovim"", ""starship"", ""zsh""]"	"[""other_wm:umbriel""]"
+nifoc/dotfiles	public	387a13d9abfe	config	True	0	19	0	0	0	0	0	[]	[]
+espdesign/nixos.den	local	f52aed42f511	config	True	5	19	5	0	5	0	0	"[""gnome"", ""neovim"", ""starship"", ""vscode"", ""zsh""]"	[]
+zakuciael/nixpedition	local	b45ae683a1b2	config	True	3	19	2	1	0	2	0	"[""bash"", ""fish"", ""neovim""]"	[]
+nolvyn/nixos	public	e0fd0f9f0537	config	True	4	19	4	0	4	0	2	"[""fish"", ""hyprland"", ""vscode"", ""zed""]"	"[""other_editor:nano"", ""other_wm:omniwm""]"
+OceangreenDev/nix-config	archived	5103cc02832d	config	True	5	19	5	0	3	2	0	"[""kde"", ""neovim"", ""starship"", ""vscode"", ""zsh""]"	[]
+oxce5/chimera	public	cc96a65abd5d	config	True	5	19	5	0	5	0	1	"[""bash"", ""fish"", ""neovim"", ""niri"", ""starship""]"	"[""other_multiplexer:herdr""]"
+pdarulewski/dotfiles	public	97a47bb048ad	config	True	3	19	3	0	3	0	1	"[""neovim"", ""tmux"", ""zsh""]"	"[""other_prompt:oh-my-posh""]"
+phucisstupid/dotfiles	public	0e80243bb07b	config	True	5	19	5	0	5	0	0	"[""aerospace"", ""fish"", ""neovim"", ""starship"", ""tmux""]"	[]
+quasi-coherent/nix-config	public	52971feef21f	config	True	4	19	4	0	4	0	0	"[""emacs"", ""starship"", ""tmux"", ""zsh""]"	[]
+quasigod.xyz/nixconfig	local	570018d633c7	config	True	8	19	7	1	7	0	0	"[""bash"", ""emacs"", ""fish"", ""helix"", ""niri"", ""nushell"", ""starship"", ""zellij""]"	[]
+r17x/universe	public	f8bc64a503b4	config	True	5	19	5	0	5	0	0	"[""aerospace"", ""fish"", ""neovim"", ""starship"", ""tmux""]"	[]
+raphaelladinig/dotfiles	public	f29658d31d04	config	True	2	19	2	0	2	0	0	"[""fish"", ""neovim""]"	[]
+recursivepaws/nix	public	c4317eb95fad	config	True	5	19	4	1	4	0	0	"[""neovim"", ""niri"", ""starship"", ""tmux"", ""zsh""]"	[]
+redxtech/nixfiles	public	f0611199ba42	config	True	7	19	7	0	7	0	1	"[""fish"", ""neovim"", ""niri"", ""starship"", ""tmux"", ""zed"", ""zellij""]"	"[""other_editor:micro""]"
+repparw/nix	public	b2a680435a4e	config	True	5	19	5	0	4	1	0	"[""bash"", ""fish"", ""neovim"", ""niri"", ""tmux""]"	[]
+rhedgeco/nix-config	public	fd875038e37f	config	True	5	19	4	1	3	1	0	"[""bash"", ""fish"", ""niri"", ""starship"", ""zed""]"	[]
+scoiatael/dotfiles	public	b1b3cc10eef1	config	True	10	19	9	1	8	1	0	"[""aerospace"", ""emacs"", ""fish"", ""helix"", ""kde"", ""neovim"", ""niri"", ""tmux"", ""zellij"", ""zsh""]"	[]
+sini/nix-config	anchor	7e267a559e4a	config	True	9	19	9	0	8	1	1	"[""aerospace"", ""bash"", ""gnome"", ""neovim"", ""starship"", ""tmux"", ""vscode"", ""zellij"", ""zsh""]"	"[""other_multiplexer:herdr""]"
+sk4rd/mikos-den	public	de31f342886a	config	True	3	19	3	0	3	0	0	"[""fish"", ""kde"", ""neovim""]"	[]
+sm-f/nix	public	23820eea5e00	config	True	5	19	5	0	5	0	0	"[""neovim"", ""niri"", ""nushell"", ""starship"", ""zsh""]"	[]
+sonntag/nix	public	816947c6a270	mixed	True	8	19	7	1	6	1	0	"[""aerospace"", ""fish"", ""helix"", ""neovim"", ""starship"", ""tmux"", ""zed"", ""zellij""]"	[]
+soriPhoono/homelab	public	c6599b697b93	config	True	5	19	5	0	4	1	0	"[""fish"", ""hyprland"", ""kde"", ""neovim"", ""starship""]"	[]
+talarys/den	public	469df2c2de88	config	True	8	19	6	2	3	3	1	"[""fish"", ""kde"", ""neovim"", ""nushell"", ""starship"", ""tmux"", ""vscode"", ""zellij""]"	"[""other_multiplexer:herdr""]"
+~theutz/flake	local	3ede31e7a4e9	config	True	11	19	11	0	8	3	0	"[""aerospace"", ""bash"", ""fish"", ""gnome"", ""neovim"", ""niri"", ""nushell"", ""starship"", ""tmux"", ""zellij"", ""zsh""]"	[]
+thomasgoulet/nixnites	public	54d53d7979ed	config	True	4	19	4	0	3	1	1	"[""helix"", ""niri"", ""nushell"", ""starship""]"	"[""other_multiplexer:herdr""]"
+trash-panda-v91-beta/dots.factory	public	04ed87289164	config	True	4	19	4	0	4	0	1	"[""aerospace"", ""neovim"", ""nushell"", ""starship""]"	"[""other_multiplexer:herdr""]"
+vitalyavolyn/dotfiles	public	4fbe31ccb7bb	config	True	4	19	4	0	4	0	1	"[""fish"", ""gnome"", ""zed"", ""zsh""]"	"[""other_editor:vim""]"
+vodfsh/nixos-config	public	a0ff916b0b31	config	True	6	19	4	2	2	2	0	"[""kde"", ""neovim"", ""starship"", ""vscode"", ""zellij"", ""zsh""]"	[]
+voidlily/dotfiles	public	ef20abb997bd	config	True	4	19	4	0	3	1	1	"[""emacs"", ""kde"", ""starship"", ""zsh""]"	"[""other_editor:vim""]"

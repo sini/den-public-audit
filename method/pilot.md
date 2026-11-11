@@ -44,10 +44,10 @@ final weights, and they were written after the pilot.
 
 | config | D | I | S | R | P | L | V | O | X |
 |---|---|---|---|---|---|---|---|---|---|
-| [sini__nix-config](../configs/sini__nix-config.md) | 9/8 | 9/9 | 5/5 | 5/6 | 8/8 | 6/7 | 6/6 | 9/8 | 9/9 |
-| [theutz](../configs/theutz.md) | 6/6 | 7/7 | 3/5 | 5/5 | 5/7 | 1/1 | 2/2 | 7/6 | 2/2 |
-| [auscyber__dotfiles](../configs/auscyber__dotfiles.md) | 9/8 | 7/9 | 6/7 | 4/5 | 7/8 | 7/7 | 8/8 | 8/8 | 7/9 |
-| [DylanRJohnston__nixos](../configs/DylanRJohnston__nixos.md) | 5/5 | 7/9 | 5/5 | 6/5 | 7/9 | 5/5 | 8/9 | 5/5 | 2/2 |
-| [SyahrulBhudiF__dotfiles](../configs/SyahrulBhudiF__dotfiles.md) | 2/2 | 4/5 | 2/2 | 3/5 | 5/5 | 2/2 | 2/2 | 2/2 | 2/2 |
-| [adanoelle__garden-shell](../libraries/adanoelle__garden-shell.md) | 2/2 | 5/6 | 3/5 | 5/5 | 4/5 | 5/5 | 3/4 | –/– | 2/2 |
-| [Keyruu__shinyflakes](../configs/Keyruu__shinyflakes.md) | 7/7 | 7/8 | 5/6 | 3/5 | 5/5 | 4/3 | 4/5 | 4/5 | 3/2 |
+| [sini/nix-config](../configs/sini/nix-config.md) | 9/8 | 9/9 | 5/5 | 5/6 | 8/8 | 6/7 | 6/6 | 9/8 | 9/9 |
+| [~theutz/flake](../configs/theutz/flake.md) | 6/6 | 7/7 | 3/5 | 5/5 | 5/7 | 1/1 | 2/2 | 7/6 | 2/2 |
+| [auscyber/dotfiles](../configs/auscyber/dotfiles.md) | 9/8 | 7/9 | 6/7 | 4/5 | 7/8 | 7/7 | 8/8 | 8/8 | 7/9 |
+| [DylanRJohnston/nixos](../configs/DylanRJohnston/nixos.md) | 5/5 | 7/9 | 5/5 | 6/5 | 7/9 | 5/5 | 8/9 | 5/5 | 2/2 |
+| [SyahrulBhudiF/dotfiles](../configs/SyahrulBhudiF/dotfiles.md) | 2/2 | 4/5 | 2/2 | 3/5 | 5/5 | 2/2 | 2/2 | 2/2 | 2/2 |
+| [adanoelle/garden-shell](../libraries/adanoelle/garden-shell.md) | 2/2 | 5/6 | 3/5 | 5/5 | 4/5 | 5/5 | 3/4 | –/– | 2/2 |
+| [Keyruu/shinyflakes](../configs/Keyruu/shinyflakes.md) | 7/7 | 7/8 | 5/6 | 3/5 | 5/5 | 4/3 | 4/5 | 4/5 | 3/2 |
