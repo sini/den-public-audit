@@ -94,13 +94,11 @@ export default defineConfig({
 					items: [
 						{ label: 'Overview', slug: 'index' },
 						{ label: 'Ranking', slug: 'ranking' },
+						// One entry, not one per config: 100+ owner/repo entries made the sidebar a wall. The index page
+						// groups them by owner, and every config page links back to it.
+						{ label: 'Config index', slug: 'configs' },
 						{ label: 'Glossary', slug: 'glossary' },
 					],
-				},
-				{
-					label: 'Configs',
-					collapsed: true,
-					items: [{ autogenerate: { directory: 'configs', collapsed: true } }],
 				},
 				{
 					label: 'Libraries',
@@ -112,11 +110,6 @@ export default defineConfig({
 					items: [
 						{ label: 'The census files', slug: 'census' },
 						{ label: 'Summary', slug: 'census/summary' },
-						{
-							label: 'Per-config notes',
-							collapsed: true,
-							items: [{ autogenerate: { directory: 'census/configs', collapsed: true } }],
-						},
 					],
 				},
 				{
