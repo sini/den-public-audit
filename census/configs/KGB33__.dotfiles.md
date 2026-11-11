@@ -1,0 +1,28 @@
+# KGB33__.dotfiles: census notes
+
+[Config page](../../configs/KGB33__.dotfiles.md) · upstream [KGB33/.dotfiles](https://github.com/KGB33/.dotfiles) · [Census summary](../summary.md)
+
+Revision `851fb5b43c9e`.
+
+## Contents
+
+- [Project and inspected revision](#project-and-inspected-revision)
+- [Software selected and host/user traces](#software-selected-and-hostuser-traces)
+- [Defined, disabled and ambiguous alternatives](#defined-disabled-and-ambiguous-alternatives)
+- [Machine roles and remaining unknowns](#machine-roles-and-remaining-unknowns)
+
+## Project and inspected revision
+
+Three NixOS hosts and two standalone homes are declared in modules/den.nix:3 and modules/den.nix:6. This is a personal configuration, not five physical machines. Flake import-tree loads the aspect tree (flake.nix:4).
+
+## Software selected and host/user traces
+
+Both identity aspects directly include dev (modules/aspects/kgb33.nix:41; modules/aspects/keltonbassingthwaite.nix:30), whose Neovim, tmux, Nu and shell includes reach actual configuration. The global mutual-provider policy is explicit (modules/aspects/defaults.nix:25), and HM classes are assigned at modules/den.nix:12. Linux identity selects both Niri and Hyprland; the Darwin home selects AeroSpace with a resolved Darwin guard.
+
+## Defined, disabled and ambiguous alternatives
+
+Neovim defaultEditor is explicit (modules/aspects/apps/nvim.nix:53), with native Fennel options (modules/aspects/apps/nvim/options.fnl:4). The misleadingly named nushell-login actually selects Bash (modules/aspects/apps/nushell.nix:16) and conditionally execs Nu from its initializer (modules/aspects/apps/nushell.nix:22). Darwin Zsh likewise conditionally execs Nu; that does not prove an account default. Starship presets and tmux bindings are substantive. Portal strings named gnome and emacs keybinding modes are not GNOME or Emacs adoption.
+
+## Machine roles and remaining unknowns
+
+No physical laptop/desktop/server role is established for the three hosts from application selection alone. The Darwin target is a standalone home, not a managed Darwin host. The Linux standalone home shares the identity’s HM definitions; its host-dependent setHost aspect and OS contributions do not establish a separate physical machine or prove successful evaluation.

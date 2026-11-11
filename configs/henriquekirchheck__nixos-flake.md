@@ -1,0 +1,120 @@
+# henriquekirchheck__nixos-flake
+
+About this page: this is the review of one config at one pinned revision. The header below gives the score and the shortlists. The numbered sections follow in the same order on every page, and section 8 is the scorecard. For the terms, see the [glossary](../GLOSSARY.md). For a guide to the scorecard, see [how to read a scorecard](../README.md#how-to-read-a-scorecard).
+
+[Index](../README.md) · [Ranking](../RANKING.md) · [Census notes](../census/configs/henriquekirchheck__nixos-flake.md)
+
+- Upstream: [henriquekirchheck/nixos-flake](https://github.com/henriquekirchheck/nixos-flake)
+- Reviewed revision: [`f9b5451633a4`](https://github.com/henriquekirchheck/nixos-flake/commit/f9b5451633a403b5381b7dbf7951a978f2ea7032)
+- Author: henriquekirchheck
+- Score: **57.5 / 100**, rank 20 of 103 ranked configs. D 7 · I 9 · S 7 · R 5 · P 5 · L 2 · V 5 · O 5 · B 7 · X 2. Shortlists: showcase, library units (1).
+- Summary: D multiple live quirk channels capped7 without cross-scope pipe; I localized contributions; S typed tree and three groups; R useful SSH; P honest Linux; L minimal; V hooks; O derived state/secrets; X standard; B complete app census.
+
+Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../method/RUBRIC.md).
+
+## Contents
+
+- [1. Shape.](#1-shape)
+- [2. Common patterns.](#2-common-patterns)
+- [3. Novel patterns.](#3-novel-patterns)
+- [4. Library candidates.](#4-library-candidates)
+- [5. den friction.](#5-den-friction)
+- [6. Docs and complexity.](#6-docs-and-complexity)
+- [6a. Defects and scoring notes.](#6a-defects-and-scoring-notes)
+- [7. Template notes.](#7-template-notes)
+- [8. Scorecard.](#8-scorecard)
+
+## 1. Shape.
+
+Generated flake-file outputs use flake-parts/import-tree and a deeply nested feature tree (`flake.nix:4`, `modules/hosts/artemis/config.nix:91`). Host facts feed typed settings, with globals and input integration represented as aspects (`modules/aspects/settings/default.nix:3`, `modules/globals.nix:3`).
+
+
+## 2. Common patterns.
+
+- angle-bracket refs: the den integration supplies __findFile and standard user/host batteries (`modules/inputs/den.nix:11`).
+- den.default includes: globals and integration aspects are globally selected (`modules/globals.nix:17`, `modules/inputs/disko.nix:8`).
+- custom schema/classes: settings is reserved and installed as a typed host option (`modules/aspects/settings/default.nix:2`).
+
+
+## 3. Novel patterns.
+
+SSHD emits persistent host-key records (`modules/aspects/services/sshd.nix:15`); collectSystem consumes persist/cache lists into preservation.preserveAt (`modules/inputs/preservation.nix:69`). collectHome maps user contributions to user-specific persistence (`modules/inputs/preservation.nix:93`), with both collectors included by the preservation aspect (`modules/inputs/preservation.nix:17`).
+
+
+## 4. Library candidates.
+
+- services.sshd · `modules/aspects/services/sshd.nix:2` · SSH hardening, persistent keys and per-user allowlisting · NixOS plus repository persist/allow-user quirk plumbing · fn args for contributions · B: extract quirk consumers with the aspect.
+
+
+## 5. den friction.
+
+Reserved settings key prevents typed metadata from entering aspect traversal (`modules/aspects/settings/default.nix:2`); the same extension pattern appears in other audited configurations.
+
+
+## 6. Docs and complexity.
+
+Docs 2: README is generated as a title only (`modules/globals.nix:29`), but host groupings and schema option descriptions give some guidance (`modules/hosts/artemis/config.nix:91`, `modules/aspects/settings/default.nix:8`). Complexity 5: typed settings, persistence contributions and a long multi-role host composition (`modules/aspects/services/sshd.nix:15`, `modules/hosts/artemis/config.nix:91`).
+
+
+## 6a. Defects and scoring notes.
+
+- D · minor: Markdown/TeX/Typst emit zen-extensions but collector consumes zed-extensions; these declarations do not feed the editor extension list (`modules/aspects/apps/development/languages/markdown.nix:6`, `modules/aspects/apps/development/languages/tex.nix:6`, `modules/aspects/apps/development/languages/typst.nix:10`, `modules/aspects/apps/development/editors/zed.nix:231`).
+- D · moderate: Caddy persist emits a list of strings but system collector expects records with directories/files, so its state path is not retained (`modules/aspects/services/caddy.nix:17`, `modules/inputs/preservation.nix:81`).
+- S · minor: three grouped assumptions remain in shared presets (S card), including fixed output and state root (`modules/aspects/apps/desktop-shells/noctalia.nix:223`, `modules/inputs/preservation.nix:80`).
+- L · moderate: generated root README is title-only despite custom contracts (`modules/globals.nix:29`).
+
+## 7. Template notes.
+
+Advanced integration reference; shorten the host composition and teach the contribution channels before making a beginner template (`modules/hosts/artemis/config.nix:91`, `modules/aspects/services/sshd.nix:15`).
+
+## 8. Scorecard.
+
+### D
+Scope: live persistence, secret and app collectors. Pros: SSH host-key emitter reaches preservation collectors; Discord emits Niri rules and languages emit Zed settings, all with concrete consumers (`modules/aspects/services/sshd.nix:15`, `modules/inputs/preservation.nix:81`, `modules/aspects/apps/communication/discord.nix:179`, `modules/aspects/apps/window-managers/niri.nix:248`, `modules/aspects/apps/development/languages/python.nix:12`, `modules/aspects/apps/development/editors/zed.nix:237`). Cons: no cross-scope policy/pipe with explicit missing/duplicate contract; some extension declarations typo zen-extensions rather than consumed zed-extensions (`modules/aspects/apps/development/languages/markdown.nix:6`). Interpolated7 for several independent live built-in quirk routes, below8 generalized cross-scope routing. Score **7**; confidence **medium**.
+
+### I
+Scope: per-feature ownership and user/host composition. Pros: language tools own corresponding editor contributions and services own persistence (`modules/aspects/apps/development/languages/python.nix:4`, `modules/aspects/services/sshd.nix:15`). Cons: no additional concrete isolation defect verified; large host include list alone is not one (`modules/hosts/artemis/config.nix:91`). Literal9. Score **9**; confidence **medium**.
+
+### S
+Scope: typed per-aspect host settings. Pros: settings tree derives submodules, forwards own options/config/imports and describes entries; peripherals/ZeroTier expose meaningful variation (`modules/aspects/settings/_type.nix:24`, `modules/aspects/settings/_type.nix:31`, `modules/aspects/services/zerotier.nix:4`). Contract7: broad purposeful typed contracts above5, below9 documented/default-tested surface. Cons: three grouped shared adaptations remain: author search domain, persistence/cache root layout, Noctalia physical output (`modules/aspects/apps/web/zen.nix:143`, `modules/inputs/preservation.nix:80`, `modules/aspects/apps/desktop-shells/noctalia.nix:223`). Coverage8; ordinary colors/ports and host-local inventory excluded. min(7,8)=7. Score **7**; confidence **medium**.
+```score-evidence
+{"S":{"contract_design":7,"leak_coverage":8,"distinct_leaks":3}}
+```
+
+### R
+Scope: independent units and old SSH nomination. Pros: SSH hardening/key resources and many complete nonidentity app presets are extractable with standard collectors (`modules/aspects/services/sshd.nix:4`, `modules/aspects/apps/development/vcs/git.nix:11`). Cons: no independent worked extraction consumer, and Niri/ZeroTier read fleet-specific host.settings schema (`modules/aspects/apps/window-managers/niri.nix:183`, `modules/aspects/services/zerotier.nix:12`). Literal5 useful units, not9 polished documented substantial A unit. Score **5**; confidence **medium**.
+
+### P
+Scope: intentionally NixOS plus hosted HM. Pros: OS/HM contributions are separated; native package choices read OS graphics deliberately (`modules/aspects/apps/media/mpv.nix:37`). Cons: no independent Darwin/home-only boundary guarantee; settings lookup requires host entity (`modules/aspects/apps/window-managers/niri.nix:183`). Literal5 honest narrow support, not penalized for lacking other platforms. Score **5**; confidence **medium**.
+
+### L
+Scope: generated README and option comments. Pros: settings and service option descriptions identify intent (`modules/aspects/settings/default.nix:8`, `modules/aspects/services/zerotier.nix:5`). Cons: generated README remains a title rather than worked authoring for custom collectors (`modules/globals.nix:29`). Literal2 minimal user-facing guidance. Score **2**; confidence **medium**.
+
+### V
+Scope: flake pre-commit checks. Pros: flake-checker, ShellCheck and format/schema hooks are enabled with check.enable=true (`modules/inputs/git-hooks.nix:35`, `modules/inputs/git-hooks.nix:38`, `modules/inputs/git-hooks.nix:46`). Cons: no dedicated collector collision/missing-setting fixtures shown (`modules/aspects/apps/development/editors/zed.nix:239`). Literal5 structural checks; no passing run claimed. Score **5**; confidence **medium**.
+
+### O
+Scope: state/secret operational resources derived from selected features. Pros: secret names/templates are collected into SOPS and user/system state paths into preservation; files accept explicit per-user/system sources (`modules/inputs/sops.nix:57`, `modules/inputs/sops.nix:66`, `modules/inputs/preservation.nix:105`). Cons: no deployment/builder/rollback inventory orchestration; Btrfs rollback assumes fixed label/layout (`modules/inputs/preservation.nix:149`). Literal5 useful derived bootstrap/state operations, below9 generalized failure-handled fleet operations. Score **5**; confidence **medium**.
+
+### X
+Scope: standard NixOS/HM and resource integrations. Pros: custom quirk contracts extend application composition (`modules/aspects/apps/development/editors/zed.nix:3`). Cons: no new non-host target class; persistence/secrets are operational resources counted O (`modules/inputs/sops.nix:15`). Baseline2. Score **2**; confidence **medium**.
+
+### B
+Scope: all complete application units and selected census max-depth. Pros: listed coherent presets own runtime/plugins and standard resource contributions (`modules/aspects/apps/media/mpv.nix:15`, `modules/aspects/apps/development/vcs/git.nix:71`). Cons: package-only/enable-only leaves, language fragments counted only through Zed once, Niri/ZeroTier fleet schema, Noctalia physical output, personal Zen, and FZF unowned preview tools excluded (`modules/aspects/apps/development/editors/neovim.nix:20`, `modules/aspects/apps/window-managers/niri.nix:183`, `modules/aspects/apps/sh/utils/fzf.nix:52`). Standard persist/secrets collectors do not disqualify complete units; bare enable plus path metadata not enough. Score **7**; confidence **medium**.
+B_div: 6.5 points → 5; B_ref: 32 units → 9; half-up mean → 7.
+```score-evidence
+{"B":{"diversity_points":6.5,"diversity_grade":5,"reference_grade":9,"reference_units":[{"name":"comma","evidence":"modules/aspects/apps/comma.nix:10"},{"name":"discord","evidence":"modules/aspects/apps/communication/discord.nix:28"},{"name":"thunderbird","evidence":"modules/aspects/apps/communication/thunderbird.nix:7"},{"name":"wine","evidence":"modules/aspects/apps/compatibility/wine.nix:6"},{"name":"docker","evidence":"modules/aspects/apps/containers/docker.nix:13"},{"name":"podman","evidence":"modules/aspects/apps/containers/podman.nix:14"},{"name":"emacs","evidence":"modules/aspects/apps/development/editors/emacs.nix:35"},{"name":"zed","evidence":"modules/aspects/apps/development/editors/zed.nix:33"},{"name":"git","evidence":"modules/aspects/apps/development/vcs/git.nix:11"},{"name":"fastfetch","evidence":"modules/aspects/apps/fetch/fastfetch.nix:6"},{"name":"hyfetch","evidence":"modules/aspects/apps/fetch/hyfetch.nix:6"},{"name":"prismlauncher","evidence":"modules/aspects/apps/games/minecraft.nix:8"},{"name":"steam","evidence":"modules/aspects/apps/games/steam.nix:12"},{"name":"mpv","evidence":"modules/aspects/apps/media/mpv.nix:34"},{"name":"obs","evidence":"modules/aspects/apps/media/videos/obs.nix:11"},{"name":"nix","evidence":"modules/aspects/apps/nix.nix:12"},{"name":"sudo-rs","evidence":"modules/aspects/apps/security/permission.nix:14"},{"name":"doas","evidence":"modules/aspects/apps/security/permission.nix:27"},{"name":"polkit-kde","evidence":"modules/aspects/apps/security/polkit.nix:10"},{"name":"kwallet","evidence":"modules/aspects/apps/security/keyrings/kwallet.nix:8"},{"name":"bash","evidence":"modules/aspects/apps/sh/shells/bash.nix:9"},{"name":"fish","evidence":"modules/aspects/apps/sh/shells/fish.nix:13"},{"name":"zsh","evidence":"modules/aspects/apps/sh/shells/zsh.nix:16"},{"name":"direnv","evidence":"modules/aspects/apps/sh/utils/direnv.nix:10"},{"name":"starship","evidence":"modules/aspects/apps/sh/utils/starship.nix:4"},{"name":"zoxide","evidence":"modules/aspects/apps/sh/utils/zoxide.nix:10"},{"name":"alacritty","evidence":"modules/aspects/apps/terminal-emulators/alacritty.nix:4"},{"name":"libvirtd","evidence":"modules/aspects/apps/virtualisation/libvirtd.nix:4"},{"name":"qemu","evidence":"modules/aspects/apps/virtualisation/qemu.nix:17"},{"name":"aria2","evidence":"modules/aspects/apps/web/aria2.nix:4"},{"name":"sshd","evidence":"modules/aspects/services/sshd.nix:4"},{"name":"postgres-backup","evidence":"modules/aspects/services/postgres.nix:15"}]}}
+```
+
+Total: **57.5/100**. Shortlists: showcase true; library_units ['services.sshd']; starter false.
+
+Overall pros:
+- Several live independent contribution channels (`modules/inputs/preservation.nix:69`).
+- Typed per-aspect settings derive from feature ownership (`modules/aspects/settings/_type.nix:24`).
+- App/tool dependencies are often owned in the same unit (`modules/aspects/apps/media/mpv.nix:15`).
+
+Overall cons / limits:
+- Some language emissions use wrong channel (§6a D; `modules/aspects/apps/development/languages/markdown.nix:6`).
+- Caddy persistence payload has wrong collector shape (§6a D; `modules/aspects/services/caddy.nix:17`).
+- Shared output/domain/layout assumptions remain (§6a S; `modules/aspects/apps/desktop-shells/noctalia.nix:223`).
+- No worked authoring docs (§6a L; `modules/globals.nix:29`).

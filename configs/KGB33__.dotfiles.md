@@ -1,0 +1,118 @@
+# KGB33__.dotfiles
+
+About this page: this is the review of one config at one pinned revision. The header below gives the score and the shortlists. The numbered sections follow in the same order on every page, and section 8 is the scorecard. For the terms, see the [glossary](../GLOSSARY.md). For a guide to the scorecard, see [how to read a scorecard](../README.md#how-to-read-a-scorecard).
+
+[Index](../README.md) · [Ranking](../RANKING.md) · [Census notes](../census/configs/KGB33__.dotfiles.md)
+
+- Upstream: [KGB33/.dotfiles](https://github.com/KGB33/.dotfiles)
+- Reviewed revision: [`851fb5b43c9e`](https://github.com/KGB33/.dotfiles/commit/851fb5b43c9e57a1fc5dfff6169b33b960a40932)
+- Author: KGB33
+- Score: **48.5 / 100**, rank 54 of 103 ranked configs. D 2 · I 8 · S 5 · R 5 · P 8 · L 2 · V 9 · O 5 · B 6 · X 2. Shortlists: library units (1).
+- Summary: Strong application failure tests and explicit platform scope; direct Den feature selection earns no structured-data bonus, and several native units require outside context or repairs before independent reuse.
+
+Citations are `path:line` in the upstream repository at the reviewed revision. Read the method in [method/RUBRIC.md](../method/RUBRIC.md).
+
+## Contents
+
+- [1. Shape](#1-shape)
+- [2. Common patterns](#2-common-patterns)
+- [3. Novel patterns](#3-novel-patterns)
+- [4. Library candidates](#4-library-candidates)
+- [5. den friction](#5-den-friction)
+- [6. Docs and complexity](#6-docs-and-complexity)
+- [6a. Defects and scoring notes](#6a-defects-and-scoring-notes)
+- [7. Template notes](#7-template-notes)
+- [8. Scorecard](#8-scorecard)
+
+## 1. Shape
+Actual Linux hosts and standalone Linux/Darwin homes coexist (`modules/den.nix:3`, `modules/den.nix:6`). Exported vm/apps/components namespaces group features beyond the literal aspect tree (`modules/namespace.nix:9`).
+
+## 2. Common patterns
+- namespace: vm, apps and components are exported (`modules/namespace.nix:9`).
+- homes (standalone HM) and embedded users share the user class default (`modules/den.nix:6`, `modules/den.nix:12`).
+- provides tree: VM base distinguishes GUI/TUI installer combinations (`modules/aspects/vm/base.nix:3`).
+
+## 3. Novel patterns
+Checks assert enabled NH/Git state and pin selected application packages to cached nixpkgs packages (`modules/tests.nix:27`, `modules/tests.nix:31`, `modules/tests.nix:32`). The provider labels do not isolate the cause of Git enablement: the user dev/vcs chain already supplies it (`modules/aspects/kgb33.nix:41`, `modules/aspects/dev.nix:19`, `modules/aspects/apps/vcs.nix:38`). These are inspected assertions, not checks run for this audit.
+
+## 4. Library candidates
+- stable · `modules/aspects/stable.nix:7` · exposes a stable package set under pkgs.stable in NixOS and HM · inputs: nixpkgs-stable (`modules/aspects/stable.nix:4`) · parameterization: current system and unfree policy are inherited (`modules/aspects/stable.nix:13`) · **A**, self-contained overlay shared across two classes (`modules/aspects/stable.nix:24`).
+
+## 5. den friction
+A comment records confusion about whether assigning HM user classes embeds HM in the OS build (`modules/den.nix:9`). The custom unfree predicate module duplicates the purpose of an unfree battery, a potential simplification rather than a verified bug (`modules/aspects/unfree.nix:6`).
+
+## 6. Docs and complexity
+Docs **3**: organization is described using a stale directory map (`README.md:20`, `modules/namespace.nix:9`) and tests explain intended provider relations (`modules/tests.nix:27`). Complexity **4**: exported namespaces, standalone and embedded homes, and composition/package identity checks (`modules/namespace.nix:9`, `modules/den.nix:6`, `modules/tests.nix:32`).
+
+## 6a. Defects and scoring notes
+
+- **S · moderate:** one grouped author identity remains across shared VCS name/email and Pi user instructions (`modules/aspects/apps/vcs.nix:11`, `modules/aspects/apps/pi/AGENTS.md:3`).
+- **R · moderate:** generated TV Tmux binding opens a single quote without closing it (`modules/aspects/apps/tv.nix:92`); preview-helper tests do not test that binding.
+- **R · moderate:** Neovim requests a Catppuccin colorscheme not supplied by its plugin list, with Stylix Neovim generation disabled (`modules/aspects/apps/nvim/options.fnl:33`, `modules/aspects/apps/nvim.nix:68`, `modules/aspects/stylix.nix:30`). Independent reuse must supply that dependency.
+- **L · moderate:** README directory/selection guidance describes the older homes/apps/systems layout (`README.md:20`, `README.md:33`, `modules/namespace.nix:9`).
+The custom unfree option is a normal local extension, not a defect; an uncertainty comment alone is not charged.
+
+## 7. Template notes
+A real personalized configuration retaining template comments; provider checks and reusable overlays are useful teaching material (`modules/tests.nix:1`, `modules/den.nix:3`, `modules/aspects/stable.nix:7`).
+
+## 8. Scorecard
+
+### D
+
+Scope · pros · cons/coverage: User/host aspects directly select features and named providers enable NH (`modules/aspects/kgb33.nix:41`, `modules/aspects/kgb33.nix:79`). The Git assertion does not isolate a host-provided contribution: Git already arrives through dev→vcs (`modules/aspects/dev.nix:19`, `modules/aspects/apps/vcs.nix:38`, `modules/tests.nix:31`). Baseline2 for direct composition; runtime Pi status/preview data processing is application code, not a Den structured-fact channel. Score **2**; confidence **high**.
+
+### I
+
+Scope · pros · cons/coverage: Exported app/component/VM namespaces separate reusable units from identity and hardware (`modules/namespace.nix:9`, `modules/aspects/dev.nix:9`). Tests and native assets are colocated with their owning application (`modules/aspects/apps/tv.nix:27`, `modules/aspects/apps/pi.nix:38`). Eight approaches isolated9; some applications rely on a surrounding theme/module environment, such as Pi reading Stylix colors (`modules/aspects/apps/pi.nix:155`), an explicit reuse limitation charged under R rather than duplicated as an I defect. Score **8**; confidence **high**.
+
+### S
+
+Scope · pros · cons/coverage: Most native presets contain generic settings and derive paths from HM context (`modules/aspects/apps/aerospace.nix:12`, `modules/aspects/apps/tv/preview.clj:15`). Contract5: shared VCS defaults still embed name/email (`modules/aspects/apps/vcs.nix:11`), and the shared Pi context identifies the user as Kelton (`modules/aspects/apps/pi/AGENTS.md:3`). Those raw name/email/context forms are one author-identity adaptation group, coverage9 with no count cap, min5. Host-specific UUIDs/WireGuard values stay in their host aspect (`modules/aspects/blue.nix:37`) and are not counted as shared-unit leaks. Score **5**; confidence **medium**.
+
+```score-evidence
+{"S":{"contract_design":5,"leak_coverage":9,"distinct_leaks":1}}
+```
+
+### R
+
+Scope · pros · cons/coverage: The stable overlay carries its input, system and unfree-policy contract across NixOS/HM (`modules/aspects/stable.nix:4`, `modules/aspects/stable.nix:13`, `modules/aspects/stable.nix:24`), grade5 without a substantial minimal-consumer example. Larger reusable-looking units have concrete dependencies/defects: TV adds an unterminated single-quoted Tmux command (`modules/aspects/apps/tv.nix:92`); Neovim requests catppuccin (`modules/aspects/apps/nvim/options.fnl:33`) without supplying that plugin in its list (`modules/aspects/apps/nvim.nix:68`), while Stylix Neovim integration is explicitly off (`modules/aspects/stylix.nix:30`). These limit independent reuse; no runtime failure was reproduced. Score **5**; confidence **high**.
+
+### P
+
+Scope · pros · cons/coverage: Aerospace defaults to Darwin only (`modules/aspects/apps/aerospace.nix:12`), Microsandbox explicitly limits binary bundles to x86_64 Linux/aarch64 Darwin (`modules/aspects/apps/microsandbox.nix:6`, `modules/aspects/apps/microsandbox.nix:21`), and actual Linux hosts/Darwin home exist (`modules/den.nix:3`, `modules/den.nix:7`). Eight interpolates toward9 with CI on Ubuntu/macOS (`.github/workflows/test.yml:11`); this does not establish runtime validation of compositor/native configuration on both. Score **8**; confidence **high**.
+
+### L
+
+Scope · pros · cons/coverage: README gives clone/switch operations (`README.md:5`, `README.md:13`) and a feature organization description (`README.md:20`), but its homes/apps/systems directory map is stale against the modules/namespace tree (`README.md:33`, `modules/namespace.nix:9`). Operation-oriented2, not a current composition tutorial. Score **2**; confidence **high**.
+
+### V
+
+Scope · pros · cons/coverage: CI explicitly runs flake check on Linux/macOS (`.github/workflows/test.yml:11`, `.github/workflows/test.yml:29`), invoking representative output/package assertions (`modules/tests.nix:23`, `modules/tests.nix:32`) and application checks (`modules/aspects/apps/pi.nix:38`, `modules/aspects/apps/tv.nix:27`). Pi tests fault-inject atomic rename failure and invalid runtime paths (`modules/aspects/apps/pi/agent-status-test.cljs:175`, `modules/aspects/apps/pi/agent-status-test.cljs:201`); TV tests malformed/stale snapshots (`modules/aspects/apps/tv/preview-test.clj:148`). These establish focused failure/context-boundary intent9, despite not covering the generated Tmux command. Checks were read, not run. Score **9**; confidence **high**.
+
+### O
+
+Scope · pros · cons/coverage: NH wrappers derive from den.lib.nh.denPackages (`modules/nh.nix:11`), one entity-driven operational concern5. Visible VM/CI helpers are selected configuration variants (`modules/aspects/vm/ci-no-boot.nix:4`, `modules/aspects/vm/vm-bootable.nix:12`); no broader generated secret/install/builder inventory reaches9. Score **5**; confidence **high**.
+
+### X
+
+Scope · pros · cons/coverage: Configured targets remain NixOS and ordinary standalone HM (`modules/den.nix:3`, `modules/den.nix:6`). Microsandbox is an installed application package (`modules/aspects/apps/microsandbox.nix:70`), and VM installer variants import normal NixOS modules (`modules/aspects/vm/vm-bootable.nix:6`); neither establishes a distinct evaluated non-host target contract, baseline2. Score **2**; confidence **high**.
+
+### B
+
+Scope · pros · cons/coverage: Enabled verified census breadth9.5 gives diversity7. Five complete substantive units below were read; Nushell includes the owning shell integration (`modules/aspects/apps/nushell.nix:48`), and Tmux bundles its Babashka helper/dependencies (`modules/aspects/apps/tmux.nix:27`). Bare printing/container toggles are excluded (`modules/aspects/components/printing.nix:2`, `modules/aspects/components/container.nix:4`). VCS carries identity, Pi/Eww need external Stylix context, and Steam needs the project unfree schema (`modules/aspects/apps/vcs.nix:11`, `modules/aspects/apps/pi.nix:155`, `modules/aspects/apps/eww.nix:6`, `modules/aspects/apps/gaming.nix:7`). TV/Neovim have the R defects above. Wezterm calls apply(config) (`modules/aspects/apps/wezterm.nix:25`) without initializing config; exact pinned HM creates that local only when settings is nonempty (pin `flake.lock:465`; source https://raw.githubusercontent.com/nix-community/home-manager/c216bf5a1f173b0481bd5c8c489ebe5595ecc68c/modules/programs/wezterm.nix). Thus this leaf and compositor units including it need additional context, rather than independent-reference credit. Reference4 and diversity7 round to B6. Score **6**; confidence **medium**.
+
+```score-evidence
+{"B":{"diversity_points":9.5,"diversity_grade":7,"reference_grade":4,"reference_units":[{"name":"apps.aerospace","evidence":"modules/aspects/apps/aerospace.nix:4"},{"name":"apps.greetd","evidence":"modules/aspects/apps/greetd.nix:3"},{"name":"apps.nushell","evidence":"modules/aspects/apps/nushell.nix:47"},{"name":"apps.tmux","evidence":"modules/aspects/apps/tmux.nix:3"},{"name":"stylix","evidence":"modules/aspects/stylix.nix:8"}]}}
+```
+
+**Total:** 48.5/100. **Shortlists:** showcase no; library stable; starter no. Strong application failure tests and explicit platform scope; direct Den feature selection earns no structured-data bonus, and several native units require outside context or repairs before independent reuse.
+
+Overall pros:
+- Application assets/tests are colocated with feature modules (`modules/aspects/apps/tv.nix:27`).
+- CI invokes focused failure-path tests on both OS families (`.github/workflows/test.yml:11`, `modules/aspects/apps/pi/agent-status-test.cljs:175`).
+- Stable overlay inherits system and package policy (`modules/aspects/stable.nix:13`).
+
+Overall cons / scope limits:
+- Shared VCS/Pi context retains author identity (`modules/aspects/apps/vcs.nix:11`, `modules/aspects/apps/pi/AGENTS.md:3`).
+- TV emits an unbalanced quoted Tmux command (`modules/aspects/apps/tv.nix:92`).
+- README organization map is stale (`README.md:33`, `modules/namespace.nix:9`).

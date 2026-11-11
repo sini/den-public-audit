@@ -1,0 +1,38 @@
+# muhammadtalha-quant__denix: census notes
+
+[Config page](../../configs/muhammadtalha-quant__denix.md) · upstream [muhammadtalha-quant/denix](https://github.com/muhammadtalha-quant/denix) · [Census summary](../summary.md)
+
+## Contents
+
+- [1. Project and inspected revision](#1-project-and-inspected-revision)
+- [2. Software selected and traces](#2-software-selected-and-traces)
+- [3. Defined, disabled and ambiguous alternatives](#3-defined-disabled-and-ambiguous-alternatives)
+- [4. Machine roles and limits](#4-machine-roles-and-limits)
+
+## 1. Project and inspected revision
+
+Revision `70e67b484b5e`.
+
+One NixOS ProBook inventory user directly selects the Hyprland desktop bundle (`modules/users/muhammadtalha.nix:6`).
+
+## 2. Software selected and traces
+
+Home Manager class defaults and direct user include chain reach Fish, Hyprland and Zed (`modules/defaults.nix:34`). Native Lua files are actual autoloaded configuration, not loose examples.
+
+- **fish / fish** (configured, home-linux, enabled): User directly selects desktop bundle→Fish, with substantive abbreviations, aliases, plugin and function settings. Evidence: `modules/desktop/fish.nix:4`, `modules/desktop/fish.nix:6`, `modules/hosts.nix:18`, `modules/defaults.nix:34`, `modules/users/muhammadtalha.nix:6`, `modules/desktop.nix:3`, `modules/desktop.nix:13`.
+- **fish / fish** (default, nixos, enabled): The named user explicitly selects user-shell fish. Evidence: `modules/users/muhammadtalha.nix:5`, `modules/hosts.nix:18`.
+- **hyprland / hyprland** (configured, home-linux, enabled): The user directly selects the enabled HM Hyprland body, which autoloads substantive tracked native Lua configuration and bindings. Evidence: `modules/desktop/hyprland.nix:8`, `modules/desktop/_dotfiles/hyprland/config.lua:1`, `modules/desktop/_dotfiles/hyprland/keybinds/applications.lua:33`, `modules/hosts.nix:18`, `modules/defaults.nix:34`, `modules/users/muhammadtalha.nix:6`, `modules/desktop.nix:3`, `modules/desktop.nix:4`.
+- **zed / zed** (configured, home-linux, enabled): The user directly selects substantive Zed editor settings, keymaps and language helpers. Evidence: `modules/desktop/zeditor.nix:3`, `modules/desktop/zeditor.nix:15`, `modules/hosts.nix:18`, `modules/defaults.nix:34`, `modules/users/muhammadtalha.nix:6`, `modules/desktop.nix:3`, `modules/desktop.nix:7`.
+- **zed / zed** (default, nixos, enabled): Selected desktop environment explicitly sets VISUAL=zeditor; EDITOR separately chooses Vim. Evidence: `modules/desktop/environment.nix:5`, `modules/hosts.nix:18`, `modules/defaults.nix:34`, `modules/users/muhammadtalha.nix:6`, `modules/desktop.nix:3`, `modules/desktop.nix:9`.
+- **other_editor / vim** (default, nixos, enabled): Selected environment explicitly sets EDITOR=vim. This is not Neovim. No substantive native Vim settings are claimed. Evidence: `modules/desktop/environment.nix:4`, `modules/hosts.nix:18`, `modules/defaults.nix:34`, `modules/users/muhammadtalha.nix:6`, `modules/desktop.nix:3`, `modules/desktop.nix:9`.
+
+## 3. Defined, disabled and ambiguous alternatives
+
+Fish is explicit login shell; Zed is VISUAL while Vim is EDITOR. Zed keymap comments mentioning Helix do not configure the Helix application. VS Code JSON language server is not VS Code editor adoption. No Niri follows from Noctalia settings for optional Niri behavior.
+
+
+## 4. Machine roles and limits
+
+ProBook hardware identity supports laptop inference. The explicit desktop bundle establishes configured desktop role; no server/VM role follows from SSH or virtualization support.
+
+Complete one-host literal inventory. No standalone homes or configured editor package outputs are declared.
