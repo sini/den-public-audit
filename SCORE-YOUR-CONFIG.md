@@ -22,10 +22,12 @@ category.
 - A checkout of your config at the commit that you want scored. The agent cites that commit.
 - About the same reading time as a careful code review. A large config takes longer.
 
-The prompt also points the agent at den's documentation and at seven notes from a public
-[operating memory](https://github.com/sini/genie-agent/tree/main/operating-memory) for agents that work on Nix and
-den. The notes describe traps that cause misreadings, for example a file that git does not track is invisible to a
-flake. They are background only: the score must rest on your code.
+The prompt also gives the agent the background knowledge that the survey's scorers had. It points at den's
+documentation, at the whole public [support memory](https://github.com/sini/genie-agent/tree/main/support-memory)
+(curated facts about den, gen and Nix evaluation), and at seven notes from the
+[operating memory](https://github.com/sini/genie-agent/tree/main/operating-memory). The operating-memory notes
+describe traps that cause misreadings, for example a file that git does not track is invisible to a flake. All of
+this is background only: the score must rest on your code.
 
 The agent only reads files. It must not evaluate, build or run your config. That keeps the scoring the same as the
 survey's, and it keeps your machine safe from anything the agent misreads.
@@ -56,8 +58,18 @@ Background knowledge (read before you start; it improves how you read Nix and de
 - den's documentation: https://den.denful.dev, especially the core principles
   (https://den.denful.dev/explanation/core-principles/) and the glossary
   (https://den.denful.dev/reference/glossary/).
-- Selected notes from a public operating memory for agents that work on Nix and den. Read these
-  seven only; the rest of that directory is about running agent teams and does not apply here:
+- The full support memory: curated facts about den, gen and Nix evaluation. Read all of it, starting
+  with the README:
+  https://raw.githubusercontent.com/sini/genie-agent/main/support-memory/README.md
+  https://raw.githubusercontent.com/sini/genie-agent/main/support-memory/den-docs.md
+  https://raw.githubusercontent.com/sini/genie-agent/main/support-memory/gen-docs.md
+  https://raw.githubusercontent.com/sini/genie-agent/main/support-memory/eval-never-build.md
+  https://raw.githubusercontent.com/sini/genie-agent/main/support-memory/eval-error-details.md
+  https://raw.githubusercontent.com/sini/genie-agent/main/support-memory/confidence-and-deeper.md
+  If the directory has more files than these, read them too:
+  https://github.com/sini/genie-agent/tree/main/support-memory
+- Selected notes from the operating memory for agents that work on Nix and den. Read these seven; the
+  rest of that directory is about running agent teams and does not apply here:
   https://raw.githubusercontent.com/sini/genie-agent/main/operating-memory/lessons/read-the-system-not-the-story.md
   https://raw.githubusercontent.com/sini/genie-agent/main/operating-memory/lessons/memory-is-not-evidence-about-head.md
   https://raw.githubusercontent.com/sini/genie-agent/main/operating-memory/traps/nix-flake-filtered-tree-and-eval-cache.md
@@ -65,7 +77,7 @@ Background knowledge (read before you start; it improves how you read Nix and de
   https://raw.githubusercontent.com/sini/genie-agent/main/operating-memory/traps/flake-lock-node-name-is-not-identity.md
   https://raw.githubusercontent.com/sini/genie-agent/main/operating-memory/practices/silent-fallbacks-delocalise-failures.md
   https://raw.githubusercontent.com/sini/genie-agent/main/operating-memory/practices/nixos-module-conventions.md
-  These notes are background, not evidence. Every claim in your review must come from this repository's
+  This background is not evidence. Every claim in your review must come from this repository's
   code at the commit you record.
 
 Then:
