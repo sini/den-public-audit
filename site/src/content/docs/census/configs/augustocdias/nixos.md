@@ -1,0 +1,30 @@
+---
+title: "augustocdias/nixos: census notes"
+---
+
+[Config page](/configs/augustocdias/nixos/) · upstream [augustocdias/nixos](https://github.com/augustocdias/nixos) · [Census summary](/census/summary/)
+
+## Contents
+
+- [Project and inspected revision](#project-and-inspected-revision)
+- [Software selected and host/user traces](#software-selected-and-hostuser-traces)
+- [Defined, disabled and ambiguous alternatives](#defined-disabled-and-ambiguous-alternatives)
+- [Machine roles and remaining unknowns](#machine-roles-and-remaining-unknowns)
+
+## Project and inspected revision
+
+Three Den hosts plus a separate manually constructed installer ISO ([modules/hosts.nix:2](https://github.com/augustocdias/nixos/blob/494e352fa63d971d36e54641c6d8293ebed1dd92/modules/hosts.nix#L2); [modules/installer.nix:6](https://github.com/augustocdias/nixos/blob/494e352fa63d971d36e54641c6d8293ebed1dd92/modules/installer.nix#L6)).
+
+## Software selected and host/user traces
+
+Explicit user aspect overrides make laptop/macmini use common Neovim/Fish/Starship/application HM units; Linux adds Hyprland, macOS OmniWM ([modules/user/linux.nix:7](https://github.com/augustocdias/nixos/blob/494e352fa63d971d36e54641c6d8293ebed1dd92/modules/user/linux.nix#L7); [modules/user/mac.nix:5](https://github.com/augustocdias/nixos/blob/494e352fa63d971d36e54641c6d8293ebed1dd92/modules/user/mac.nix#L5)). Raspi has a native Augusto account and its own Fish/Starship configuration.
+
+## Defined, disabled and ambiguous alternatives
+
+Zed is installed only, while Neovim has native Lua/plugin configuration. Bash is available on macOS and configures the installer banner; neither proves Bash login default. Required tmux family is not established by a Herdr plugin named tmux-prefix.
+
+## Machine roles and remaining unknowns
+
+Laptop/Darwin roles explicit. Raspi runs HA/MQTT but physical role not forced. Installer is a declared image configuration, not evidence of an extra physical machine. Package/development output inventory incomplete; all explicitly managed host/native accounts retained.
+
+, revision `494e352fa63d`.

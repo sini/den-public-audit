@@ -1,0 +1,63 @@
+name: Docs
+
+# The site is node, the one thing in this repository that is not plain markdown.
+# Scoped to site/**: the export regenerates site/src/content/docs/ from the
+# markdown, so every content change lands there too, and a change to repository
+# files the site does not read does not rebuild and redeploy it.
+on:
+  push:
+    branches: [main]
+    paths: ["site/**", ".github/workflows/docs-pages.yml"]
+  pull_request:
+    branches: [main]
+    paths: ["site/**", ".github/workflows/docs-pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Never cancel a deploy in flight; queue behind it instead.
+concurrency:
+  group: docs-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@v7
+      # Version comes from `packageManager` in site/package.json, so CI runs the
+      # same pnpm that produced the lockfile rather than a range that can drift.
+      - uses: pnpm/action-setup@v6
+        with:
+          package_json_file: site/package.json
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: site/pnpm-lock.yaml
+      # --frozen-lockfile so a lockfile that disagrees with package.json fails
+      # here rather than silently resolving to something no one has built.
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run build
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site/dist
+
+  # Split from the build so pull requests get the build signal without a deploy.
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

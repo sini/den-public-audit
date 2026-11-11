@@ -1,0 +1,72 @@
+---
+title: "Challenge to the aspect-library rubric"
+---
+
+Verdict: keep the consumer perspective, replace scored breadth with a dependency/compatibility completeness criterion, and double resource-contract weight. Use seven categories, **E N K Q C U T**, with **E+N+K+2Q+C+U+T /80**. Publish the complete unit/resource inventory separately. This is a proposal, not a re-score of the excluded libraries.
+
+I checked the cited source at manifest revisions: crocuda/crocuda.nixos `226387d876ae`, crocuda/normal.nixos `c8b5cf80b70e`, adanoelle/garden-shell `e9c3a6b47faf`. Citations below are `id / clone-relative path:line`; no repository code, evaluation or builds were run. Earlier reviews are maps, not proof of current build success.
+
+## Contents
+
+- [What survives the challenge](#what-survives-the-challenge)
+- [Missing from the draft](#missing-from-the-draft)
+- [Revised categories and observable anchors](#revised-categories-and-observable-anchors)
+- [Q weight and the inventory](#q-weight-and-the-inventory)
+- [Dissent for the maintainer](#dissent-for-the-maintainer)
+
+## What survives the challenge
+
+**E and N are distinct if their evidence is constrained.** E asks which stable public names and entry points exist. N asks what merely importing or selecting one changes. Crocuda has a real namespace (`crocuda/crocuda.nixos / modules/namespaces.nix:8`) yet its export imports the whole modules tree (`modules/nix/flakeModules.nix:21`) and thereby sets den.default stateVersion and user classes (`modules/defaults.nix:8`, `modules/defaults.nix:17`). Good naming cannot cancel that ambient mutation. Charge that mutation N, not E and K again. Do not treat registering a standard namespace or explicit module options as an illicit global side effect.
+
+**K and Q are also distinct.** K concerns values and their variation; Q concerns ownership and aggregation of resources. Normal has an explicit screen setting and constructor (`crocuda/normal.nixos / modules/aspects/window_managers/niri/screen.nix:10`, `modules/aspects/window_managers/niri/screen.nix:34`), which demonstrates K without resource routing. I2P coherently owns user/group, state/runtime/log directories, configuration and lifecycle directly (`crocuda/crocuda.nixos / modules/aspects/servers/privacy/i2p.nix:12`, `modules/aspects/servers/privacy/i2p.nix:27`, `modules/aspects/servers/privacy/i2p.nix:32`, `modules/aspects/servers/privacy/i2p.nix:40`). That is valuable integration and a clear resource inventory even though it does not emit our proposed standard quirks. Never relabel it a broken service simply because it is not shaped like our future library.
+
+**U and T must not both award the existence of one example.** U scores whether its explanation teaches adoption and prerequisites. T scores whether an actual consumer exercises the export and checks the claimed behavior. Crocuda's template contains an import and selection (`crocuda/crocuda.nixos / templates/dendritic_flake_test/modules/den.nix:8`, `templates/dendritic_flake_test/modules/den.nix:35`); the README instead points at nixosModules.default (`README.md:41`) while the maintained export is flakeModules.default (`modules/nix/flakeModules.nix:21`). A template's existence does not establish that the README works or that the template has been checked against the pinned Den API.
+
+**W does not literally duplicate B_ref inside one library total**, because there is no second B category there. It does duplicate the inventory measurement across audit tracks, and it turns quantity into an adoption-quality reward. Garden's small theme/state contract can be useful despite its narrow scope (`adanoelle/garden-shell / modules/aspects/palette.nix:11`). A large collection of nearly identical leaves should not outrank that contract simply for crossing 20. Keep W as an inventory, with shared definitions and unit kinds, not a score.
+
+## Missing from the draft
+
+The major omission is **a closed, compatible implementation contract**. Normal's gaming body references den without binding it in its explicit argument set (`crocuda/normal.nixos / modules/aspects/gaming.nix:1`, `modules/aspects/gaming.nix:10`). Crocuda's Hickory arm returns another function instead of a module body (`crocuda/crocuda.nixos / modules/aspects/servers/dns/hickory.nix:3`). These are concrete source-shape defects; neither a low input count nor a test-template count describes them well. Put missing dependencies, missing assets, unsupported native options and mismatched class/module contracts under C, with an honest confidence limit where locked upstream source is unavailable.
+
+The draft D also confuses **input quantity with burden**. A larger follows-friendly set can be necessary for correctly isolated optional units; a tiny input set can still contain an undeclared dependency. A fork is a compatibility/availability fact to investigate, not an automatic quality deduction. Record pins, follows, private prerequisites, optionality and the minimum per-unit dependency envelope; score whether the consumer contract is closed and its supported versions/platforms are explicit.
+
+Resource coverage must include **mutable state and activation/lifecycle ownership**, not just persist/secrets/ports/users. Garden's palette file must stay mutable and seed only once (`adanoelle/garden-shell / modules/aspects/palette.nix:6`, `modules/aspects/palette.nix:17`). Terminal seeding deliberately tolerates failure (`modules/aspects/terminal.nix:25`, `modules/aspects/terminal.nix:30`), then contributes runtime paths to several apps. A resource inventory that omitted those files, ordering and failure semantics would miss the central idea. The XDG inconsistency is a K defect: configurable themesDir versus fixed ~/.config and ~/.cache (`modules/aspects/terminal.nix:16`, `modules/aspects/terminal.nix:62`, `modules/aspects/terminal.nix:64`), not three unrelated deductions.
+
+## Revised categories and observable anchors
+
+Scores remain integers 1–10; 2/5/9 are behavioral anchors, not labels inferred from project size. Intermediate grades require a cited sentence explaining the interpolation. Every card lists inspected scope, pros, limitations and confidence. One primary category owns each defect; do not subtract it again merely because it affects adoption.
+
+| Category | 2 | 5 | 9 |
+|---|---|---|---|
+| **E: public export contract** | Import/name resolution requires internal knowledge or advertised entry differs from actual output. | A concrete export and named units are reachable through a stated namespace; public/internal boundaries remain partly implicit. | Public entry, stable names/index, unit kinds and compatibility/change policy are explicit; a consumer need not import internals. A semver tag is not mandatory. |
+| **N: selection and isolation** | Import mutates another namespace, fleet defaults, account policy or activates unrelated capabilities. | Most effects are selected; remaining ambient defaults or coupled optional features are identified. | Plain import registers only the declared interface; effects follow explicit selection; optional capabilities and namespace ownership remain isolated. Registration/options alone are not ambient configuration. |
+| **K: settings and variation** | A second consumer patches identity, paths, endpoints or inconsistent relocation assumptions in shared bodies. | Meaningful variation has owned args/options with defaults; remaining patch sites are enumerated. | Supported differences use small documented typed contracts with defaults/validation; a second example changes settings, not shared source; relocation is consistent. |
+| **Q: resource ownership/protocol** | Needed state/secrets/access/ports/lifecycle effects are implicit, incomplete or cannot be reconciled by the consumer. | Resource inventory and ownership are explicit; native options or an owned collector cover a useful subset, with direct effects/remaining adaptation stated. | All applicable resources use a declared standard collector protocol; producers and consumers, scope, merge/collision/missing semantics, state lifetime and activation order are traced. No resource is claimed merely because a quirk is declared. |
+| **C: dependency closure and compatibility** | Needed args/assets/imports/activation are missing, or a claimed consumer's class/native interface visibly conflicts with its implementation. | Each audited unit has an explicit usable envelope and honest platform/version limits; some compatibility edges remain manual or unproven. | Independently consumable envelopes own or declare all imports/assets/runtime requirements; supported class/platform/version boundaries have guards and minimal consumers. Extra input count alone neither helps nor hurts. |
+| **U: consumer explanation** | No workable route from import to selecting a unit, or instructions target obsolete exports. | Current import+include example, unit purpose and prerequisites are explained; adaptation is still manual. | Worked independent adoption plus per-unit inputs/settings/resource/platform/lifecycle notes; default route is separated from internals and maintainer workflow. |
+| **T: verification coverage and invocation** | No relevant consumer checks; a screenshot or unasserted build recipe is not coverage. | A real consumer exercises the public export with representative assertions and a traceable command; gaps/invocation status are explicit. | Owned checks cover include/exclude, changed settings, missing/colliding resources and claimed platform/class boundaries; CI or a documented runner invokes those checks. Report observed execution separately from static intent. |
+
+Useful anchor controls in the three sources:
+
+- **E/N:** exported namespace versus import-time defaults in Crocuda above. This is precisely why these categories should remain separate.
+- **K:** Normal's typed screen contract is a positive control; Garden's fixed and relocatable path mixture is a negative control. Neither needs a large fleet to be judged.
+- **Q:** I2P supplies a multi-resource direct integration as a middle-band control. Garden supplies an unusually explicit mutable-state contract but no demonstrated standard resource channel. Neither justifies Q9. No verified top-band example exists in this three-repo set; do not force a local winner to be 9.
+- **C:** Normal gaming's unbound den and Crocuda Hickory's extra function are negative controls. Garden terminal explicitly includes its palette/toolkit (`adanoelle/garden-shell / modules/aspects/terminal.nix:8`) but does not enable the terminal apps whose settings it augments (`modules/aspects/terminal.nix:40`, `modules/aspects/terminal.nix:48`). Its declared unit kind matters.
+- **U:** Crocuda's stale import is a negative control; Garden's workflow explains fern-specific deployment rather than an independent minimal consumer (`adanoelle/garden-shell / book/src/developing/workflow.md:108`, `book/src/developing/workflow.md:128`). Large documentation volume alone is not U9.
+- **T:** Garden's generator tests inspect real shipped palette data (`adanoelle/garden-shell / crates/garden-themes/tests/generators.rs:11`); that is useful evidence, but not Den include/exclude or activation coverage. The dogfood recipe kills Quickshell and assumes respawn (`justfile:123`, `justfile:124`); do not credit that as verified lifecycle behavior. No recipe was run here.
+
+## Q weight and the inventory
+
+**Double Q, do not split it into “declared”, “emitted” and “consumed” scoring categories.** Those are stages of one mechanism, and splitting them rewards the same channel repeatedly. The maintainer explicitly prioritizes standard resource quirks for the rewrite. Two weights make that priority visible while preserving six other consumer concerns. Also publish Q and a consumer-readiness vector alongside the total: the total must not conceal a broken import or unavailable prerequisite. Doubling Q is a policy choice, not an empirical proof that it predicts quality.
+
+Freeze a minimal resource-protocol design pointer before awarding Q8–9 for conformance. Until then score semantics demonstrated by source and label target-suite fit provisional; do not require guessed future quirk names. A proven resource-free unit is not Q2 for lacking quirks and not automatically Q9 by vacuity. If a whole library truly has no applicable resource effects, use Q=null with a cited inventory reason, partial total/max and no renormalization. None of these three stateful/service libraries needs that exception.
+
+For every public unit record: kind (application / integration-adapter / constructor / tool), entry/name, owned imports/assets, supported targets, settings, activation prerequisite, resources (persisted paths, mutable files, secrets, users/groups, ports/firewall, services), emitted/consumed protocol and selection, completeness grade, source evidence. Distinguish inventory facts from inferred intent; enumerate counted units and deduplicate one app across files. Record complete, partial, stub and unavailable separately.
+
+Config B_ref remains unchanged: an app unit must own activation, and token enable-plus-one-resource is not reference quality. **Do not silently reuse its count as library W.** A theme adapter can be a legitimate library contract that intentionally requires an already-enabled terminal, while still not being a complete app preset for config B_ref. Maintainer agreement on that unit-kind distinction is required before publishing library breadth; otherwise keep the existing strict app inventory and show adapters separately. Garden is the concrete test case, not an excuse to retroactively add it to config totals.
+
+## Dissent for the maintainer
+
+The rewrite plan harvests ideas and resource inventories, so source-fit to our quirk suite and general library quality are related but different outcomes. I recommend the weighted vector above, plus two explicit judgments: consumer-ready as published, and useful rewrite prior art. Crocuda's direct I2P lifecycle can be excellent harvest evidence while requiring protocol translation. Garden's narrow mutable-state contract can be more novel than a much larger namespace. Neither should win or lose mainly on unit count.
+
+No forced calibration winner, no award thresholds before a pilot, and no assertion that static tests passed. Pilot the three libraries with two readers on the revised evidence cards; resolve differences in unit kind, resource ownership and missing dependency scope before expanding the library audit.
